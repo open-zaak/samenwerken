@@ -16,4 +16,4 @@ The OpenZaak Collaboration project aims to systematically improve collaboration 
 
 ## Artefact overview
 
-- [interview-questions.md](/interview-questions): Contains the questions for in interviews with stakeholders.
+- [interview-questions.md](/interview-questions.md): Contains the questions for in interviews with stakeholders.
