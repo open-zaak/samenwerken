@@ -13,7 +13,3 @@ Het project OpenZaak Samenwerken is gericht op het gestructureerd verbeteren van
 The following project description is used for invitations to interviews and workshops:
 
 The OpenZaak Collaboration project aims to systematically improve collaboration between the various parties involved in the OpenZaak codebase. We focus on introducing processes, documents, rituals, etc. that promote collaboration.
-
-## Artefact overview
-
-- [interview-questions.md](/interview-questions.md): Contains the questions for in interviews with stakeholders.
