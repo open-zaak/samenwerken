@@ -16,3 +16,5 @@ questions:
 * what would you recommend other components reuse, what not?
 * biggest challenge you see for the community
 * any other business
+-
+* how do you see the future of OpenZaak? Is it mostly development and new features? Or is it scaling implementations and new users?
