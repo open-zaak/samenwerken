@@ -18,3 +18,4 @@ questions:
 * any other business
 -
 * how do you see the future of OpenZaak? Is it mostly development and new features? Or is it scaling implementations and new users?
+* what is your role? is it documented? do you have mandate? let's document it? 
