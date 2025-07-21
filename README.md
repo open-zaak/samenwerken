@@ -2,10 +2,10 @@
 
 ## Projectomschrijving
 
-Het project OpenZaak Samenwerken is gericht op het gestructureerd verbeteren van de samenwerking tussen de verschillende partijen rondom de OpenZaak codebase. Daarbij richten we ons op het introduceren van processen, documenten, rituelen, etc. die samenwerking bevorderen.
+Het project OpenZaak Samenwerken is gericht op het documenteren en gestructureerd verbeteren van de samenwerking tussen de verschillende partijen rondom de OpenZaak codebase. Daarbij richten we ons op het introduceren en verbeteren van processen, documenten, rituelen, etc. voor betere samenwerking.
 
 # OpenZaak Collaboration
 
 ## Project description
 
-The OpenZaak Collaboration project aims to systematically improve collaboration between the various parties involved in the OpenZaak codebase. We focus on introducing processes, documents, rituals, etc. that promote collaboration.
+The OpenZaak Collaboration project aims to document and systematically improve collaboration between the various parties involved in the OpenZaak codebase. We focus on introducing and improving processes, documents, rituals, etc. for better collaboration.
