@@ -109,7 +109,7 @@ Deze documentatie moet bevatten:
 
 ## Tijdlijn
 
-Start fase 1 - 21 juli 2025 
+Start fase 1 - 21 juli 2025  
 Workshop 1 - eind september 2025  
 Workshop 2 - mid november 2025  
 Start fase 2 - eind november 2025  
