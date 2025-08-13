@@ -15,7 +15,7 @@ Deze pilot is uitsluitend gericht op de huidige community, bestaande uit:
 * Gemeenten: Amsterdam, Rotterdam, Den Haag en Utrecht  
 * Leveranciers: Ritense, Maykin, Worth
 
-Deze pilot bouwt voort op het werk dat is verricht tijdens de OpenZaak-marktconsultatie in samenwerking met de Foundation for Public Code. 
+Deze pilot bouwt voort op het werk dat is verricht tijdens de [OpenZaak-marktconsultatie](https://github.com/open-zaak/open-zaak-market-consultation) in samenwerking met de Foundation for Public Code. 
 
 ## Ambitie
 
