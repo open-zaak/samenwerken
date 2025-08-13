@@ -3,7 +3,7 @@
 Project Checklist op basis van [Project Plan](https://github.com/open-zaak/samenwerken/blob/main/artefacts/project-plan-nl.md).
 
 ## Fase 1: Beoordeling en verbetering van governance (‘beheer’) en codereview
-- [ ] Review van de oorspronkelijke hypothese uit de marktconsultatie
+- [ ] Review van de oorspronkelijke hypothese uit de [marktconsultatie](https://github.com/open-zaak/open-zaak-market-consultation)
 - [ ] Review van de huidige formele governance- en werkafspraken
 - [ ] Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaart brengen van ongeschreven/de facto werkafspraken, ambities en pijnpunten
 - [ ] Review met de Standard for Public Code om aanvullende aandachtspunten te identificeren
