@@ -1,5 +1,7 @@
 # Project Checklist
 
+Project Checklist op basis van [Project Plan](https://github.com/open-zaak/samenwerken/blob/main/artefacts/project-plan-nl.md).
+
 ## Fase 1: Beoordeling en verbetering van governance (‘beheer’) en codereview
 - [ ] Review van de oorspronkelijke hypothese uit de marktconsultatie
 - [ ] Review van de huidige formele governance- en werkafspraken
