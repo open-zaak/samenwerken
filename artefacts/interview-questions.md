@@ -1,21 +1,31 @@
 # Interview questions
 
-Goal of the interview: get to know the interviewee, their role and perspective on the OpenZaak codebase and collaboration, whishes and bottlenecks.
+## Goal of the interview
 
-## Questions
+Goal of the interview: introduce the project, get to know the interviewee, their role and perspective on the OpenZaak codebase and collaboration, whishes and bottlenecks.
 
-introductions 
-open with context and short sketch of ambition of pilot
+Draft document/model the collaboration (roles, mandates, processes, activities, etc.).
 
-questions: 
-* your ambitions/wishes
-* your pain points/blockers
-* get a sense of OpenZaak principles/mission/vision and identity (is OpenZaak loyal implementation, or is it an experimental tester)
--
-* your ideas for improvements
-* what would you recommend other components reuse, what not?
-* biggest challenge you see for the community
-* any other business
--
+## The interview
+
+### introduction from the interviewer
+
+Open with some context and sketch the ambition of pilot:
+
+"(summary of text from the e-mails and proposal)"
+
+### questions for the interviewee
+
+* can you tell us a bit about yourself and your organization, what is your expertise?
+* what is OpenZaak, how would you describe it? (get a sense of OpenZaak principles/mission/vision and identity - e.g. is OpenZaak loyal implementation, or is it an experimental tester)
+* what is/has been your role in OpenZaak, is it documented, do you have mandate?
+* how did you get involved, how did you enter the ecosystem?
+* how do you work together, what is the process, which other parties do you collaborate with?
+* how does that work for you, what works well?
+* have there been notable changes in the openzaak ecosystem over time, good or bad?
 * how do you see the future of OpenZaak? Is it mostly development and new features? Or is it scaling implementations and new users?
-* what is your role? is it documented? do you have mandate? let's document it? 
+* are there any improvements you can think of, what needs to improve (pain points/blockers)?
+* what would be the best future you can think of (ambitions/wishes)?
+* biggest challenge you see for the community (getting there)?
+* what would you recommend other components reuse, what not?
+* any other business
