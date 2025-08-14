@@ -21,11 +21,10 @@ Open with some context and sketch the ambition of pilot:
 * what is/has been your role in OpenZaak, is it documented, do you have mandate?
 * how did you get involved, how did you enter the ecosystem?
 * how do you work together, what is the process, which other parties do you collaborate with?
-* how does that work for you, what works well?
+* how does that work for you, what works well, what would you recommend other components reuse (and what not)
 * have there been notable changes in the openzaak ecosystem over time, good or bad?
 * how do you see the future of OpenZaak? Is it mostly development and new features? Or is it scaling implementations and new users?
 * are there any improvements you can think of, what needs to improve (pain points/blockers)?
 * what would be the best future you can think of (ambitions/wishes)?
 * biggest challenge you see for the community (getting there)?
-* what would you recommend other components reuse, what not?
 * any other business
