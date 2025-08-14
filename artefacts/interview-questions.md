@@ -4,7 +4,7 @@
 
 Goal of the interview: introduce the project, get to know the interviewee, their role and perspective on the OpenZaak codebase and collaboration, whishes and bottlenecks.
 
-Draft document/model the collaboration (roles, mandates, processes, activities, etc.).
+Draft document/model the collaboration (roles, mandates, processes, activities, documents, etc.).
 
 ## The interview
 
