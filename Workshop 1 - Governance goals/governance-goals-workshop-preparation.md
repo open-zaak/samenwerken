@@ -14,6 +14,14 @@ Build a shared understanding around core governance dynamics within the ecosyste
 * Review of work to date - wouter/Marco?
 * agenda for today - Johan/Claus
 
+```
+* present what we have done so far
+* present recurring themes from interviews
+* present our views
+* present roles and processes from interviews
+```
+
+
 ### Reflections (10 min)
 
 * Doel van OpenZaak ecosysteem
@@ -46,6 +54,9 @@ plannen voor centrale regie liggen op tafel, gaan we *niet* op focusen
 ```
 Prepopulated Miro board uitleggen (5 min)
 Input, schuiven, missing cards (5 min aanmaken, 20 min plaatsen - 2min per persoon)
+
+["tafelopstelling"](https://bpopleidingen.nl/e-learning-tafelopstelling-systemische-roots-van-huidig-issue/)
+
 ```
 
 ### Pauze
