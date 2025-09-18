@@ -5,7 +5,7 @@
 Centraal v decentralised
 Earmarked v unearmarked
 
-## "My baby"
+## Eigenaarschap / "My baby"
 
 Overheid v marktpartij
 Eigen verantwoordelijkheid v samen verantwoordelijk?
@@ -13,7 +13,7 @@ Eigen verantwoordelijkheid v samen verantwoordelijk?
 ## Samenwerkingsverband
 
 Formeel v informeel
-...?
+Eigen risico v contractueel?
 
-## 
+## ..?
 
