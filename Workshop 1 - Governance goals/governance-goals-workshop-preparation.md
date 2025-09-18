@@ -1,81 +1,67 @@
 
-# Workshop 1 - Governance Goals
+# Workshop 1 - Governance Goals - Script
 
-## Aim
+## Introduction (10 min)
 
-Align on current state of OpenZaak ecosystem, including strenghts, weaknesses, opportunities and threats
-Build a shared understanding around core governance dynamics within the ecosystem
+### Onze Opdracht
 
-## Detailed agenda
+verbetering van de governance rondom openzaak (incl product eigenaarschap, community management en broncode beheer)
 
-### Introduction (10 min)
+### Review of work to date
 
-* Opdracht - Wouter/Marco?
-* Review of work to date - wouter/Marco?
-* agenda for today - Johan/Claus
+11 interviews (Utrecht, Den Haag, Rotterdam, VNG, Maykin, Worth, Ritense)
+Review documentation
 
-```
-* present what we have done so far
-* present recurring themes from interviews
-* present our views
-* present roles and processes from interviews
-```
+### Agenda voor vandaag
 
+Afstemmen over de huidige staat van het OpenZaak-ecosysteem
+Sterktes, zwaktes, kansen en bedreigingen in kaart brengen
+Een gedeeld begrip opbouwen van de kern­governancedynamiek binnen het ecosysteem
 
-### Reflections (10 min)
+## Reflecties op de interviews (10 min)
 
-* Doel van OpenZaak ecosysteem
+### Scherp zetten doel van OpenZaak ecosysteem
 
-```
 Entrepreneurial state <-> bedrijfszekerheid
 
 Sovereignty, transparantie, cost effective -> can't be locked in
 
-It's ecosystem management 
+Waar typisch open source project  zoveel mogelijk contributies van zo veel mogelijk partijen worden gezocht, met als centraal coordinatie punt het de codebase
 
-Gezien dit niet om een typisch open source project gaat (waar zoveel mogelijk contributies van zo veel mogelijk partijen worden gezocht, met als centraal coordinatie punt het de codebase), maar een duidelijk gescoped component, voor de Nederlandse context, onder beheer van de overheid, en met een overzichtelijk aantal marktpartijen - ligt de nadruk hier meer op ecosysteem. 
+Hier ecosystem management rond duidelijk gescoped component, voor de Nederlandse context, onder beheer van de overheid, en met een overzichtelijk aantal marktpartijen - ligt de nadruk hier meer op ecosysteem. 
 
+In die zin is verbetering van governance rondom openzaak:
 * robuster maken van de bedrijfszekerheid van het OpenZaak ecosysteem, met focus op
     * product management
     * community management
     * broncode beheer/codebase governance
 * en hoe dit ingekocht en uitgevoerd kan worden (mede lettend op de komende overgang naar centrale landelijke regie)
-```
 
-* Scoping voor vandaag
+###  Scoping voor vandaag
 
-```
-nu, bouw phase
-plannen voor centrale regie liggen op tafel, gaan we *niet* op focusen
-```
+Nu, bouw phase, met de huidige partijen
 
-### Huidige staat OpenZaak Ecosysteem (30 min)
+We focusen *niet* op de centrale regie die er in de toekomst komt, noch op VNG standaard, noch op hoe meer leveranciers en gemeente erbij kunnen op de verschillende overleg
 
-```
+## Huidige staat OpenZaak Ecosysteem (30 min)
+
 Prepopulated Miro board uitleggen (5 min)
 Input, schuiven, missing cards (5 min aanmaken, 20 min plaatsen - 2min per persoon)
 
 ["tafelopstelling"](https://bpopleidingen.nl/e-learning-tafelopstelling-systemische-roots-van-huidig-issue/)
 
-```
+## Pauze
 
-### Pauze
+## SWOT op huidige ecosysteem (30 min)
 
-### SWOT op huidige ecosysteem (25 min)
-
-```
 Unpopulated SWAT 
 (5 min aanmaken, 20 min plaatsen)
-```
 
-### Dynamieken binnen huidig ecoystem (30 min)
+## Dynamieken binnen huidig ecoystem (20 min)
 
-```
 In twee breakouts 3 x 10 min een dynamiek bespreken en in kaart brengen 
-```
 
-
-### Closing & next steps (10 min)
+## Closing & next steps (10 min)
 
 
 
