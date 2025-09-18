@@ -1,14 +1,22 @@
 # Dynamics
 
+## Continuiteit
+
+Overheid
+Markt
+Onzeker 
+Onzeker
+
 ## Funding steams
 
 Centraal v decentralised
 Earmarked v unearmarked
 
-## Eigenaarschap / "My baby"
+## Eigenaarschap & verantwoordelijkheid
 
 Overheid v marktpartij
-Eigen verantwoordelijkheid v samen verantwoordelijk?
+Individueel v gestructureerde verantwoordelijkheid
+
 
 ## Samenwerkingsverband
 
