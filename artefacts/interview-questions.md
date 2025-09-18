@@ -12,7 +12,7 @@ Draft document/model the collaboration (roles, mandates, processes, activities, 
 
 Open with some context and sketch the ambition of pilot:
 
-"(summary of text from the e-mails and proposal)"
+"Wij zijn door G4 gevraagd om bronbeheer, governance en community rondom OpenZaak en mogelijke verbeteringen daarin in kaart te brengen."
 
 ### questions for the interviewee
 
