@@ -1,4 +1,8 @@
 
+# Open Zaak samenwerken
+
+Dit document 
+
 ## Inleiding
 
 De G4-steden werken aan een reeks open source-componenten die kunnen worden gecombineerd tot een platform op basis van ‘zaakgericht werken’.
@@ -35,15 +39,55 @@ Het is de ambitie om dit op een breed toepasbare manier te doen, en met een zoda
 ### Benchmark van de huidige stand van zaken op het gebied van governance (‘beheer’) en codereview
 
 * Review van de oorspronkelijke hypothese uit de marktconsultatie  
+
+```
+De governance was ontworpen om meerdere zelfgemotiveerde partijen in staat te stellen deel te nemen aan de OpenZaak-community. Dit gebeurde door open technische en product­stuurgroepvergaderingen op te zetten waaraan de community kon deelnemen.
+
+Dit was gebaseerd op de aanname dat marktpartijen zich proactief zouden inzetten als onderdeel van hun business development en zo hun marktaandeel rond OpenZaak zouden vergroten. Dit veronderstelde op zijn beurt dat overheden meerdere kleine opdrachten zouden gaan uitschrijven die openstonden voor verschillende leveranciers, bijvoorbeeld voor ontwikkeling, onderhoud, hosting, implementatie en ondersteuning.
+```
+
 * Review van de huidige formele governance- en werkafspraken
+
+```
+- Veel informele samenwerking, inclusief informele documentatie.
+- Overleggen op vrijdag en dinsdag.
+- Aansturing door de G4, maar zonder formele budgettering.
+- Regie-organisatie in het vooruitzicht.
+- Veel goodwill en tevreden partijen.
+- Ambitie om zaken beter te borgen — niet uit wantrouwen, maar om de robuustheid te vergroten.
+- Documentatie verouderd
+- Eerst dachten op codebase, maar eigenlijk is het ecosysteem - minder op github issues
+```
+
 
 ### Bestaande 'issues' met governance (‘beheer’) en het codereviewproces in kaart brengen
 
 * Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaart brengen van  
-        * ongeschreven/de facto werkafspraken   
+        * ongeschreven/de facto werkafspraken
+
+```
+
+```
+
+
         * ambities  
-        * pijnpunten  
+
+```
+Bedrijfszekerheid van ecosysteem
+regie org en samen exploiteren
+```
+
+        * pijnpunten
+
+```
+Onzekerheid, onstabiele contracten.
+Pad naar regie gevoelig, goedwil niet verstoren.
+Niet ambitie om grote verandering, maar iedereen zekerheid om niet te vertoren
+```
+
 * Review met de Standard for Public Code om aanvullende aandachtspunten te identificeren  
+
+
 * Opstellen van pull requests om ongeschreven afspraken expliciet te maken, en/of tekortkomingen van bestaande praktijken te documenteren
 
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
