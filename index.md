@@ -62,22 +62,21 @@ Dit was gebaseerd op de aanname dat marktpartijen zich proactief zouden inzetten
 
 ### Bestaande 'issues' met governance (‘beheer’) en het codereviewproces in kaart brengen
 
-* Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaart brengen van  
-        * ongeschreven/de facto werkafspraken
+Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaart brengen van  
+* ongeschreven/de facto werkafspraken
 
 ```
-
+@todo
 ```
 
-
-        * ambities  
+* ambities  
 
 ```
 Bedrijfszekerheid van ecosysteem
 regie org en samen exploiteren
 ```
 
-        * pijnpunten
+ * pijnpunten
 
 ```
 Onzekerheid, onstabiele contracten.
