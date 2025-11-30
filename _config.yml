@@ -1,0 +1,42 @@
+# Site settings
+title: OpenZaak Governance Pilot
+description: Documentation and resources for the OpenZaak Governance Pilot
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Kramdown settings
+kramdown:
+  toc_levels: 2..3
+
+# Plugins
+plugins:
+  - jekyll-toc
+
+# Table of Contents settings
+toc:
+  min_level: 2
+  max_level: 3
+  list_class: "toc-list"
+  item_class: "toc-item"
+  item_prefix: "toc-"
+
+# Collections (optional, add if you want to organize content)
+# collections:
+#   workshops:
+#     output: true
+#     permalink: /workshops/:path/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md

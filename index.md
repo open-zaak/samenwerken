@@ -1,7 +1,13 @@
-
+---
+layout: default
+---
 # Open Zaak samenwerken
 
-Dit document 
+Dit document
+
+## Inhoudsopgave
+* TOC
+{:toc}
 
 ## Inleiding
 
