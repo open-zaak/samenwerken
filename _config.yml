@@ -1,7 +1,6 @@
 # Site settings
 title: OpenZaak Governance Pilot
 description: Documentation and resources for the OpenZaak Governance Pilot
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Build settings
