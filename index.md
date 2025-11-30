@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-# Open Zaak samenwerken
+# Samenwerken aan Open Zaak
 
-Dit document
+*OpenZaak is productiewaardig API platform die de API standaard voor zaakgericht werken implementeert (de ZGW-API’s). Met OpenZaak wordt het voor gemeenten mogelijk om veilige en betrouwbare diensten aan te kunnen bieden aan haar inwoners en bedrijven. Omdat OpenZaak gebruik maakt van de Zaakgerichtwerken standaard wordt het uitwisselen van gegevens met andere gemeenten en/of applicaties eenvoudiger en veiliger. OpenZaak is open source software. Dat betekent dat iedereen vrij is deze software te hergebruiken of aan te passen aan haar wensen.*
+
+bron: [https://openzaak.org/](https://openzaak.org/)
 
 ## Inhoudsopgave
 * TOC

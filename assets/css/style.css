@@ -1,3 +1,17 @@
-html {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 40em;
+    margin: auto;
+    max-width: 100%;
+}
+.back-to-top {
+    font-size: 0.85em;
+    margin-left: 1em;
+    color: #666;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.back-to-top:hover {
+    opacity: 1;
+    color: #333;
 }
