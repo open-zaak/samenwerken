@@ -74,35 +74,55 @@ Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaa
 * ongeschreven/de facto werkafspraken
 
 ```
-@todo
+Community werkt momenteel heel goed met veel vertrouwen, korte lijntjes, proactiviteit en gevoel van verantwoordelijkheid
+
+Markt partijen communiceren direct met elkaar om problemen op te lossen
+
+
 ```
 
 * ambities  
 
 ```
-Bedrijfszekerheid van ecosysteem
-regie org en samen exploiteren
+Bedrijfszekerheid van ecosysteem te verbeteren
+Voorbereiden op centrale regie en samen exploiteren
 ```
 
  * pijnpunten
 
 ```
-Onzekerheid, onstabiele contracten.
-Pad naar regie gevoelig, goedwil niet verstoren.
-Niet ambitie om grote verandering, maar iedereen zekerheid om niet te vertoren
+Documentatie kan verbeteren - iets versplintered en verouderd, onderhoud van generieke (niet feature specifieke) documentatie valt niet onder bestaande contracten
+
+Essentiele en continue taken van onderhoud worden nu opgenomen in tijdsgebonden doorontwikkel contracten - continuiteit en bedrijfszekerheid beter geborgd door apart en continue contract 
+
+Pad naar regie is gevoelig, gaat manier van werken veranderen - belangrijk om goedwil niet te verstoren. Zekerheid is belangrijk voor continuiteit.
+
+Onzekerheid over eigenaarschap van de codebase; incl de licensie en auteursrechten
+
+Repository rights (admin, branchbeheer en merge rights) kunnen met meer intentie ingericht worden
+
+Geen duidelijk pad om een tweede marktpartij te betrekken en zo de codebase te borgen
+
 ```
 
 * Review met de Standard for Public Code om aanvullende aandachtspunten te identificeren  
 
+```
+todo
+```
 
 * Opstellen van pull requests om ongeschreven afspraken expliciet te maken, en/of tekortkomingen van bestaande praktijken te documenteren
+
+```
+todo
+```
 
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
 
 * Opstellen van issues rond verbetering van governance op basis van ambities en pijnpunten
 
 ```
-Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaat zitten, zijn geen issues gemaakt. 
+Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaat zitten, zijn geen issues gemaakt maar wel een verslag document (zie hieronder) 
 ```
 
 * Community uitnodigen om deze te beoordelen en aan te vullen  
@@ -214,16 +234,55 @@ Het goed verdelen van rollen rondom OpenZaak helpt de bedrijfszekerheid door:
 
 * Verbeteringen voorstellen met betrekking tot governance en codereview  
     * Deze voorstellen aanleveren via pull requests  
-* Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen  
+
+```
+Zie hierboven, niet in de vorm van pull requests
+```
+
+* Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
+
+```
+Zie agenda en miroboard?
+```
+
 * Herziening en implementatie van de voorstellen
 
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
-* Richtlijnen voor inkoop (inclusief leveranciersselectie)  
+
+```
+EUPL verklarende text
+```
+
+* Richtlijnen voor inkoop (inclusief leveranciersselectie) 
+
+```
+
+```
+
 * Documentatie van processen  
+* 
+```
+
+```
+
 * Wijzigingsprocedures voor codebase stewardship  
+
+```
+
+```
+
 * Proces voor het accepteren van bijdragen  
+
+```
+
+```
+
 * Eventueel voorzitterschap/deelname bij meetings waar nodig
+
+```
+
+```
 
 ## Fase 2: Toepassen en verbeteren van nieuw governance en codereview
 
