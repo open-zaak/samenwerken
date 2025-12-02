@@ -122,18 +122,8 @@ todo
 * Opstellen van issues rond verbetering van governance op basis van ambities en pijnpunten
 
 ```
-Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaat zitten, zijn geen issues gemaakt maar wel een verslag document (zie hieronder) 
-```
+Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaat zitten, zijn geen issues gemaakt maar wel een verslag document.
 
-* Community uitnodigen om deze te beoordelen en aan te vullen  
-
-```
-In twee workshops en bilateraal met verschillende partijen
-```
-
-* Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
-
-```
 ## Korte samenvatting van bevindingen
 
 Open source is hier geen doel op zich. Het is gekozen als de beste werkvorm om de overkoepelende doelstellingen zijn digitale soevereiniteit, transparantie en kosteneffectiviteit te behalen.
@@ -227,6 +217,33 @@ Het goed verdelen van rollen rondom OpenZaak helpt de bedrijfszekerheid door:
 **Verbeteringsdoelen**  
 * in Workshop 2 onderzoeken we gezamenlijk mogelijke samenwerkingspatronen en stappen, bijv. over hoe meerdere partijen kunnen bijdragen/meekijken in het ontwikkelproces.
 
+
+```
+
+* Community uitnodigen om deze te beoordelen en aan te vullen  
+
+```
+In twee workshops en bilateraal met verschillende partijen
+```
+
+* Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
+
+```
+
+# Workshop 1 - Governance Goals
+
+## Agenda
+
+Introduction (10 min)
+Reflections (10 min)
+Huidig OpenZaak ecosysteem (30 min)
+Pauze (10 min)
+-
+SWOT op huidige ecosysteem (25 min)
+Dynamieken binnen huidig ecoystem (30 min)
+Closing & next steps (5 min)
+
+
 ```
 
 
@@ -242,7 +259,27 @@ Zie hierboven, niet in de vorm van pull requests
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
 
 ```
-Zie agenda en miroboard?
+# Workshop 2 - Governance Proposals
+
+## Agenda
+
+We gaan tijdens de workshop aan de slag met a) rollen binnen het ecosysteem, b) branch en merge rights, c) eigenaarschap en beheer. 
+
+## Praktisch
+
+Tijd: 10.15-10.30: Inloop & koffie, 10.30-12.30: Workshop
+Locatie: Common Ground Field Lab, WTC Utrecht
+
+## Agenda
+
+- Resultaten vorige workshop en highlights verslag
+- Voorstelvisie ecosysteem
+- Breakouts
+  - Praktische werkbaarheid & developersperspectief 
+  - Budget, planning en contracten
+  - Toepasbaarheid op andere componenten
+- Closing & vervolgstappen
+
 ```
 
 * Herziening en implementatie van de voorstellen
