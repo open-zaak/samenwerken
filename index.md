@@ -114,8 +114,19 @@ todo
 * Opstellen van pull requests om ongeschreven afspraken expliciet te maken, en/of tekortkomingen van bestaande praktijken te documenteren
 
 ```
+## Update voor readme/governance/contributing file?
 
+Open-sourcegemeenschappen verschillen sterk van karakter. Sommige zijn een samenwerking tussen grote multinationals, andere bestaan uitsluitend uit vrijwillige individuen, en weer andere vormen een gemeenschap die samenwerkt aan het product van een bedrijf. Elk van deze gemeenschappen heeft een ander karakter.
 
+OpenZaak is een duidelijk afgebakend component, specifiek voor de Nederlandse context, onder beheer van de overheid en met een overzichtelijk aantal marktpartijen. Het doel is momenteel niet om zo veel mogelijk bijdragen van zo veel mogelijk partijen te verzamelen, met de codebase als centraal coördinatiepunt.
+
+De nadruk ligt hier op ecosysteembeheer: gecoördineerd opdrachtgeverschap met één (of in de toekomst meerdere) marktpartij(en), waarbij ook afstemming met andere componenten van belang is.
+
+Dit is de reden dat deze gemeenschap geen open community-governance heeft – het bestuur wordt uitgevoerd door landelijke regie om samenwerking in exploitatie en samenhang tussen componenten te waarborgen.
+
+Daarom wordt het merendeel van de ontwikkeling uitgevoerd door partijen die daartoe contractueel zijn aangesteld.
+
+Bijdragen zijn welkom, maar houd er rekening mee dat deze onderhevig zijn aan de bovenstaande dynamiek.
 
 ## Bestaande documentatie 
 
