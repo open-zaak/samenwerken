@@ -114,7 +114,23 @@ todo
 * Opstellen van pull requests om ongeschreven afspraken expliciet te maken, en/of tekortkomingen van bestaande praktijken te documenteren
 
 ```
-todo
+
+
+
+## Bestaande documentatie 
+
+- ZGW discussies op Gemma Zaken - https://github.com/VNG-Realisatie/gemma-zaken/issues/2549
+- OpenZaak website - https://openzaak.org/ (openzaak.nl bestaan, maar weet niet van wie)
+- Github organisatie - https://github.com/open-zaak
+    - Github repository met README - https://github.com/open-zaak/open-zaak
+    - en andere repo met info (eg marketconsultation en samenwerken)
+- Backlog in Notion omgeving - https://platformvoordienstverlening.notion.site/e9375da1960249bba23c49d038d3c888?v=774cd20f3c9040658e7b7fa008858075
+- Readthedocs - https://open-zaak.readthedocs.io/en/stable/
+- Gitbook Common Ground - https://dienstverleningsplatform.gitbook.io/platform-generieke-dienstverlening-public/introductie/overzicht-functioneel
+- Diverse informatie op CommonGround.nl - https://commonground.nl/file/download/79c73952-5274-4139-8d18-56f7c2839644/15816724882020-02-14%20-%20presentatie%20open%20zaak%20at%20live2020.pdf
+
+
+
 ```
 
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
@@ -224,6 +240,7 @@ Het goed verdelen van rollen rondom OpenZaak helpt de bedrijfszekerheid door:
 
 ```
 In twee workshops en bilateraal met verschillende partijen
+G4 vrijdag over heeft sturing gegeven op prioritiseren van doelen en ambities 
 ```
 
 * Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
@@ -253,7 +270,10 @@ Closing & next steps (5 min)
     * Deze voorstellen aanleveren via pull requests  
 
 ```
-Zie hierboven, niet in de vorm van pull requests
+Niet in de vorm van pull requests. Wel een Miro board.
+
+@todo - hier miroboard van voorstel?
+
 ```
 
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
@@ -284,6 +304,11 @@ Locatie: Common Ground Field Lab, WTC Utrecht
 
 * Herziening en implementatie van de voorstellen
 
+```
+
+```
+
+
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
 
@@ -298,7 +323,7 @@ EUPL verklarende text
 ```
 
 * Documentatie van processen  
-* 
+  
 ```
 
 ```
