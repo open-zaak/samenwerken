@@ -10,10 +10,12 @@ Het project OpenZaak Samenwerken is gericht op het documenteren en gestructureer
 
 ## Project documentatie
 
-* [Project plan](/docs/project-plan-nl)
-* [Project plan met deliverables](/docs/deliverable-tracking)
+* [Project plan](docs/project-plan-nl)
+* [Project plan met deliverables](docs/deliverable-tracking)
 
 ## Eind docuementatie 
 
-* [Verslag bedrijfszekerheid OpenZaak](/docs/Verslag-bedrijfszekerheidsdoelen)
-* [Verslag codebase stewarship OpenZaak](/docs/verslag-codebase-stewardship)
+* [Verslag bedrijfszekerheid OpenZaak](docs/Verslag-bedrijfszekerheidsdoelen)
+* [Verslag codebase stewarship OpenZaak](docs/verslag-codebase-stewardship)
+* [Verslag EUPL verklarende text](docs/verslag-EUPL-verklarende-text)
+* [Verslag codebase stewarship OpenZaak](docs/verslag-ecosysteem-en-rollen)
