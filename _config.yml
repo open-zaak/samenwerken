@@ -24,10 +24,10 @@ toc:
   item_prefix: "toc-"
 
 # Collections (optional, add if you want to organize content)
-collections:
-   docs:
-     output: true
-     permalink: samenwerken/docs/:path/
+# collections:
+#    docs:
+#      output: true
+#      permalink: samenwerken/docs/:path/
 
 # Exclude from processing
 exclude:
