@@ -27,7 +27,7 @@ toc:
 collections:
    docs:
      output: true
-     permalink: /docs/:path/
+     permalink: samenwerken/docs/:path/
 
 # Exclude from processing
 exclude:
