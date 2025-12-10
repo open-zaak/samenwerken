@@ -24,10 +24,10 @@ toc:
   item_prefix: "toc-"
 
 # Collections (optional, add if you want to organize content)
-# collections:
-#   workshops:
-#     output: true
-#     permalink: /workshops/:path/
+collections:
+   docs:
+     output: true
+     permalink: /docs/:path/
 
 # Exclude from processing
 exclude:

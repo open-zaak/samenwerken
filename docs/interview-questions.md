@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Interview questions
 
 ## Goal of the interview

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Workshop 2 - Governance Proposals
 
 ## Agenda

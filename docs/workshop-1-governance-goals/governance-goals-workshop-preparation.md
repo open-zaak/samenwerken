@@ -1,4 +1,8 @@
 
+---
+layout: default
+---
+
 # Workshop 1 - Governance Goals - Script
 
 ## Introduction (10 min)

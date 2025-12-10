@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Verslag: OpenZaak Bedrijfszekerheidsdoelen
 
 16/10/2025
