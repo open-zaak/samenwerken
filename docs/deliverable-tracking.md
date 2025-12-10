@@ -97,6 +97,7 @@ Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is
 
 ## Bestaande documentatie 
 
+```
 - ZGW discussies op Gemma Zaken - https://github.com/VNG-Realisatie/gemma-zaken/issues/2549
 - OpenZaak website - https://openzaak.org/ (openzaak.nl bestaan, maar weet niet van wie)
 - Github organisatie - https://github.com/open-zaak
@@ -106,6 +107,7 @@ Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is
 - Readthedocs - https://open-zaak.readthedocs.io/en/stable/
 - Gitbook Common Ground - https://dienstverleningsplatform.gitbook.io/platform-generieke-dienstverlening-public/introductie/overzicht-functioneel
 - Diverse informatie op CommonGround.nl - https://commonground.nl/file/download/79c73952-5274-4139-8d18-56f7c2839644/15816724882020-02-14%20-%20presentatie%20open%20zaak%20at%20live2020.pdf
+```
 
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
 
