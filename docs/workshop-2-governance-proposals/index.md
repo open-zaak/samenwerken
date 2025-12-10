@@ -2,4 +2,4 @@
 layout: default
 ---
 
-* [Agenda](governance-proposals-workshop-agenda)
+* [Agenda](governance-proposals-agenda)
