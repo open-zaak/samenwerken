@@ -54,8 +54,8 @@ Zie [Verslag codebase stewarship OpenZaak](/docs/verslag-codebase-stewardship)
 Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaart brengen van  
 * ongeschreven/de facto werkafspraken
 * ambities  
- * pijnpunten
- * 
+* pijnpunten
+
 ```
 ## werkafspraken
 Community werkt momenteel heel goed met veel vertrouwen, korte lijntjes, proactiviteit en gevoel van verantwoordelijkheid
@@ -107,7 +107,6 @@ Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is
 - Gitbook Common Ground - https://dienstverleningsplatform.gitbook.io/platform-generieke-dienstverlening-public/introductie/overzicht-functioneel
 - Diverse informatie op CommonGround.nl - https://commonground.nl/file/download/79c73952-5274-4139-8d18-56f7c2839644/15816724882020-02-14%20-%20presentatie%20open%20zaak%20at%20live2020.pdf
 
-
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
 
 * Opstellen van issues rond verbetering van governance op basis van ambities en pijnpunten
@@ -129,7 +128,6 @@ G4 vrijdag over heeft sturing gegeven op prioritiseren van doelen en ambities
 
 Zie [Workshop 1](workshop-1-governance-goals)
 
-
 ### Documentatie voor governance en codereview opstellen en consolideren
 
 * Verbeteringen voorstellen met betrekking tot governance en codereview  
@@ -137,6 +135,7 @@ Zie [Workshop 1](workshop-1-governance-goals)
 
 ```
 Niet in de vorm van pull requests. Wel een Miro board.
+todo - add miroboard
 ```
 
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
@@ -152,38 +151,24 @@ Geen extra documentatie
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
 
-```
-EUPL verklarende text
-```
+Zie [EUPL-verklarende-text]
 
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
 
 ```
-
+to do 
 ```
 
 * Documentatie van processen  
-  
-```
-
-```
-
 * Wijzigingsprocedures voor codebase stewardship  
-
-```
-
-```
-
 * Proces voor het accepteren van bijdragen  
 
-```
-
-```
+Zie [Verslag codebase stewardship](verslag-codebase-stewardship)
 
 * Eventueel voorzitterschap/deelname bij meetings waar nodig
 
 ```
-
+Niet nodig geweest
 ```
 
 ## Fase 2: Toepassen en verbeteren van nieuw governance en codereview
@@ -192,6 +177,10 @@ EUPL verklarende text
 
 * Conceptoplossingen uitvoeren met gerichte feedbackloops  
 * Evaluatie van kosten, risico’s en kansen bij de toepassing ervan
+
+```
+Geen extra documentatie
+```
 
 ### Duurzaamheid van governance- en codereviewprocessen op lange termijn
 
