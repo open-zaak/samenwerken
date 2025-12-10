@@ -128,7 +128,7 @@ G4 vrijdag over heeft sturing gegeven op prioritiseren van doelen en ambities
 
 * Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
 
-Zie [Workshop 1](workshop-1-governance-goals)
+Zie [Workshop 1](workshop-1-governance-goals/index)
 
 ### Documentatie voor governance en codereview opstellen en consolideren
 
@@ -142,7 +142,7 @@ todo - add miroboard
 
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
 
-Zie [Workshop 2](workshop-2-governance-proposals)
+Zie [Workshop 2](workshop-2-governance-proposals/index)
 
 * Herziening en implementatie van de voorstellen
 
