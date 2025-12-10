@@ -95,3 +95,10 @@ Het lijkt nuttig dat er vanuit landelijke regie:
 Er lijkt dus een kans om een proof of concept te doen rond 'portfolio management van componenten in één git-hosting platform':
 * daar de laatste stable release van alle componenten beschikbaar te hebben (voor nu als downstream clones)  
 * en de oefening uit te voeren om dependencies tussen versies te beschrijven, te verkennen hoe communicatie naar hergebruikers zou kunnen verlopen, enzovoort  
+
+## Hoe beinvloed dit governance binnen OpenZaak
+
+Geen community-based governance, wel 
+
+[Zie verslag ecosysteem en rollen]
+

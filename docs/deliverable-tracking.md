@@ -153,7 +153,7 @@ Geen extra documentatie
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
 
-Zie [EUPL-verklarende-text]
+Zie [verslag-EUPL-verklarende-text]
 
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
 
