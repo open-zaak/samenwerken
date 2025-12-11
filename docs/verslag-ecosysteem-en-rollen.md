@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Rollen & verantwoordelijkheden 
+## Rollen & verantwoordelijkheden
 
 ### Ecosysteem/codebase steward
 
