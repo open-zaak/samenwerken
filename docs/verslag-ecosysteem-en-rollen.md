@@ -176,14 +176,14 @@ graph LR
     Dev3["Component 3:<br/>Dev repo"]
 
     %% Reviews
-    1FeatP1["P1<br/>Feature<br/>branch"]
-    1ReviewP2["P2<br/>Review"]
+    1FeatP1["Partij1<br/>Feature<br/>branch"]
+    1ReviewP2["Partij2<br/>Review"]
 
-    2FeatP2["P2<br/>Feature<br/>branch"]
-    2ReviewP3["P3<br/>Review"]
+    2FeatP2["Partij2<br/>Feature<br/>branch"]
+    2ReviewP3["Partij3<br/>Review"]
 
-    3FeatP3["P3<br/>Feature<br/>branch"]
-    3ReviewP1["P1<br/>Review"]
+    3FeatP3["Partij3<br/>Feature<br/>branch"]
+    3ReviewP1["Partij1<br/>Review"]
 
     %% Center: Upstream & Management
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
