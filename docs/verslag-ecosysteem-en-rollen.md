@@ -172,20 +172,18 @@ graph LR
     
     %% Left Side: Components
     Dev1["Component 1:<br/>Dev repo"]
-
     Dev2["Component 2:<br/>Dev repo"]
-
     Dev3["Component 3:<br/>Dev repo"]
 
     %% Reviews
     1FeatP1["P1<br/>Feature<br/>branch"]
     1ReviewP2["P2<br/>Review"]
 
-    2FeatP2["P1<br/>Feature<br/>branch"]
-    2ReviewP3["P2<br/>Review"]
+    2FeatP2["P2<br/>Feature<br/>branch"]
+    2ReviewP3["P3<br/>Review"]
 
-    3FeatP3["P1<br/>Feature<br/>branch"]
-    3ReviewP1["P2<br/>Review"]
+    3FeatP3["P3<br/>Feature<br/>branch"]
+    3ReviewP1["P1<br/>Review"]
 
     %% Center: Upstream & Management
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
@@ -200,19 +198,19 @@ graph LR
     PO -.- Upstream
 
     %% Component 1
-    1Dev1 --> 1FeatP1
+    Dev1 --> 1FeatP1
     1FeatP1 --> 1ReviewP2
     1ReviewP2 --> Upstream
 
     %% Component 2
-    2Dev1 --> 2FeatP1
-    2FeatP1 --> 2ReviewP2
-    2ReviewP2 --> Upstream
+    Dev2 --> 2FeatP1
+    2FeatP2 --> 2ReviewP3
+    2ReviewP3 --> Upstream
 
     %% Component 3
-    3Dev1 --> 3FeatP1
-    3FeatP1 --> 3ReviewP2
-    3ReviewP2 --> Upstream
+    Dev3 --> 3FeatP3
+    3FeatP3 --> 3ReviewP1
+    3ReviewP1 --> Upstream
 
     %% Downstream / Release
     Upstream --> SaaS
