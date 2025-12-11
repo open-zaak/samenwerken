@@ -154,6 +154,7 @@ graph LR
     Upstream --> MaintP1
     Upstream --> MaintP2
     Upstream --> SaaS
+```
 
 ## Stappenplan voor de introductie van een tweede marktpartij
 
@@ -161,3 +162,6 @@ graph LR
 1. Review contract  
 2. Maintenance contract  
 3. Feature development contract  
+
+## Marktpartijen 
+
