@@ -203,7 +203,7 @@ graph LR
     1ReviewP2 --> Upstream
 
     %% Component 2
-    Dev2 --> 2FeatP1
+    Dev2 --> 2FeatP2
     2FeatP2 --> 2ReviewP3
     2ReviewP3 --> Upstream
 
