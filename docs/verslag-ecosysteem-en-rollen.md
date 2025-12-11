@@ -135,7 +135,7 @@ graph LR
     MaintP2["P2<br/>Onderhoud<br/>oneven major<br/>release"]
     SaaS["Repo:<br/>SaaS<br/>provider"]
 
-    %% --- CONNECTIONS ---
+    %% Connections
     
     %% Workflow 1
     Dev1 --> FeatP1
@@ -165,3 +165,73 @@ graph LR
 
 ## Marktpartijen 
 
+
+```mermaid
+graph LR
+    %% Nodes
+    
+    %% Left Side: Components
+    1Dev1["Component 1:<br/>Dev repo"]
+    1Dev2["Component 1:<br/>Dev repo"]
+
+    2Dev1["Component 2:<br/>Dev repo"]
+    2Dev2["Component 2:<br/>Dev repo"]
+
+    3Dev1["Component 3:<br/>Dev repo"]
+    3Dev2["Component 3:<br/>Dev repo"]
+
+    %% Reviews
+    1FeatP1["P1<br/>Feature<br/>branch"]
+    1ReviewP2["P2<br/>Review"]
+    1FeatP2["P2<br/>Feature<br/>branch"]
+    1ReviewP1["P1<br/>Review"]
+
+    2FeatP1["P1<br/>Feature<br/>branch"]
+    2ReviewP2["P2<br/>Review"]
+    2FeatP2["P2<br/>Feature<br/>branch"]
+    2ReviewP1["P1<br/>Review"]
+
+    3FeatP1["P1<br/>Feature<br/>branch"]
+    3ReviewP2["P2<br/>Review"]
+    3FeatP2["P2<br/>Feature<br/>branch"]
+    3ReviewP1["P1<br/>Review"]
+
+    %% Center: Upstream & Management
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+
+    %% Right Side: SaaS
+    SaaS["Repo:<br/>SaaS<br/>provider"]
+
+    %% Connections
+    
+    %% Component 1
+    1Dev1 --> 1FeatP1
+    1FeatP1 --> 1ReviewP2
+    1ReviewP2 --> Upstream
+    1Dev2 --> 1FeatP2
+    1FeatP2 --> 1ReviewP1
+    1ReviewP1 --> Upstream
+
+    %% Component 2
+    2Dev1 --> 2FeatP1
+    2FeatP1 --> 2ReviewP2
+    2ReviewP2 --> Upstream
+    Dev2 --> 2FeatP2
+    2FeatP2 --> 2ReviewP1
+    2ReviewP1 --> Upstream
+
+    %% Component 3
+    3Dev1 --> 3FeatP1
+    3FeatP1 --> 3ReviewP2
+    3ReviewP2 --> Upstream
+    Dev2 --> 3FeatP2
+    3FeatP2 --> 3ReviewP1
+    3ReviewP1 --> Upstream
+
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
+    %% Downstream / Release
+    Upstream --> SaaS
+```
