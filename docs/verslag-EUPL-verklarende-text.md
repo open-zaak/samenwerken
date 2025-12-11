@@ -1,7 +1,8 @@
-# Inventarisatie Intellectueel Eigendom en Licenties
 ---
 layout: default
 ---
+
+# Inventarisatie Intellectueel Eigendom en Licenties
 
 ## To do
 
