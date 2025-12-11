@@ -108,6 +108,53 @@ graph LR
     Upstream --> SaaS
 ```
 
+## Dual vendorship
+
+```mermaid
+graph LR
+    %% Nodes
+    
+    %% Left Side: Inputs
+    Dev1["Repo:<br/>Dev"]
+    Dev2["Repo:<br/>Dev"]
+    
+    %% Top Stream (P1 works, P2 reviews)
+    FeatP1["P1<br/>Feature<br/>branch"]
+    ReviewP2["P2<br/>Review"]
+    
+    %% Bottom Stream (P2 works, P1 reviews)
+    FeatP2["P2<br/>Feature<br/>branch"]
+    ReviewP1["P1<br/>Review"]
+
+    %% Center: Upstream & Management
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+
+    %% Right Side: Outputs / Maintenance
+    MaintP1["P1<br/>Onderhoud<br/>even major<br/>release"]
+    MaintP2["P2<br/>Onderhoud<br/>oneven major<br/>release"]
+    SaaS["Repo:<br/>SaaS<br/>provider"]
+
+    %% --- CONNECTIONS ---
+    
+    %% Workflow 1
+    Dev1 --> FeatP1
+    FeatP1 --> ReviewP2
+    ReviewP2 --> Upstream
+    
+    %% Workflow 2
+    Dev2 --> FeatP2
+    FeatP2 --> ReviewP1
+    ReviewP1 --> Upstream
+
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
+    %% Downstream / Release
+    Upstream --> MaintP1
+    Upstream --> MaintP2
+    Upstream --> SaaS
+
 ## Stappenplan voor de introductie van een tweede marktpartij
 
 0. Contract voor "close easy issue"  
