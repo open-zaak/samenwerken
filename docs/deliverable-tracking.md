@@ -43,11 +43,11 @@ Het is de ambitie om dit op een breed toepasbare manier te doen, en met een zoda
 
 * Review van de oorspronkelijke hypothese uit de marktconsultatie  
 
-Zie [Verslag codebase stewarship OpenZaak](/docs/verslag-codebase-stewardship)
+Zie [Verslag codebase stewarship OpenZaak](verslag-codebase-stewardship)
 
 * Review van de huidige formele governance- en werkafspraken
 
-Zie [Verslag codebase stewarship OpenZaak](/docs/verslag-codebase-stewardship)
+Zie [Verslag codebase stewarship OpenZaak](verslag-codebase-stewardship)
 
 ### Bestaande 'issues' met governance (‘beheer’) en het codereviewproces in kaart brengen
 
