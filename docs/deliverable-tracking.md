@@ -99,9 +99,9 @@ todo
 Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaan zitten, zijn geen pull requests gemaakt.
 ```
 
+```
 ## Bestaande documentatie 
 
-```
 - ZGW discussies op Gemma Zaken - https://github.com/VNG-Realisatie/gemma-zaken/issues/2549
 - OpenZaak website - https://openzaak.org/ (openzaak.nl bestaan, maar weet niet van wie)
 - Github organisatie - https://github.com/open-zaak
@@ -138,15 +138,13 @@ Zie [Workshop 1](workshop-1-governance-goals/index)
 
 * Verbeteringen voorstellen met betrekking tot governance en codereview  
     * Deze voorstellen aanleveren via pull requests  
-
 ```
-Niet in de vorm van pull requests. Wel een Miro board.
-todo - add miroboard
+Niet in de vorm van pull requests. Zie verslagen hieronder
 ```
-
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
 
 Zie [Workshop 2](workshop-2-governance-proposals/index)
+Zie [Verslag Ecosysteem En Rollen](verslag-ecosysteem-en-rollen)
 
 * Herziening en implementatie van de voorstellen
 
@@ -157,7 +155,7 @@ Geen extra documentatie
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
 
-Zie [verslag-EUPL-verklarende-text]
+Zie [verslag-EUPL-verklarende-text](verslag-EUPL-verklarende-text)
 
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
 
@@ -208,6 +206,10 @@ Onderdeel hiervan zijn updates op:
 * OpenZaak-website  
 * Definitieve documentatie van het pilotproces, inclusief reflecties  
 * Opzetten van verschillende repositories die door anderen kunnen worden hergebruikt
+
+```
+todo - pull requests op openzaak repo, website en readthedocs
+```
 
 Deze documentatie moet bevatten:
 * Duidelijke verklaringen over aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
