@@ -6,6 +6,10 @@ layout: default
 
 Status: DRAFT
 
+## Inhoudsopgave
+* TOC
+{:toc}
+
 ## Context: oorspronkelijke hypothese uit de marktconsultatie  
 
 De governance van OpenZaak was ontworpen om meerdere zelfgemotiveerde partijen in staat te stellen deel te nemen aan de OpenZaak-community.

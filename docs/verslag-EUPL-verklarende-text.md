@@ -2,6 +2,10 @@
 layout: default
 ---
 
+## Inhoudsopgave
+* TOC
+{:toc}
+
 # Inventarisatie Intellectueel Eigendom en Licenties
 
 ## To do

@@ -13,6 +13,10 @@ Het omvat
 2) een kort overzicht van de tot op heden verrichte werkzaamheden 
 3) de geïdentificeerde bedrijfszekerheidsdoelstellingen waar verder op gewerkt wordt
 
+## Inhoudsopgave
+* TOC
+{:toc}
+
 ## Context voor de pilot 
 
 ### Achtergrond

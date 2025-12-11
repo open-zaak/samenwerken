@@ -2,6 +2,10 @@
 layout: default
 ---
 
+## Inhoudsopgave
+* TOC
+{:toc}
+
 ## Rollen & verantwoordelijkheden 
 
 ### Ecosysteem/codebase steward
