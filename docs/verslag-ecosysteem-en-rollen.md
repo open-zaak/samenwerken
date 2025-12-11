@@ -137,6 +137,9 @@ graph LR
 
     %% Connections
     
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
     %% Workflow 1
     Dev1 --> FeatP1
     FeatP1 --> ReviewP2
@@ -146,9 +149,6 @@ graph LR
     Dev2 --> FeatP2
     FeatP2 --> ReviewP1
     ReviewP1 --> Upstream
-
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
 
     %% Downstream / Release
     Upstream --> MaintP1
@@ -205,6 +205,9 @@ graph LR
 
     %% Connections
     
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
     %% Component 1
     1Dev1 --> 1FeatP1
     1FeatP1 --> 1ReviewP2
@@ -217,7 +220,7 @@ graph LR
     2Dev1 --> 2FeatP1
     2FeatP1 --> 2ReviewP2
     2ReviewP2 --> Upstream
-    Dev2 --> 2FeatP2
+    2Dev2 --> 2FeatP2
     2FeatP2 --> 2ReviewP1
     2ReviewP1 --> Upstream
 
@@ -225,12 +228,9 @@ graph LR
     3Dev1 --> 3FeatP1
     3FeatP1 --> 3ReviewP2
     3ReviewP2 --> Upstream
-    Dev2 --> 3FeatP2
+    3Dev2 --> 3FeatP2
     3FeatP2 --> 3ReviewP1
     3ReviewP1 --> Upstream
-
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
 
     %% Downstream / Release
     Upstream --> SaaS
