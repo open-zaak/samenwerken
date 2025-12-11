@@ -90,3 +90,27 @@ SaaS contract
 | Development                 | - New features<br>- Works with review party                                                                | Feature development contract             |
 | Implementeren               | - Local implementations<br>- Repots bugs, issues, needs<br>- Optionally with local changes                       | Implementatie contract                   |
 | Leveren                     | - SaaS<br>- Repots bugs, issues, needs<br>- Optionally with local changes                                       | SaaS contract                            |
+
+## Repo structure
+
+```mermaid
+graph LR
+    %% Nodes
+    Dev1["Repo:<br/>Dev branch"]
+    Dev2["Repo:<br/>Dev branch"]
+    SaaS["Repo:<br/>SaaS provider"]
+    
+    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
+
+    %% Connections
+    Dev1 --> Upstream
+    Dev2 --> Upstream
+    Upstream --> SaaS
+```
+
+## Stappenplan voor de introductie van een tweede marktpartij
+
+0. Contract voor "close easy issue"  
+1. Review contract  
+2. Maintenance contract  
+3. Feature development contract  
