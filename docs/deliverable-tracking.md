@@ -57,6 +57,10 @@ Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaa
 * pijnpunten
 
 ```
+om openheid en kwetsbaarheid te waarborgen, waren de interviews vertrouwelijk en is de directe output niet openbaar
+
+een korte samenvatting is hieronder te vinden
+
 ## werkafspraken
 Community werkt momenteel heel goed met veel vertrouwen, korte lijntjes, proactiviteit en gevoel van verantwoordelijkheid
 

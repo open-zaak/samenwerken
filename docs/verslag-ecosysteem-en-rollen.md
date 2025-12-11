@@ -159,7 +159,7 @@ graph LR
 2. Maintenance contract  
 3. Feature development contract  
 
-## Marktpartijen 
+## Marktpartijen met elk 1 development en 1 review verantwoordelijkheid
 
 
 ```mermaid
