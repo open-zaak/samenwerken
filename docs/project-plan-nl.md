@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Project plan
+nav_order: 2
 ---
 
 ## Inleiding

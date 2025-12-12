@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Deliverable tracking
+nav_order: 2
 ---
 
 ## Inhoudsopgave

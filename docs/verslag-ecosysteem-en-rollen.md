@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Verslag governance, ecosysteem en rollen
+nav_order: 2
 ---
 
 # Verslag: Governance, Ecosysteem en Rollen
