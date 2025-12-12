@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Introductie 
+# Verslag: Governance, Ecosysteem en Rollen
 
 Status: Draft
 
@@ -13,7 +13,16 @@ Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk ni
 
 Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onderstaand document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
 
-## Rollen & verantwoordelijkheden
+## Context: huidige governance- en werkafspraken
+
+Er is veel informele samenwerking binnen de community, inclusief documentatie met een informeel karakter. 
+De G4 vervult een aansturende rol.
+Er is veel goodwill en de meeste betrokken partijen zijn tevreden.
+
+Tegelijkertijd wordt een regie-organisatie in het vooruitzicht gesteld.
+Er is ook de ambitie om zaken beter te borgen — niet uit wantrouwen, maar om de algehele robuustheid te vergroten.
+
+## Voorstel: rollen & verantwoordelijkheden
 
 ### Ecosysteem/codebase steward
 
@@ -48,7 +57,8 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
 
 ### Reviewen
 
-Controleren van de gepubliceerde versies van de component. Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
+Controleren van de gepubliceerde versies van de component.
+Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
 
 - quality assurance
 - audit (security, tests, documents, Q&A)
@@ -78,36 +88,49 @@ Het leveren van een draaiende instantie van de component.
 - repots bugs, issues, needs
 - optionally with local changes
 
-
-## Rollen & contracten
+## Voorstel: Rollen & contracten - wie doet wat?
 
 ### Ecosysteem/codebase steward
 
-Intern vanuit landelijke regie, of gedelegeerd 
+Nu: G4 overleg
+
+Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
 
 ### Beheer
 
-Maintenance contract
+Nu: Maykin, als onderdeel van een featurecontract
+
+Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
 
 ### Uitgeven
 
-Intern vanuit landelijke regie, of gedelegeerd
+Nu: Maykin
+
+Toekomst: Intern vanuit landelijke regie, of gedelegeerd
 
 ### Reviewen
 
-Review contract
+Nu: Maykin
+
+Toekmost: Mogelijk tweede marktpartij met een review contract
 
 ### Development
 
-Feature development contract
+Nu: Maykin
+
+Toekmost: Mogelijk tweede marktpartij met een feature development contract
 
 ### Implementeren
 
-Implemetatie contract
+Nu:
+
+Toekmost: 
 
 ### Leveren
 
-SaaS contract
+Nu: Verschillende SaaS aanbieders
+
+Toekmost: SaaS aanbieder onder landelijke regie
 
 ## Rollen, contracten en verantwoordelijkhedem
 
@@ -121,20 +144,17 @@ SaaS contract
 | Implementeren               | - Local implementations<br>- Repots bugs, issues, needs<br>- Optionally with local changes                       | Implementatie contract                   |
 | Leveren                     | - SaaS<br>- Repots bugs, issues, needs<br>- Optionally with local changes                                       | SaaS contract                            |
 
-## Voorbeeld repo structuur
+## Voorbeeld repo structuur: splitsen van development en upstream uitgeven
 
 ```mermaid
 graph LR
     %% Nodes
     Dev1["Repo:<br/>Dev branch"]
-    Dev2["Repo:<br/>Dev branch"]
     SaaS["Repo:<br/>SaaS provider"]
-    
     Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
 
     %% Connections
     Dev1 --> Upstream
-    Dev2 --> Upstream
     Upstream --> SaaS
 ```
 
@@ -149,20 +169,20 @@ graph LR
     Dev2["Repo:<br/>Dev"]
     
     %% Top Stream (P1 works, P2 reviews)
-    FeatP1["P1<br/>Feature<br/>branch"]
-    ReviewP2["P2<br/>Review"]
+    FeatP1["Partij 1<br/>Feature<br/>branch"]
+    ReviewP2["Partij 2<br/>Review"]
     
     %% Bottom Stream (P2 works, P1 reviews)
-    FeatP2["P2<br/>Feature<br/>branch"]
-    ReviewP1["P1<br/>Review"]
+    FeatP2["Partij 2<br/>Feature<br/>branch"]
+    ReviewP1["Partij 1<br/>Review"]
 
     %% Center: Upstream & Management
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
 
     %% Right Side: Outputs / Maintenance
-    MaintP1["P1<br/>Onderhoud<br/>even major<br/>release"]
-    MaintP2["P2<br/>Onderhoud<br/>oneven major<br/>release"]
+    MaintP1["Partij 1<br/>Onderhoud<br/>even major<br/>release"]
+    MaintP2["Partij 2<br/>Onderhoud<br/>oneven major<br/>release"]
     SaaS["Repo:<br/>SaaS<br/>provider"]
 
     %% Connections
@@ -205,14 +225,14 @@ graph LR
     Dev3["Component 3:<br/>Dev repo"]
 
     %% Reviews
-    1FeatP1["Partij1<br/>Feature<br/>branch"]
-    1ReviewP2["Partij2<br/>Review"]
+    1FeatP1["Partij 1<br/>Feature<br/>branch"]
+    1ReviewP2["Partij 2<br/>Review"]
 
-    2FeatP2["Partij2<br/>Feature<br/>branch"]
-    2ReviewP3["Partij3<br/>Review"]
+    2FeatP2["Partij 2<br/>Feature<br/>branch"]
+    2ReviewP3["Partij 3<br/>Review"]
 
-    3FeatP3["Partij3<br/>Feature<br/>branch"]
-    3ReviewP1["Partij1<br/>Review"]
+    3FeatP3["Partij 3<br/>Feature<br/>branch"]
+    3ReviewP1["Partij 1<br/>Review"]
 
     %% Center: Upstream & Management
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
