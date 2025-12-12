@@ -1,8 +1,18 @@
 ---
 layout: default
 title: Project plan
-nav_order: 2
+nav_order: 6
 ---
+
+# Project Plan
+
+Dit is het oorspronkelijke projectplan.
+
+Om de deliverables per onderdeel te zien, ga naar [deliverable tracking](deliverable-tracking).
+
+## Inhoudsopgave
+* TOC
+{:toc}
 
 ## Inleiding
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Verslag bedrijfszekerheid OpenZaak
-nav_order: 2
+nav_order: 3
 ---
 
 # Verslag: OpenZaak Bedrijfszekerheidsdoelen

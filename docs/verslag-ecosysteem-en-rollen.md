@@ -1,8 +1,12 @@
 ---
 layout: default
 title: Verslag governance, ecosysteem en rollen
-nav_order: 2
+nav_order: 4
 ---
+
+## Inhoudsopgave
+* TOC
+{:toc}
 
 # Verslag: Governance, Ecosysteem en Rollen
 
