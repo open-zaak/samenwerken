@@ -160,10 +160,12 @@ graph LR
     Dev1["Repo:<br/>Dev branch"]
     SaaS["Repo:<br/>SaaS provider"]
     Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
 
     %% Connections
     Dev1 --> Upstream
     Upstream --> SaaS
+    PO -.- Upstream
 ```
 
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
