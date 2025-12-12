@@ -5,7 +5,7 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 # Kramdown settings
 kramdown:
@@ -14,7 +14,8 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-toc
-
+  - jekyll-remote-theme
+  
 # Table of Contents settings
 toc:
   min_level: 2
