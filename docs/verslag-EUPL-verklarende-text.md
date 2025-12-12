@@ -4,11 +4,13 @@ title: Verslag EUPL verklarende-text
 nav_order: 5
 ---
 
+# Verslag EUPL verklarende text
+
+Status: Draft
+
 ## Inhoudsopgave
 * TOC
 {:toc}
-
-# Inventarisatie Intellectueel Eigendom en Licenties
 
 ## To do
 

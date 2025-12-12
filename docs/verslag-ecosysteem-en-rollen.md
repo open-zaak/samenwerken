@@ -4,10 +4,6 @@ title: Verslag governance, ecosysteem en rollen
 nav_order: 4
 ---
 
-## Inhoudsopgave
-* TOC
-{:toc}
-
 # Verslag: Governance, Ecosysteem en Rollen
 
 Status: Draft
@@ -18,6 +14,11 @@ Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
 Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
 
 Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onderstaand document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
+
+## Inhoudsopgave
+* TOC
+{:toc}
+
 
 ## Context: huidige governance- en werkafspraken
 
