@@ -6,22 +6,38 @@ layout: default
 
 ### Ecosysteem/codebase steward
 
-- Collectief product ownerschap  
+Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
+
+- Collectief product ownerschap met duidelijke roadmap  
 - Portfolio management op alle componenten (en samenhang daartussen)  
-- Product release management met duideljike roadmap, documentatie en release management
+- Regie over marktpartijen en samenwerking tussen marktpartijen
+- Community managememt
 
 ### Beheer
+
+Onderhoud van versies
 
 - maintenance en bug fixes
 
 ### Uitgeven
 
+Langetermijn beschikbaar stellen van component(versies).
+Op orde en compliant houden van de opensourcecode van de component(versies).
+
+- Product release management met documentatie 
 - upstream repository, (stable) releaes van code, documentatie
 - publicatie en archief 
 - change log, dependency graph, central issue en bug tracker 
 - communicatie van release dates, breaking changes, critical issue
+- acceptatie van feature pull request
+- installatiehandleiding
+- beheershandleiding
+- gebruikshandleiding
+- regelmatige publicatie van versies
 
 ### Reviewen
+
+Controleren van de gepubliceerde versies van de component. Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
 
 - quality assurance
 - audit (security, tests, documents, Q&A)
@@ -29,16 +45,23 @@ layout: default
 
 ### Development
 
+Projectmatig ontwikkelen van een component of een feature van een component.
+
 - new features
-- works with review party 
+- works with review party
+- aanbieden aan beheerder als pull request
 
 ### Implementeren
 
-- local implementations
+Het inrichten van de instantie van de component voor specifiek gebruik bij een gemeente, het trainen van medewerkers en het beantwoorden van vragen.
+ 
+- local implementations, configuratie, training, helpdesk
 - repots bugs, issues, needs
 - optionally with local changes
 
 ### Leveren
+
+Het leveren van een draaiende instantie van de component.
 
 - SaaS
 - repots bugs, issues, needs
@@ -87,7 +110,7 @@ SaaS contract
 | Implementeren               | - Local implementations<br>- Repots bugs, issues, needs<br>- Optionally with local changes                       | Implementatie contract                   |
 | Leveren                     | - SaaS<br>- Repots bugs, issues, needs<br>- Optionally with local changes                                       | SaaS contract                            |
 
-## Repo structure
+## Voorbeeld repo structuur
 
 ```mermaid
 graph LR
@@ -104,7 +127,7 @@ graph LR
     Upstream --> SaaS
 ```
 
-## Dual vendorship
+## Voorbeeld scenario: dual vendorship
 
 ```mermaid
 graph LR
@@ -159,8 +182,7 @@ graph LR
 2. Maintenance contract  
 3. Feature development contract  
 
-## Marktpartijen met elk 1 development en 1 review verantwoordelijkheid
-
+## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
 
 ```mermaid
 graph LR
@@ -211,3 +233,4 @@ graph LR
     %% Downstream / Release
     Upstream --> SaaS
 ```
+
