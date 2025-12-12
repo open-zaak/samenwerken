@@ -57,33 +57,41 @@ Korte 1-op-1-gesprekken met 4 gemeenten en 3 leveranciers (7 in totaal) & in kaa
 * pijnpunten
 
 ```
-om openheid en kwetsbaarheid te waarborgen, waren de interviews vertrouwelijk en is de directe output niet openbaar
+De interviews waren vertrouwelijk om openheid en kwetsbaarheid te waarborgen, en de directe output is niet openbaar.
 
-een korte samenvatting is hieronder te vinden
+Hieronder een korte samenvatting van de bevindingen:
 
-## werkafspraken
-Community werkt momenteel heel goed met veel vertrouwen, korte lijntjes, proactiviteit en gevoel van verantwoordelijkheid
+## Werkafspraken
 
-Markt partijen communiceren direct met elkaar om problemen op te lossen
+* De Community functioneert momenteel zeer goed, gekenmerkt door:
+    * Veel vertrouwen.
+    * Korte lijntjes en directe communicatie.
+    * Proactiviteit en een sterk gevoel van verantwoordelijkheid.
+* Marktpartijen communiceren direct met elkaar om problemen op te lossen.
 
-## ambities
+## Ambities
 
-Bedrijfszekerheid van ecosysteem te verbeteren
-Voorbereiden op centrale regie en samen exploiteren
+* De bedrijfszekerheid van het ecosysteem verbeteren.
+* Zich voorbereiden op centrale regie en samen exploiteren.
 
-## pijnpunten 
+## Pijnpunten
 
-Documentatie kan verbeteren - iets versplintered en verouderd, onderhoud van generieke (niet feature specifieke) documentatie valt niet onder bestaande contracten
+### Documentatie en Onderhoud
 
-Essentiele en continue taken van onderhoud worden nu opgenomen in tijdsgebonden doorontwikkel contracten - continuiteit en bedrijfszekerheid beter geborgd door apart en continue contract 
+* Documentatie kan verbeteren: deze is enigszins versnipperd en verouderd.
+* Het onderhoud van generieke (niet-feature-specifieke) documentatie valt niet onder bestaande contracten.
+* Essentiële en continue onderhoudstaken worden momenteel opgenomen in tijdsgebonden doorontwikkelingscontracten. De continuïteit en bedrijfszekerheid zouden beter geborgd zijn door een apart en continu contract.
 
-Pad naar regie is gevoelig, gaat manier van werken veranderen - belangrijk om goedwil niet te verstoren. Zekerheid is belangrijk voor continuiteit.
+### Regie en Continuïteit
 
-Onzekerheid over eigenaarschap van de codebase; incl de licensie en auteursrechten
+* Het pad naar regie is gevoelig, aangezien dit de huidige manier van werken zal veranderen.
+* Het is belangrijk om de bestaande goedwil niet te verstoren. Zekerheid is cruciaal voor continuïteit.
 
-Repository rights (admin, branchbeheer en merge rights) kunnen met meer intentie ingericht worden
+### Codebase en Eigenaarschap
 
-Geen duidelijk pad om een tweede marktpartij te betrekken en zo de codebase te borgen
+* Onzekerheid over het eigenaarschap van de codebase, inclusief de licentie en auteursrechten.
+* Repository-rechten (admin, branchbeheer en merge-rechten) kunnen met meer intentie en structuur worden ingericht.
+* Er is geen duidelijk pad om een tweede marktpartij te betrekken en zo de codebase te borgen.
 
 ```
 
@@ -97,20 +105,6 @@ todo
 
 ```
 Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaan zitten, zijn geen pull requests gemaakt.
-```
-
-```
-## Bestaande documentatie 
-
-- ZGW discussies op Gemma Zaken - https://github.com/VNG-Realisatie/gemma-zaken/issues/2549
-- OpenZaak website - https://openzaak.org/ (openzaak.nl bestaan, maar weet niet van wie)
-- Github organisatie - https://github.com/open-zaak
-    - Github repository met README - https://github.com/open-zaak/open-zaak
-    - en andere repo met info (eg marketconsultation en samenwerken)
-- Backlog in Notion omgeving - https://platformvoordienstverlening.notion.site/e9375da1960249bba23c49d038d3c888?v=774cd20f3c9040658e7b7fa008858075
-- Readthedocs - https://open-zaak.readthedocs.io/en/stable/
-- Gitbook Common Ground - https://dienstverleningsplatform.gitbook.io/platform-generieke-dienstverlening-public/introductie/overzicht-functioneel
-- Diverse informatie op CommonGround.nl - https://commonground.nl/file/download/79c73952-5274-4139-8d18-56f7c2839644/15816724882020-02-14%20-%20presentatie%20open%20zaak%20at%20live2020.pdf
 ```
 
 ### Prioriteiten stellen voor verbeteringen in governance en codereview
@@ -127,7 +121,7 @@ Zie [Verslag bedrijfszekerheid OpenZaak](verslag-bedrijfszekerheidsdoelen)
 
 ```
 In twee workshops en bilateraal met verschillende partijen
-G4 vrijdag over heeft sturing gegeven op prioritiseren van doelen en ambities 
+G4 vrijdag overleg heeft sturing gegeven op prioritiseren van doelen en ambities 
 ```
 
 * Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
@@ -161,7 +155,9 @@ Zie [verslag-EUPL-verklarende-text](verslag-EUPL-verklarende-text)
 
 ```
 to do 
+
 ```
+Zie [Verslag Ecosysteem En Rollen](verslag-ecosysteem-en-rollen)
 
 * Documentatie van processen  
 * Wijzigingsprocedures voor codebase stewardship  
