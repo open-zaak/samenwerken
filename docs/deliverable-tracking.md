@@ -1,5 +1,8 @@
 ---
 layout: default
+title: Deliverable tracking
+parent: Project plan
+nav_order: 1
 ---
 
 ## Inhoudsopgave

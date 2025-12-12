@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Verslag EUPL verklarende-text
+nav_order: 5
 ---
 
 ## Inhoudsopgave

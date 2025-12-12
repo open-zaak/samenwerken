@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Interview questions
+nav_exclude: true
 ---
 
 # Interview questions
