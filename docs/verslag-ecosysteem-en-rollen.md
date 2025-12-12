@@ -146,6 +146,8 @@ Toekmost: SaaS aanbieder onder landelijke regie
 
 ## Voorbeeld repo structuur: splitsen van development en upstream uitgeven
 
+Doel: ontwikkelpartijen laten bijdragen aan een landelijke regie-repository.
+
 ```mermaid
 graph LR
     %% Nodes
@@ -158,62 +160,9 @@ graph LR
     Upstream --> SaaS
 ```
 
-## Voorbeeld scenario: dual vendorship
-
-```mermaid
-graph LR
-    %% Nodes
-    
-    %% Left Side: Inputs
-    Dev1["Repo:<br/>Dev"]
-    Dev2["Repo:<br/>Dev"]
-    
-    %% Top Stream (P1 works, P2 reviews)
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    
-    %% Bottom Stream (P2 works, P1 reviews)
-    FeatP2["Partij 2<br/>Feature<br/>branch"]
-    ReviewP1["Partij 1<br/>Review"]
-
-    %% Center: Upstream & Management
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-
-    %% Right Side: Outputs / Maintenance
-    MaintP1["Partij 1<br/>Onderhoud<br/>even major<br/>release"]
-    MaintP2["Partij 2<br/>Onderhoud<br/>oneven major<br/>release"]
-    SaaS["Repo:<br/>SaaS<br/>provider"]
-
-    %% Connections
-    
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
-
-    %% Workflow 1
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
-    ReviewP2 --> Upstream
-    
-    %% Workflow 2
-    Dev2 --> FeatP2
-    FeatP2 --> ReviewP1
-    ReviewP1 --> Upstream
-
-    %% Downstream / Release
-    Upstream --> MaintP1
-    Upstream --> MaintP2
-    Upstream --> SaaS
-```
-
-## Stappenplan voor de introductie van een tweede marktpartij
-
-0. Contract voor "close easy issue"  
-1. Review contract  
-2. Maintenance contract  
-3. Feature development contract  
-
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
+
+Doel: meerdere ontwikkelpartijen laten bijdragen aan een landelijke regie-repository, waarbij elke partij verantwoordelijk is voor de ontwikkeling van één component en de review van één component.
 
 ```mermaid
 graph LR
@@ -264,4 +213,61 @@ graph LR
     %% Downstream / Release
     Upstream --> SaaS
 ```
+
+## Voorbeeld scenario: dual vendorship
+
+Doel: twee ontwikkelpartijen laten samenwerken om elkaars werk te ontwikkelen en te reviewen.
+
+```mermaid
+graph LR
+    %% Nodes
+    
+    %% Left Side: Inputs
+    Dev1["Repo:<br/>Dev"]
+    Dev2["Repo:<br/>Dev"]
+    
+    %% Top Stream (P1 works, P2 reviews)
+    FeatP1["Partij 1<br/>Feature<br/>branch"]
+    ReviewP2["Partij 2<br/>Review"]
+    
+    %% Bottom Stream (P2 works, P1 reviews)
+    FeatP2["Partij 2<br/>Feature<br/>branch"]
+    ReviewP1["Partij 1<br/>Review"]
+
+    %% Center: Upstream & Management
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+
+    %% Right Side: Outputs / Maintenance
+    MaintP1["Partij 1<br/>Onderhoud<br/>even major<br/>release"]
+    MaintP2["Partij 2<br/>Onderhoud<br/>oneven major<br/>release"]
+    SaaS["Repo:<br/>SaaS<br/>provider"]
+
+    %% Connections
+    
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
+    %% Workflow 1
+    Dev1 --> FeatP1
+    FeatP1 --> ReviewP2
+    ReviewP2 --> Upstream
+    
+    %% Workflow 2
+    Dev2 --> FeatP2
+    FeatP2 --> ReviewP1
+    ReviewP1 --> Upstream
+
+    %% Downstream / Release
+    Upstream --> MaintP1
+    Upstream --> MaintP2
+    Upstream --> SaaS
+```
+
+### Stappenplan voor de introductie van een tweede marktpartij
+
+0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
+1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
+2. maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
+3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
 
