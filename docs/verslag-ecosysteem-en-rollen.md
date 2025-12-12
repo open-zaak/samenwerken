@@ -2,6 +2,17 @@
 layout: default
 ---
 
+# Introductie 
+
+Status: Draft
+
+De huidige OpenZaak community voorziet in de behoefte aan snel en informeel handelen.
+Naarmate OpenZaak volwassen wordt en opschaalt, kan het karakter van de community veranderen.
+
+Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
+
+Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onderstaand document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
+
 ## Rollen & verantwoordelijkheden
 
 ### Ecosysteem/codebase steward
