@@ -6,8 +6,8 @@ layout: default
 
 Status: Draft
 
-De huidige OpenZaak community voorziet in de behoefte aan snel en informeel handelen.
-Naarmate OpenZaak volwassen wordt en opschaalt, kan het karakter van de community veranderen.
+De huidige OpenZaak community werkt goed voor snel en informeel werken.
+Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
 
 Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
 
