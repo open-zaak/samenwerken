@@ -163,9 +163,9 @@ graph LR
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
 
     %% Connections
+    PO -.- Upstream
     Dev1 --> Upstream
     Upstream --> SaaS
-    PO -.- Upstream
 ```
 
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
