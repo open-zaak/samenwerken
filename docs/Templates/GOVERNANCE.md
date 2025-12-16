@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Governance
 nav_order: 1
 parent: Templates
 ---

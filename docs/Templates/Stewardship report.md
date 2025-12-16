@@ -30,10 +30,10 @@ quadrantChart
     title Continuiteit ven contracten en werken
     x-axis Onzekerheid Overheid --> Zekerheid Overheid
     y-axis Onzekerheid Marktpartij --> Zekerheid Marktpartij
-    quadrant-1 
-    quadrant-2 
-    quadrant-3 
-    quadrant-4 
+    quadrant-1 1
+    quadrant-2 2
+    quadrant-3 3
+    quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.3, 0.3]
 ```
@@ -47,10 +47,10 @@ quadrantChart
     title Financiering
     x-axis Strak --> Flexible
     y-axis Ongestructureerd --> Gestructureerd
-    quadrant-1 
-    quadrant-2 
-    quadrant-3 
-    quadrant-4 
+    quadrant-1 1
+    quadrant-2 2
+    quadrant-3 3
+    quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.4, 0.3]
 ```
@@ -64,10 +64,10 @@ quadrantChart
     title Verantwoordelijkheid
     x-axis Onverbonden --> Persoonlijke betrokkenheid
     y-axis Ongestructureerd (vrijwillig) --> Structureerd gewaarborgd (contracten)
-    quadrant-1 
-    quadrant-2 
-    quadrant-3 
-    quadrant-4 
+    quadrant-1 1
+    quadrant-2 2
+    quadrant-3 3
+    quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.8, 0.3]
 ```
@@ -81,10 +81,10 @@ quadrantChart
     title Samenwerking
     x-axis Opportunistisch --> Waarde gedreven
     y-axis Ad hoc --> Gestructureerd
-    quadrant-1 
-    quadrant-2 
-    quadrant-3 
-    quadrant-4 
+    quadrant-1 1
+    quadrant-2 2
+    quadrant-3 3
+    quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.5, 0.4]
 ```
