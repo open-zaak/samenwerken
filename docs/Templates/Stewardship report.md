@@ -36,7 +36,6 @@ quadrantChart
     quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.3, 0.3]
-```
 
 ### Financiering 
 
@@ -53,7 +52,6 @@ quadrantChart
     quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.4, 0.3]
-```
 
 ### Verantwoordelijkheid 
 
@@ -70,7 +68,6 @@ quadrantChart
     quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.8, 0.3]
-```
 
 ### Samenwerking tussen community 
 
@@ -87,4 +84,3 @@ quadrantChart
     quadrant-4 4
     Ambitie landelijkevoorziening: [0.9, 0.9]
     Codebase nu: [0.5, 0.4]
-```
