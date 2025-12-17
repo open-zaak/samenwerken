@@ -1,9 +1,13 @@
 ---
 layout: default
 title: Deliverable tracking
-parent: Project plan
-nav_order: 1
+parent: Project documentatie
+nav_order: 2
 ---
+
+# Deliverable tracking
+
+Deliverables per onderdeel.
 
 ## Inhoudsopgave
 * TOC

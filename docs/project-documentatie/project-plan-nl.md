@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Project plan
-nav_order: 6
+title: Project plan 
+parent: Project documentatie
+nav_order: 1
 ---
 
 # Project Plan
