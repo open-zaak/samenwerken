@@ -50,9 +50,9 @@ In de GIBIT 25/26 [2](https://s2c.mercell.com/today/156992) (in ontwikkeling) wo
 
 "Denk dat ik al in 2008 heb geschreven dat de overheid als opdrachtgever kan kiezen tussen overdracht van auteursrechten, of *in plaats daarvan* levering onder de EUPL. Daaruit volgt dat overdracht inderdaad niet perse nodig is. Terzijde: die beoogde wetswijziging van de Auteurswet gaat volgens mij vooral over het werkgeversauteursrecht, en niet over de overdracht waar wij het nu over hebben. Daarvoor blijft namelijk, net zoals nu het geval is, een schriftelijke en specifieke overdracht noodzakelijk. *De enkele vermelding ervan in algemene voorwaarden wordt is en was onvoldoende om de overdracht ook daadwerkelijk te effectueren.*". - Matthieu Paapst, expert Open Source en Intellectueel Eigendom.
 
-## Stukken in ontwikkeling
+"Voor de delen van de code waar je zelf de IE-rechten van bezit, kun je altijd nog van licentie wisselen. Zodra de code echter is vermengd met bijdragen van derden, zit je vast aan de voorwaarden waaronder zij hun bijdrage hebben geleverd. Een licentiewijziging kan dan alleen met hun toestemming. Let er ook op dat een licentiewijziging van een module gevolgen kan hebben voor de licentie van het project als geheel. Zo kan een project als geheel niet langer onder de EUPL blijven, wanneer een losse module van MIT naar GPL wijzigt – althans niet meer in combinatie met die specifieke versie van de module." [5](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/)
 
-Zie ook https://hackmd.io/YHvUPbTnS9iTPozDGRtKZw voor een tekst van VWS, die momenteel door juristen van 95% naar 100% gebracht wordt.
+## Stukken in ontwikkeling
 
 In ontwikkeling en wordt gecheckt door jurist, mogelijk/hopelijk daarna naar BZK gebracht als advies/standaardtekst: https://hackmd.io/xKaPXWp9RxWZP20OnePz2g
 
@@ -62,6 +62,7 @@ In ontwikkeling en wordt gecheckt door jurist, mogelijk/hopelijk daarna naar BZK
 2. [https://s2c.mercell.com/today/156992](https://s2c.mercell.com/today/156992)
 3. [https://opensourcewerken.nl/blog/view/db717354-150b-45f8-abf0-74a53f85c83b/open-source-aanbesteden-belemmeringen-kansen-en-intellectueel-eigendom](https://opensourcewerken.nl/blog/view/db717354-150b-45f8-abf0-74a53f85c83b/open-source-aanbesteden-belemmeringen-kansen-en-intellectueel-eigendom)
 4. [https://opensourcewerken.nl/blog/view/d4728802-1556-44e7-b251-602ab0d03fcf/hoe-vws-open-source-aanbesteedt-naar-een-open-zorg-ict-ecosysteem](https://opensourcewerken.nl/blog/view/d4728802-1556-44e7-b251-602ab0d03fcf/hoe-vws-open-source-aanbesteedt-naar-een-open-zorg-ict-ecosysteem)
+5. [https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/](https://minvws.opensourcewerken.nl/open-source-ambitieladder-voor-opensourcewerken-in-projecten/)
 
 ### Voorlopige analyse voor OpenZaak (niet juridisch)
 
