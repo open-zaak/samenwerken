@@ -35,7 +35,7 @@ De regiepartij is systeemverantwoordelijk voor het functioneren, de samenhang en
   Regelt structurele bekostiging, mandaat en contractuele afspraken. Borgt continuïteit, onafhankelijkheid en lange termijn duurzaamheid van het ecosysteem.
 
 - **Community / stewardship (ecosysteemniveau)**  
-  Organiseert en bewaakt open-source governance van het hele ecosysteem: bijdrageprocessen, besluitvorming, rolzuiverheid, kenniscontinuïteit en bedrijfszekerheid. Voorkomt machtsconcentratie en lock-in, en organiseert escalatie en conflictbeslechting.
+  Organiseert, documenteert en bewaakt open-source governance van het hele ecosysteem: bijdrageprocessen, besluitvorming, rolzuiverheid, kenniscontinuïteit en bedrijfszekerheid. Voorkomt machtsconcentratie en lock-in, en organiseert escalatie en conflictbeslechting.
 
 - **Audit & toezicht**  
   Organiseert onafhankelijke toetsing op kwaliteit, werking, governance en publieke waarden, zowel op component- als ecosysteemniveau. Zorgt dat bevindingen worden opgevolgd.
