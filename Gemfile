@@ -9,8 +9,10 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-toc", "~> 0.18"
-  gem "jekyll-remote-theme"
 end
+
+# Only needed for GitHub Pages (not loaded locally)
+gem "jekyll-remote-theme"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

@@ -5,7 +5,8 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs              # voor lokale ontwikkeling
+remote_theme: just-the-docs/just-the-docs  # voor GitHub Pages
 
 # Kramdown settings
 kramdown:
@@ -14,7 +15,7 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-toc
-  - jekyll-remote-theme
+  # - jekyll-remote-theme  # alleen nodig op GitHub Pages
   
 # Table of Contents settings
 toc:
