@@ -126,9 +126,3 @@ Implementatiepartners ondersteunen organisaties bij het **in gebruik nemen van d
 
 - **Gebruikersvertegenwoordiging**  
   Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening.
-
----
-
-## Samenwerkingsprincipes
-
-Het ecosysteem is gebaseerd op wederzijdse afhankelijkheid en vervangbaarheid. Ontwikkelpartijen dragen primaire ontwikkelverantwoordelijkheid voor toegewezen componenten en zijn gezamenlijk verantwoordelijk voor de kwaliteit en duurzaamheid van het ecosysteem als geheel. Review, audit en toezicht zijn structurele functies en geen uitzonderingen. Transparantie, collegialiteit en inhoudelijke scherpte zijn randvoorwaarden voor samenwerking. Geen enkele partij is onmisbaar; het ecosysteem als geheel wel.
