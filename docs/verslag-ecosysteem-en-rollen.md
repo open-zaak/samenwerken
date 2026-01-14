@@ -31,34 +31,31 @@ Er is ook de ambitie om zaken beter te borgen — niet uit wantrouwen, maar om d
 
 ## Voorstel: rollen & verantwoordelijkheden
 
-### Ecosysteem/codebase steward
+### Development
 
-Nu: G4 overleg
+Nu: Maykin
 
-Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
+Toekmost: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
 
 #### Rol
 
-Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
+Projectmatig ontwikkelen van een component of een feature van een component.
 
-- Collectief product ownerschap met duidelijke roadmap  
-- Portfolio management op alle componenten (en samenhang daartussen)  
-- Regie over marktpartijen en samenwerking tussen marktpartijen
-- Community managememt
+- new features
+- works with review party
+- aanbieden aan beheerder als pull request
 
-#### Waarom? (design choices)
+#### Waarom?
 
 *  ...
 *  ...
 *  ...
+
 
 ```mermaid
 graph LR
     %% Nodes
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-
-    %% Connections
-    PO
+    Dev1["Repo:<br/>Dev branch"]
 ```
 
 ### Uitgeven
@@ -93,27 +90,59 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
 ```mermaid
 graph LR
     %% Nodes
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    Dev1["Repo:<br/>Dev branch"]
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+
+    %% Connections
+    Dev1 --> Upstream
+```
+
+### Ecosysteem/codebase steward
+
+Nu: G4 overleg
+
+Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
+
+#### Rol
+
+Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
+
+- Collectief product ownerschap met duidelijke roadmap  
+- Portfolio management op alle componenten (en samenhang daartussen)  
+- Regie over marktpartijen en samenwerking tussen marktpartijen
+- Community managememt
+
+#### Waarom? (design choices)
+
+*  ...
+*  ...
+*  ...
+
+```mermaid
+graph LR
+    %% Nodes
+    Dev1["Repo:<br/>Dev branch"]
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
 
     %% Connections
     PO -.- Upstream
+    Dev1 --> Upstream
 ```
 
+### Beheer/maintenance
 
-### Development
 
-Nu: Maykin
+Nu: Maykin, als onderdeel van een featurecontract
 
-Toekmost: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
+Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
+
 
 #### Rol
 
-Projectmatig ontwikkelen van een component of een feature van een component.
+Onderhoud van versies
 
-- new features
-- works with review party
-- aanbieden aan beheerder als pull request
+- maintenance en bug fixes
 
 #### Waarom?
 
@@ -128,12 +157,13 @@ graph LR
     Dev1["Repo:<br/>Dev branch"]
     Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Maint["Onderhoud<br/>stable release"]
 
     %% Connections
     PO -.- Upstream
     Dev1 --> Upstream
+    Upstream --> Maint
 ```
-
 
 ### Reviewen
 
@@ -172,6 +202,7 @@ graph LR
     %% Center: Upstream & Management
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Maint["Onderhoud<br/>stable release"]
 
     %% Connections
     
@@ -182,40 +213,6 @@ graph LR
     Dev1 --> FeatP1
     FeatP1 --> ReviewP2
     ReviewP2 --> Upstream
-```
-
-### Beheer/maintenance
-
-
-Nu: Maykin, als onderdeel van een featurecontract
-
-Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
-
-
-#### Rol
-
-Onderhoud van versies
-
-- maintenance en bug fixes
-
-#### Waarom?
-
-*  ...
-*  ...
-*  ...
-
-
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-    Maint["Onderhoud<br/>stable release"]
-
-    %% Connections
-    PO -.- Upstream
-    Dev1 --> Upstream
     Upstream --> Maint
 ```
 
@@ -239,18 +236,23 @@ Het leveren van een draaiende instantie van de component.
 *  ...
 *  ...
 
-
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    SaaS["Repo:<br/>SaaS provider"]
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    Dev1["Repo:<br/>Dev"]
+    FeatP1["Partij 1<br/>Feature<br/>branch"]
+    ReviewP2["Partij 2<br/>Review"]
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Maint["Onderhoud<br/>stable release"]
+    SaaS["Repo:<br/>SaaS provider"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> Upstream
+    Dev1 --> FeatP1
+    FeatP1 --> ReviewP2
+    ReviewP2 --> Upstream
+    Upstream --> Maint
     Upstream --> SaaS
 ```
 
