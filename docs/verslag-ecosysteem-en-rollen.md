@@ -31,31 +31,33 @@ Er is ook de ambitie om zaken beter te borgen — niet uit wantrouwen, maar om d
 
 ## Voorstel: rollen & verantwoordelijkheden
 
-### Development
+### Ecosysteem/codebase steward
 
-Nu: Maykin
+Nu: G4 overleg
 
-Toekmost: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
+Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
 
 #### Rol
 
-Projectmatig ontwikkelen van een component of een feature van een component.
+Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
 
-- new features
-- works with review party
-- aanbieden aan beheerder als pull request
+- Collectief product ownerschap met duidelijke roadmap  
+- Portfolio management op alle componenten (en samenhang daartussen)  
+- Regie over marktpartijen en samenwerking tussen marktpartijen
+- Community managememt
 
-#### Waarom?
+#### Waarom? (design choices)
 
-*  ...
-*  ...
-*  ...
+*  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componented.
 
 
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+
+    %% Connections
+    PO
 ```
 
 ### Uitgeven
@@ -82,73 +84,36 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
 
 #### Waarom? (design choices)
 
-*  ...
-*  ...
-*  ...
-
+*  Een centrale repository, in eigendom en beheer van de landelijke regie, met alle (stabiele) versies van alle componenten, maakt beter toezicht en betere regie mogelijk.
 
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-
-    %% Connections
-    Dev1 --> Upstream
-```
-
-### Ecosysteem/codebase steward
-
-Nu: G4 overleg
-
-Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
-
-#### Rol
-
-Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
-
-- Collectief product ownerschap met duidelijke roadmap  
-- Portfolio management op alle componenten (en samenhang daartussen)  
-- Regie over marktpartijen en samenwerking tussen marktpartijen
-- Community managememt
-
-#### Waarom? (design choices)
-
-*  ...
-*  ...
-*  ...
-
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> Upstream
 ```
 
-### Beheer/maintenance
 
+### Development
 
-Nu: Maykin, als onderdeel van een featurecontract
+Nu: Maykin
 
-Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
-
+Toekmost: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
 
 #### Rol
 
-Onderhoud van versies
+Projectmatig ontwikkelen van een component of een feature van een component.
 
-- maintenance en bug fixes
+- new features
+- works with review party
+- aanbieden aan beheerder als pull request
 
 #### Waarom?
 
-*  ...
-*  ...
-*  ...
+*  Levering aan de centrale repository, onder toezicht van de steward, maakt een duidelijke definitie van “done” en het beheer van features/versies mogelijk.
 
 
 ```mermaid
@@ -157,12 +122,10 @@ graph LR
     Dev1["Repo:<br/>Dev branch"]
     Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-    Maint["Onderhoud<br/>stable release"]
 
     %% Connections
     PO -.- Upstream
     Dev1 --> Upstream
-    Upstream --> Maint
 ```
 
 ### Reviewen
@@ -182,24 +145,52 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 
 #### Waarom?
 
-*  ...
-*  ...
-*  ...
-
+*  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
 
 
 ```mermaid
 graph LR
     %% Nodes
-    
-    %% Left Side: Inputs
     Dev1["Repo:<br/>Dev"]
-    
-    %% Top Stream (P1 works, P2 reviews)
     FeatP1["Partij 1<br/>Feature<br/>branch"]
     ReviewP2["Partij 2<br/>Review"]
+    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
+    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+
+    %% Connections
     
-    %% Center: Upstream & Management
+    %% PO Logic (dotted line for oversight)
+    PO -.- Upstream
+
+    %% Workflow 1
+    Dev1 --> FeatP1
+    FeatP1 --> ReviewP2
+    ReviewP2 --> Upstream
+```
+
+### Beheer/maintenance
+
+
+Nu: Maykin, als onderdeel van een featurecontract
+
+Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
+
+#### Rol
+
+Onderhoud van versies
+
+- maintenance en bug fixes
+
+#### Waarom?
+
+*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen en daarmee redundantie te waarborgen.
+
+```mermaid
+graph LR
+    %% Nodes
+    Dev1["Repo:<br/>Dev"]
+    FeatP1["Partij 1<br/>Feature<br/>branch"]
+    ReviewP2["Partij 2<br/>Review"]
     Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
     PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
     Maint["Onderhoud<br/>stable release"]
@@ -232,9 +223,7 @@ Het leveren van een draaiende instantie van de component.
 
 #### Waarom?
 
-*  ...
-*  ...
-*  ...
+* Een aparte SaaS-aanbieder om de kwaliteit van de codebase, de uitvoerbaarheid door andere partijen, en daarmee de veerkracht van het ecosysteem te waarborgen.
 
 ```mermaid
 graph LR
@@ -265,31 +254,7 @@ Het inrichten van de instantie van de component voor specifiek gebruik bij een g
 - local implementations, configuratie, training, helpdesk
 - repots bugs, issues, needs
 - optionally with local changes
-
-#### Waarom?
-
-*  ...  
-*  ...
-*  ...
-
-## Voorbeeld repo structuur: splitsen van development en upstream uitgeven
-
-Doel: ontwikkelpartijen laten bijdragen aan een landelijke regie-repository.
-
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    SaaS["Repo:<br/>SaaS provider"]
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-
-    %% Connections
-    PO -.- Upstream
-    Dev1 --> Upstream
-    Upstream --> SaaS
-```
-
+    
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
 
 Doel: meerdere ontwikkelpartijen laten bijdragen aan een landelijke regie-repository, waarbij elke partij verantwoordelijk is voor de ontwikkeling van één component en de review van één component.
@@ -401,6 +366,7 @@ graph LR
 2. maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
 3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
 
+```
 
 ## Rollen, contracten en verantwoordelijkhedem
 
@@ -415,3 +381,5 @@ graph LR
 | Development                 | - New features<br>- Works with review party                                                                | Feature development contract             |
 | Implementeren               | - Local implementations<br>- Repots bugs, issues, needs<br>- Optionally with local changes                       | Implementatie contract                   |
 | Leveren                     | - SaaS<br>- Repots bugs, issues, needs<br>- Optionally with local changes                                       | SaaS contract                            |
+
+```
