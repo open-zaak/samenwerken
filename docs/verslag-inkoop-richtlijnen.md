@@ -19,16 +19,20 @@ Open source wordt wel genoemd, maar slechts beperkt uitgewerkt.
 Dit is begrijpelijk, omdat zo flexibiliteit behouden blijft, afhankelijk van het type open source en de context waarin deze wordt toegepast.
 
 Wij achten het wenselijk om aanvullende documentatie te definiëren voor open source zoals uitgevoerd onder landelijke regie / Common Ground (bijvoorbeeld in de vorm van een document met de werktitel ecosysteem.md).
+Dit kan als deel van de Standaard Governance Model (SGM) (zie "Samenwerkingsprincipes Platform Dienstverlening").
 
 Deze aanvullende documentatie kan onder meer bevatten:
-- visie op het ecosysteem en de rollen, zoals gepresenteerd in het voorgaande verslag
+- visie op het ecosysteem en de rollen
+- algemene richtlijnen voor governance binnen de communities;
 - specificaties over naar welk repository code moet worden aangeleverd;
 - een eenduidige definitie van “done”;
 - engineering- en ontwerprichtlijnen die door de landelijke regie worden gehanteerd;
-- algemene richtlijnen voor governance binnen de communities;
-- richtlijnen voor de handhaving van de EUPL, aangezien het hier codebases betreft die onder regie van de gemeenten vallen.
+zoals gepresenteerd in het voorgaande verslag
 
 Op deze manier kunnen contracten eenduidig verwijzen naar de algemene voorwaarden, in de volgende hiërarchische volgorde:
 1. de GIBIT;
 2. het ecosysteem.md voor de voorwaarden van codebases onder landelijke regie / Common Ground;
 3. de specifieke afspraken van de betreffende codebase of leverancier.
+
+## 
+
