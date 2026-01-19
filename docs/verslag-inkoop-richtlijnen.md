@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: 5) Verslag EUPL verklarende-text
