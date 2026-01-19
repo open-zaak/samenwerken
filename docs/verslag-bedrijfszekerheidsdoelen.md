@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Verslag bedrijfszekerheid OpenZaak
+title: 1) Verslag bedrijfszekerheid OpenZaak
 nav_order: 3
 ---
 
