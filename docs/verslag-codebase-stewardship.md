@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2) Verslag codebase stewarship OpenZaak
+title: 1) Verslag codebase stewarship OpenZaak
 nav_order: 2
 ---
 
