@@ -4,9 +4,7 @@ title: 1) Verslag codebase stewarship OpenZaak
 nav_order: 2
 ---
 
-# Verslag: OpenZaak codebase stewardship
-
-Status: DRAFT
+# Verslag: codebase stewardship van OpenZaak
 
 Dit document reflecteert op het karakter van de OpenZaak community en de rol van codebase stewardship binnen OpenZaak.
 Deze kunnen worden doorgetrokken naar de zaakgerichte componenten in het algemeen.
@@ -14,6 +12,7 @@ Deze kunnen worden doorgetrokken naar de zaakgerichte componenten in het algemee
 ## Inhoudsopgave
 * TOC
 {:toc}
+
 ## Context: oorspronkelijke hypothese uit de marktconsultatie  
 
 De governance van OpenZaak was ontworpen om meerdere zelfgemotiveerde partijen in staat te stellen deel te nemen aan de OpenZaak-community.
