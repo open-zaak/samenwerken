@@ -47,7 +47,6 @@ Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van d
 
 *  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componented.
 
-
 ```mermaid
 graph LR
     %% Nodes
@@ -93,7 +92,6 @@ graph LR
     PO -.- Upstream
 ```
 
-
 ### Development
 
 Nu: Maykin
@@ -111,7 +109,6 @@ Projectmatig ontwikkelen van een component of een feature van een component.
 #### Waarom?
 
 *  Levering aan de centrale repository, onder toezicht van de steward, maakt een duidelijke definitie van “done” en het beheer van features/versies mogelijk.
-
 
 ```mermaid
 graph LR
@@ -144,7 +141,6 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 
 *  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
 
-
 ```mermaid
 graph LR
     %% Nodes
@@ -166,7 +162,6 @@ graph LR
 ```
 
 ### Beheer/maintenance
-
 
 Nu: Maykin, als onderdeel van een featurecontract
 
