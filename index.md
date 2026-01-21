@@ -8,7 +8,7 @@ nav_order: 1
 
 ## Inleiding
 
-Het project OpenZaak Samenwerken is gericht op het documenteren en gestructureerd verbeteren van de samenwerking tussen de verschillende partijen rondom de OpenZaak codebase.
+Het project OpenZaak Samenwerken is gericht op het documenteren en gestructureerd verbeteren van de samenwerking tussen de verschillende partijen rondom de [OpenZaak codebase](https://github.com/open-zaak/open-zaak).
 
 Daarbij richten we ons op het introduceren en verbeteren van processen, documenten, rituelen, etc. voor betere samenwerking.
 
