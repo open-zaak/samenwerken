@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5) Verslag inkoop richtlijnen 
-nav_order: 6
+nav_order: 5
 ---
 
 # Verslag inkoop richtlijnen

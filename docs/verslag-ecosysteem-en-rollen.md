@@ -1,12 +1,10 @@
 ---
 layout: default
-title: 3) Verslag governance, ecosysteem en rollen
+title: 4) Verslag governance, ecosysteem en rollen
 nav_order: 4
 ---
 
 # Verslag: Governance, Ecosysteem en Rollen
-
-Status: Draft
 
 De huidige OpenZaak community werkt goed voor snel en informeel werken.
 Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
@@ -18,7 +16,6 @@ Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onders
 ## Inhoudsopgave
 * TOC
 {:toc}
-
 
 ## Context: huidige governance- en werkafspraken
 

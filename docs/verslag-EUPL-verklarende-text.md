@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 4) Verslag EUPL verklarende-text
-nav_order: 5
+title: 3) Verslag EUPL verklarende-text
+nav_order: 3
 ---
 
 # Verslag EUPL verklarende text

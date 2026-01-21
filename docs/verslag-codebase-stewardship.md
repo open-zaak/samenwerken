@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1) Verslag codebase stewarship OpenZaak
-nav_order: 2
+nav_order: 1
 ---
 
 # Verslag: codebase stewardship van OpenZaak
