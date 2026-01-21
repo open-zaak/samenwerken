@@ -19,11 +19,11 @@ Deliverables per onderdeel.
 
 * Review van de oorspronkelijke hypothese uit de marktconsultatie  
 
-Zie [Verslag codebase stewarship OpenZaak](verslag-codebase-stewardship)
+Zie Verslag codebase stewarship OpenZaak
 
 * Review van de huidige formele governance- en werkafspraken
 
-Zie [Verslag codebase stewarship OpenZaak](verslag-codebase-stewardship)
+Zie Verslag codebase stewarship OpenZaak
 
 ### Bestaande 'issues' met governance (‘beheer’) en het codereviewproces in kaart brengen
 
@@ -91,7 +91,7 @@ Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is
 Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaan zitten, zijn geen issues gemaakt maar wel een verslag document.
 ```
 
-Zie [Verslag bedrijfszekerheid OpenZaak](verslag-bedrijfszekerheidsdoelen)
+Zie Verslag bedrijfszekerheid OpenZaak
 
 * Community uitnodigen om deze te beoordelen en aan te vullen  
 
@@ -114,7 +114,7 @@ Niet in de vorm van pull requests. Zie verslagen hieronder
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
 
 Zie [Workshop 2](workshop-2-governance-proposals/index)
-Zie [Verslag Ecosysteem En Rollen](verslag-ecosysteem-en-rollen)
+Zie Verslag Ecosysteem En Rollen
 
 * Herziening en implementatie van de voorstellen
 
@@ -125,7 +125,7 @@ Geen extra documentatie
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
 
-Zie [verslag-EUPL-verklarende-text](verslag-EUPL-verklarende-text)
+Zie verslag-EUPL-verklarende-text
 
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
 
@@ -133,13 +133,13 @@ Zie [verslag-EUPL-verklarende-text](verslag-EUPL-verklarende-text)
 to do 
 
 ```
-Zie [Verslag Ecosysteem En Rollen](verslag-ecosysteem-en-rollen)
+Zie Verslag Ecosysteem En Rollen
 
 * Documentatie van processen  
 * Wijzigingsprocedures voor codebase stewardship  
 * Proces voor het accepteren van bijdragen  
 
-Zie [Verslag codebase stewardship](verslag-codebase-stewardship)
+Zie Verslag codebase stewardship
 
 * Eventueel voorzitterschap/deelname bij meetings waar nodig
 
@@ -165,7 +165,7 @@ Geen extra documentatie
 * Voorstellen voor het beheer van de processen die voorkomen uit deze pilot
 * Voorstellen voor afstemming tussen de zaakgericht werken componenten 
 
-Zie [Verslag codebase stewardship](verslag-codebase-stewardship)
+Zie Verslag codebase stewardship
 
 ### Afronden van hoogwaardige, herbruikbare documentatie van governance en codereview
 
