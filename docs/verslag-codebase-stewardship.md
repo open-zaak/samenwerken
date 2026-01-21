@@ -14,94 +14,88 @@ Deze kunnen worden doorgetrokken naar de zaakgerichte componenten in het algemee
 ## Inhoudsopgave
 * TOC
 {:toc}
-
 ## Context: oorspronkelijke hypothese uit de marktconsultatie  
 
 De governance van OpenZaak was ontworpen om meerdere zelfgemotiveerde partijen in staat te stellen deel te nemen aan de OpenZaak-community.
 
-Dit gebeurde door open technische en product­stuurgroepvergaderingen op te zetten waaraan de community kon deelnemen.
+Dit gebeurde door open technische overleggen en product­stuurgroepvergaderingen te organiseren waaraan de community kon deelnemen.
 
-Dit was gebaseerd op de aanname dat marktpartijen zich proactief zouden inzetten als onderdeel van hun business development en zo hun marktaandeel rond OpenZaak zouden vergroten.
+Deze opzet was gebaseerd op de aanname dat marktpartijen zich proactief zouden inzetten als onderdeel van hun business development, en zo hun marktaandeel rond OpenZaak zouden vergroten.
 
-Dit veronderstelde op zijn beurt dat overheden meerdere kleine opdrachten zouden gaan uitschrijven die openstonden voor verschillende leveranciers, bijvoorbeeld voor ontwikkeling, onderhoud, hosting, implementatie en ondersteuning.
+Daarbij werd verondersteld dat overheden meerdere, relatief kleine opdrachten zouden uitschrijven die openstonden voor verschillende leveranciers, bijvoorbeeld voor ontwikkeling, onderhoud, hosting, implementatie en ondersteuning.
 
-## Wat zijn de characteristieken van de OpenZaak community?
+## Wat zijn de karakteristieken van de OpenZaak-community?
 
-Open-sourcegemeenschappen verschillen sterk van karakter.
-Sommige zijn een samenwerking tussen grote multinationals, andere bestaan uitsluitend uit vrijwillige individuen, en weer andere vormen een gemeenschap die samenwerkt aan het product van een bedrijf.
-Elk van deze gemeenschappen heeft een ander karakter.
+Open-sourcegemeenschappen verschillen sterk van karakter. Sommige bestaan uit samenwerkingen tussen grote multinationals, andere uit vrijwillige individuen, en weer andere uit gemeenschappen die samenwerken aan het product van één bedrijf. Elk van deze modellen kent zijn eigen dynamiek en governancevorm.
 
-OpenZaak is een duidelijk afgebakend component, specifiek voor de Nederlandse context, onder beheer van de overheid en met een overzichtelijk aantal marktpartijen.
-Het doel is momenteel niet om zo veel mogelijk bijdragen van zo veel mogelijk partijen te verzamelen, met de codebase als centraal coördinatiepunt.
+OpenZaak is een duidelijk afgebakende component, specifiek voor de Nederlandse context, onder beheer van de overheid en met een overzichtelijk aantal marktpartijen. Het primaire doel is momenteel niet om zo veel mogelijk bijdragen van zo veel mogelijk partijen te verzamelen, met de codebase als centraal coördinatiepunt.
 
-De nadruk ligt hier op ecosysteembeheer: gecoördineerd opdrachtgeverschap met één (of in de toekomst meerdere) marktpartij(en), waarbij ook afstemming met andere componenten van belang is.
+De nadruk ligt op ecosysteembeheer: gecoördineerd opdrachtgeverschap met één (of in de toekomst meerdere) marktpartij(en), waarbij ook afstemming met andere componenten essentieel is.
 
-Dit is de reden dat deze gemeenschap geen typische open community-governance heeft. Het is ambitie is ook om in de toekomst het bestuur uit te voeren door landelijke regie, samen te exploiteren, en de samenhang tussen componenten te waarborgen.
+Dit verklaart waarom deze gemeenschap geen typische open community-governance kent. De ambitie is bovendien om het bestuur in de toekomst vanuit landelijke regie te organiseren, de componenten gezamenlijk te exploiteren en de samenhang tussen componenten te waarborgen.
 
 Daarom wordt het merendeel van de ontwikkeling uitgevoerd door partijen die daartoe contractueel zijn aangesteld.
 
-## Hoe beinvloed deze vorm codebase stewardship?
+## Hoe beïnvloedt deze vorm codebase stewardship?
 
-### Codebase stewardship ‘vanilla’-variant
+### Codebase stewardship – ‘vanilla’-variant
 
-Open source als manier van samenwerken wordt vaak gebruikt, en is zeer effectief, bij het faciliteren van samenwerking tussen partijen met uiteenlopende belangen.
-Denk aan duizenden vrijwillige ontwikkelaars, of 3–5 grote bedrijven die elk hun eigen business nastreven of zelfs met elkaar concurreren.  
+Open source als samenwerkingsmodel wordt vaak en met succes ingezet om samenwerking te faciliteren tussen partijen met uiteenlopende belangen. Dit kan gaan om duizenden vrijwillige ontwikkelaars, maar ook om drie tot vijf grote bedrijven die elk hun eigen commerciële belangen nastreven of zelfs met elkaar concurreren.
 
-In zo’n situatie is codebase-stewardship een activiteit die de belangen van de codebase en de gemeenschap als geheel beschermt, onafhankelijk van de belangen van individuele leden van die gemeenschap.  
+In dergelijke situaties is codebase stewardship gericht op het beschermen van de belangen van de codebase en de gemeenschap als geheel, los van de belangen van individuele deelnemers.
 
-In het geval van MariaDB bijvoorbeeld: Amazon, Tencent, Alibaba, Microsoft, enz. gebruiken de databasesoftware, en profiteren allemaal van elkaars investeringen in het verbeteren van de software, *EN* hebben elk hun eigen commerciële belangen.
-De MariaDB Foundation beheert de codebase vanuit een onafhankelijke positie (het bestuur bestaat uit mensen die door de grote bedrijven worden aangewezen) om het in het midden te houden, en te voorkomen dat één luide stem de overhand krijgt of dat de samenwerking fragmentarisch wordt bij conflicten.
-Idem bvb bij Linux Foundation etc.
+Bij MariaDB bijvoorbeeld gebruiken partijen als Amazon, Tencent, Alibaba en Microsoft dezelfde databasesoftware. Zij profiteren van elkaars investeringen in verbeteringen, terwijl zij tegelijkertijd elk hun eigen commerciële agenda hebben. De MariaDB Foundation beheert de codebase vanuit een relatief onafhankelijke positie (met een bestuur dat wordt aangewezen door de betrokken bedrijven) om machtsconcentratie te voorkomen en samenwerking duurzaam te houden. Vergelijkbare modellen bestaan bij onder andere de Linux Foundation.
 
-De Foundation for Public Code hanteerde een vergelijkbaar perspectief – als Nederlandse codebases worden hergebruikt door Frankrijk, Duitsland en Italië, hoe zorgen we dat de belangen van één partij de samenwerking niet breken.
-En tijdens de OpenZaak-marktconsultatie – zodat de open samenwerking tussen Maykin, de implementatiepartners, andere ontwikkelpartijen, allemaal met hun eigen belangen, kan worden gemedieerd vanuit een neutraal perspectief dat beslissingen neemt in het beste belang van de codebase, wat op zijn beurt ten goede komt aan iedereen (inclusief de gemeenten).  
+De Foundation for Public Code hanteerde een vergelijkbaar perspectief: als Nederlandse codebases worden hergebruikt door bijvoorbeeld Frankrijk, Duitsland en Italië, hoe voorkom je dan dat de belangen van één partij de samenwerking verstoren?
 
-### Codebase stewardship ‘landelijke voorziening’-variant
+Ook tijdens de OpenZaak-marktconsultatie was dit een relevant uitgangspunt: open samenwerking tussen Maykin, implementatiepartners en andere ontwikkelpartijen – elk met hun eigen belangen – vraagt om een neutraal perspectief dat beslissingen neemt in het belang van de codebase als geheel, wat uiteindelijk ook de gemeenten ten goede komt.
 
-Bij landelijke regie en samen exploiteren geldt het bovenstaande niet direct voor de Common Ground-componenten, simpelweg omdat:  
+### Codebase stewardship – ‘landelijke voorziening’-variant
 
-* er één gecoördineerd opdrachtgeverschap is – governance vindt niet (alleen) op codebase-niveau plaats, maar op niveau van landelijke regie en componentportfolio  
-* er een zeer nauwe afhankelijkheid tussen componenten is – ze staan of groeien niet zelfstandig 
-* sommige componenten de implementatie van Nederlandse wet bevatten – territoriaal gebonden 
-* gezien het bovenstaande is het onwaarschijnlijk dat een bedrijf spontaan zal komen en een businessmodel rond een component zal ontwikkelen (kan voor sommige componenten wel gebeuren)
+Bij landelijke regie en gezamenlijk exploiteren geldt bovenstaande benadering niet één-op-één voor Common Ground-componenten, om de volgende redenen:
 
-Dit betekent dat de ‘landelijke voorziening’-variant van codebase-stewardship omvat:  
+* er is sprake van één gecoördineerd opdrachtgeverschap; governance vindt niet uitsluitend op codebase-niveau plaats, maar ook op het niveau van landelijke regie en het componentportfolio  
+* er bestaan nauwe afhankelijkheden tussen componenten; zij staan of groeien niet volledig zelfstandig  
+* sommige componenten implementeren Nederlandse wet- en regelgeving en zijn daarmee territoriaal gebonden  
+* gezien het bovenstaande is het onwaarschijnlijk dat bedrijven spontaan een zelfstandig businessmodel rond een component ontwikkelen (al kan dit voor sommige componenten wel het geval zijn)
 
-* collectief producteigenaarschap (behoeften/verzoeken/financiering verzamelen)  
-* portfoliomanagement van componenten (afhankelijkheden, groeipaden, integratie)  
-* release management (roadmaps, planning, breaking changes, etc.)  
-* regie over het vendor-ecosysteem (samenwerking ontwikkelpartij, reviewpartij, onderhoudscontract en SaaS-aanbieder en alle contract- en relatiemanagement die daarbij hoort)
-* de strategische belangrijkheid en volwassenheid van een component evalueren om te bepalen hoeveel redundantie en bedrijfszekerheid nodig is (bijv. een tweede leverancier)
-* het realistische schaalbaarheids- en herbruikbaarheidspotentieel van de component beoordelen, evenals het realistische potentieel voor bijdragen door de community (wat beslissingen kan ondersteunen over hoe open issue-trackers, roadmaps, besluitvorming, enz. ingericht moeten worden.)
+Dit betekent dat de ‘landelijke voorziening’-variant van codebase stewardship onder meer omvat:
 
-Voor sommige componenten kan
-a) een paar marktpartijen direct diensten aan gemeenten willen aanbieden (bijvoorbeeld lokaal versnellen of een specifieke één-gemeente feature) of
-b) een niet-gemeentelijke of internationale partij willen deelnemen.
+* collectief producteigenaarschap (het verzamelen en prioriteren van behoeften, verzoeken en financiering)  
+* portfoliomanagement van componenten (afhankelijkheden, groeipaden, integratie)  
+* release management (roadmaps, planning, breaking changes)  
+* regie over het vendor-ecosysteem (samenwerking tussen ontwikkelpartij, reviewpartij, onderhoudspartij en SaaS-aanbieder, inclusief contract- en relatiemanagement)  
+* het beoordelen van de strategische importantie en volwassenheid van componenten om de benodigde mate van redundantie en bedrijfszekerheid te bepalen (bijvoorbeeld een tweede leverancier)  
+* het inschatten van realistisch schaalbaarheids- en hergebruikspotentieel, evenals het verwachte bijdragepotentieel van de community (wat richting geeft aan hoe open issue-trackers, roadmaps en besluitvorming worden ingericht)
 
-In dat geval moet worden geëvalueerd of deelname aan de samenwerking voordelig is voor de codebase (meer mensen investeren erin) of juist een remmende factor is (meer complexiteit dan het waard is).
-Dit zal per component/gemeenschap beoordeeld moeten worden.
+Voor sommige componenten kan het voorkomen dat:
+a) één of meerdere marktpartijen direct diensten aan gemeenten willen aanbieden (bijvoorbeeld lokale versnelling of een specifieke feature voor één gemeente), of  
+b) een niet-gemeentelijke of internationale partij wil deelnemen.
 
-In elk geval, als landelijke regie en samen exploiteren de uitgangspunten zijn, dan is de kernwaarde van codebase-stewardship (het beschermen van de belangen van de codebase onafhankelijk van één enkele partij) geen doel om op te optimaliseren.
+In zulke gevallen moet worden geëvalueerd of deelname aan de samenwerking de codebase versterkt (meer investeringen en kennis) of juist belemmert (meer complexiteit dan de opbrengst rechtvaardigt). Deze afweging zal per component en per gemeenschap moeten worden gemaakt.
 
-Er is een duidelijke enkele partij - het belang van landelijke regie.
+Wanneer landelijke regie en gezamenlijk exploiteren de uitgangspunten zijn, is de klassieke kernwaarde van codebase stewardship – het beschermen van de codebase tegen de invloed van één dominante partij – geen primair optimalisatiedoel.
 
-Er kan een deur open worden gelaten voor anderen om deel te nemen (bvb andere Nederlandse of buitenlandse overheidsinstellingen), in die mate dat het de moeite waard is om te bemiddelen tussen hun behoeften en die van de landelijke regieorganisatie – dan heeft ‘vanilla’ codebase-stewardship wel zin - en dan waarschijnlijk voor het platform als geheel, via de "Stichting Platform Zaakgericht Werken" of iets dergelijks, en niet op componentniveau.
+Er is immers één duidelijk leidend belang: dat van de landelijke regie.
 
-### Centrale git-hosting platform?
+Wel kan ruimte worden gelaten voor deelname door andere partijen (bijvoorbeeld andere Nederlandse of buitenlandse overheidsinstellingen), voor zover het de moeite waard is om hun belangen te bemiddelen met die van de landelijke regieorganisatie. In dat geval kan ‘vanilla’ codebase stewardship alsnog relevant zijn, maar dan eerder op platformniveau (bijvoorbeeld via een entiteit als de *Stichting Platform Zaakgericht Werken*) dan op het niveau van individuele componenten.
 
-Het lijkt nuttig dat er vanuit landelijke regie:
+### Centrale git-hostingplatform?
 
-* een centrale plek is met een overzicht van alle componenten (en hun versies)  
-* een manier is om dependencies tussen de componenten duidelijk te beschrijven  
-* communicatie plaatsvindt naar implementatie/hostingpartners over breaking changes, releases, roadmaps, etc.  
+Het lijkt zinvol dat vanuit landelijke regie wordt voorzien in:
 
-Er lijkt dus een kans om een proof of concept te doen rond 'portfolio management van componenten in één git-hosting platform':
-* daar de laatste stable release van alle componenten beschikbaar te hebben (voor nu als downstream clones)  
-* en de oefening uit te voeren om dependencies tussen versies te beschrijven, te verkennen hoe communicatie naar hergebruikers zou kunnen verlopen
+* één centrale plek met een overzicht van alle componenten en hun versies  
+* een expliciete beschrijving van afhankelijkheden tussen componenten  
+* gestructureerde communicatie richting implementatie- en hostingpartners over releases, breaking changes en roadmaps  
 
-## Hoe beinvloed dit governance binnen OpenZaak
+Dit biedt een kans om een proof of concept te ontwikkelen rond *portfoliomanagement van componenten binnen één git-hostingplatform*:
 
-Dit betekent dat de governance binnen OpenZaak ook iets anders zal zijn dan bij een vanilla open source-project.
+* het beschikbaar maken van de laatste stabiele releases van alle componenten (bijvoorbeeld als downstream clones)  
+* het expliciet modelleren van afhankelijkheden tussen versies  
+* het verkennen van effectieve vormen van communicatie richting hergebruikers  
 
-Zie [Verslag governance ecosysteem en rollen](verslag-ecosysteem-en-rollen)
+## Hoe beïnvloedt dit de governance binnen OpenZaak?
 
+Dit alles betekent dat de governance binnen OpenZaak afwijkt van die van een klassiek (‘vanilla’) open-sourceproject.
+
+Zie ook: [Verslag governance ecosysteem en rollen](verslag-ecosysteem-en-rollen)
