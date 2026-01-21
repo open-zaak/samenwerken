@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5) Verslag EUPL verklarende-text
+title: 5) Verslag inkoop richtlijnen 
 nav_order: 6
 ---
 
