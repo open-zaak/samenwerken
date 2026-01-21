@@ -6,7 +6,7 @@ nav_order: 3
 
 # Verslag EUPL verklarende text
 
-Status: Draft
+Dit document bevat input over de EUPL-licentie.
 
 ## Inhoudsopgave
 * TOC

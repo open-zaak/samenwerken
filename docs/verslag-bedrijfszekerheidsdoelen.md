@@ -6,7 +6,7 @@ nav_order: 2
 
 # Verslag: OpenZaak – Bedrijfszekerheidsdoelen
 
-Dit document bevat een beknopt voortgangsrapport over de OpenZaak-pilot.
+Dit document belicht de bedrijfszekerheidsdoelen die tijdens de pilot naar voren zijn gekomen.
 
 ## Inhoudsopgave
 * TOC
