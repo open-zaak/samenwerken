@@ -8,30 +8,26 @@ nav_order: 5
 
 ## Inleiding
 
-Dit verslag introduceert inkooprichtlijnen.
-Het bouwt voort op de vier voorgaande verslagen.
+sDit verslag introduceert de inkooprichtlijnen en bouwt voort op de vier voorgaande verslagen.
 
 ## Richtlijnen
 
-De GIBIT is bewust breed opgezet, zodat deze toepasbaar is op alle IT-inkopen.
-Open source wordt wel genoemd, maar slechts beperkt uitgewerkt.
-Dit is begrijpelijk, omdat zo flexibiliteit behouden blijft, afhankelijk van het type open source en de context waarin deze wordt toegepast.
+De GIBIT is bewust breed opgezet om toepasbaar te zijn op alle IT-inkopen. Open source wordt wel genoemd, maar beperkt uitgewerkt. Dit is begrijpelijk, omdat zo flexibiliteit behouden blijft, afhankelijk van het type open source en de context van toepassing.
 
-Wij achten het wenselijk om aanvullende documentatie te definiëren voor open source zoals uitgevoerd onder landelijke regie / Common Ground (bijvoorbeeld in de vorm van een document met de werktitel ecosysteem.md).
-Dit kan als deel van de Standaard Governance Model (SGM) (zie "Samenwerkingsprincipes Platform Dienstverlening").
+Wij adviseren aanvullende documentatie op te stellen voor open source zoals uitgevoerd onder landelijke regie / Common Ground (bijvoorbeeld als document met de werktitel `ecosysteem.md`). Dit kan onderdeel zijn van het Standaard Governance Model (SGM) (zie "Samenwerkingsprincipes Platform Dienstverlening").
 
-Deze aanvullende documentatie kan onder meer bevatten:
-- visie op het ecosysteem en de rollen
-- algemene richtlijnen voor governance binnen de communities;
-- specificaties over naar welk repository code moet worden aangeleverd;
-- een eenduidige definitie van “done”;
-- engineering- en ontwerprichtlijnen die door de landelijke regie worden gehanteerd;
-zoals gepresenteerd in het voorgaande verslag
+Deze aanvullende documentatie kan onder meer bevatten:  
+- een visie op het ecosysteem en de rollen  
+- algemene richtlijnen voor governance binnen communities  
+- specificaties over de repository waar code moet worden aangeleverd  
+- een eenduidige definitie van “done”  
+- engineering- en ontwerprichtlijnen zoals gehanteerd door de landelijke regie  
 
-Op deze manier kunnen contracten eenduidig verwijzen naar de algemene voorwaarden, in de volgende hiërarchische volgorde:
-1. de GIBIT;
-2. het ecosysteem.md voor de voorwaarden van codebases onder landelijke regie / Common Ground;
-3. de specifieke afspraken van de betreffende codebase of leverancier.
+Op deze manier kunnen contracten eenduidig verwijzen naar de voorwaarden, in de volgende hiërarchische volgorde:  
+1. de GIBIT  
+2. `ecosysteem.md` voor codebases onder landelijke regie / Common Ground  
+3. specifieke afspraken van de betreffende codebase of leverancier
+
 
 ## 
 
