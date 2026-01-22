@@ -8,7 +8,7 @@ nav_order: 5
 
 ## Inleiding
 
-sDit verslag introduceert de inkooprichtlijnen en bouwt voort op de vier voorgaande verslagen.
+Dit verslag introduceert de inkooprichtlijnen en bouwt voort op de vier voorgaande verslagen.
 
 ## Richtlijnen
 
@@ -27,7 +27,6 @@ Op deze manier kunnen contracten eenduidig verwijzen naar de voorwaarden, in de 
 1. de GIBIT  
 2. `ecosysteem.md` voor codebases onder landelijke regie / Common Ground  
 3. specifieke afspraken van de betreffende codebase of leverancier
-
 
 ## 
 
