@@ -129,10 +129,7 @@ Zie verslag-EUPL-verklarende-text
 
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
 
-```
-to do 
-
-```
+Zie Verslag inkoop richtlijnen
 Zie Verslag Ecosysteem En Rollen
 
 * Documentatie van processen  
@@ -180,7 +177,7 @@ Onderdeel hiervan zijn updates op:
 * Opzetten van verschillende repositories die door anderen kunnen worden hergebruikt
 
 ```
-todo - pull requests op openzaak repo, website en readthedocs
+todo - pull requests op openzaak repo, website
 ```
 
 Deze documentatie moet bevatten:
