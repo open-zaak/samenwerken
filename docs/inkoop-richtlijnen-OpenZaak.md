@@ -25,13 +25,11 @@ Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorzienin
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Dev1["Marktijpartij"]
+    PO["Product owner<br/>G4 en kopgroep)"]
 
     %% Connections
-    PO -.- Upstream
-    Dev1 --> Upstream
+    PO -.- Dev1 
 ```
 
 ### Tussen staat: een marktpartij die verantwoordelijk is, geassisteerd door een review partij
@@ -39,16 +37,14 @@ graph LR
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev"]
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Dev1["Marktijpartij"]
+    ReviewP2["Reviewpartij"]
+    Upstream["Main branch"]
+    PO["Product owner"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
+    Dev1 --> ReviewP2
     ReviewP2 --> Upstream
 ```
 
@@ -57,17 +53,15 @@ graph LR
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Repo:<br/>Dev"]
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+    Dev1["Marktijpartij"]
+    ReviewP2["Reviewpartij"]
+    Upstream["Main branch"]
+    PO["Product owner<br/>Landelijke regie"]
     SaaS["Repo:<br/>SaaS provider"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
+    Dev1 --> ReviewP2
     ReviewP2 --> Upstream
     Upstream --> SaaS
 ```
