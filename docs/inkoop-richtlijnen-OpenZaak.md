@@ -68,7 +68,7 @@ graph LR
 
 ## Text op te nemen in contract en governance.md
 
-@todo - turn into folders per staat?
+@todo - turn into folders, with file per staat?
 
 ### Generiek
 
