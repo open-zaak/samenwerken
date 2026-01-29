@@ -26,7 +26,7 @@ Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorzienin
 graph LR
     %% Nodes
     Dev1["Marktijpartij"]
-    PO["Product owner<br/>G4 en kopgroep)"]
+    PO["Product owner<br/>G4 en kopgroep"]
 
     %% Connections
     PO -.- Dev1 
@@ -40,7 +40,7 @@ graph LR
     Dev1["Marktijpartij"]
     ReviewP2["Reviewpartij"]
     Upstream["Main branch"]
-    PO["Product owner"]
+    PO["Product owner<br/>TBC"]
 
     %% Connections
     PO -.- Upstream
@@ -68,15 +68,14 @@ graph LR
 
 ## Text op te nemen in contract en governance.md
 
-@todo - turn into folders, with file per staat?
-
-### Generiek
-
 De algemene voorwaarden van de GIBIT zijn van toepassing.
 
 De algemene voorwaarden van de Common Ground-principes zijn van toepassing. Deze zijn te verkrijgen via [insert link].
 
 De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
+
+## Rollen en taken per staat
+
 
 ### Staat 1
 
