@@ -13,7 +13,7 @@ Dit document schetst een visie voor de community, de repo-structuur en de relati
 * TOC
 {:toc}
 
-## Context: huidige governance- en werkafspraken
+## Inleiding: huidige governance- en werkafspraken
 
 De huidige OpenZaak community werkt goed voor snel en informeel werken.
 
