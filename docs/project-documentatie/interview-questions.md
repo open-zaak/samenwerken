@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Interview questions
-nav_exclude: true
+parent: Project documentatie
+nav_order: 7
 ---
 
 # Interview questions
