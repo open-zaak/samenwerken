@@ -93,3 +93,7 @@ Deze aanpak leidt tot een heldere scheiding van lagen:
 - ‘Staat’ van de codebase → vastgelegd als bestand in de repository  
 
 Zo ontstaat een modulair systeem waarin juridische stabiliteit en organisatorische flexibiliteit goed samengaan.
+
+## Openstaande vraag
+
+Zijn er verschillende teksten nodig voor verschillende fasen (bijv. marktconsultatie, aanbesteding, contractering, codebase documentatie), of volstaat één set teksten die in alle fasen hergebruikt kan worden? Of zelfs één document waarnaar in alle fasen verwezen kan worden?
