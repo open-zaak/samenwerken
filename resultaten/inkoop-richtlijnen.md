@@ -24,7 +24,7 @@ Bij de inkoop rond OpenZaak spelen meerdere beslissingslagen een rol, namelijk:
 
 ```mermaid
 flowchart TB
-    D[Specifiek contact per rol] -->|verwijst naar| C[Ecosysteemvariant]
+    D[Specifiek contract voor rol] -->|verwijst naar| C[Ecosysteemvariant]
     D -->|verwijst naar| B[Common Ground kaders]
     B -->|verwijst naar| A[GIBIT]
 ```
@@ -54,7 +54,9 @@ Dit zijn afspraken die richtinggevend zijn, maar niet vaak zouden moeten verande
 
 ## Ecosysteembeschrijvingen
 
-Daarbovenop komt het ecosysteem rond een specifieke codebase (bijvoorbeeld één leverancier, meerdere leveranciers, aparte reviewpartijen, etc.). Dit is het niveau dat onregelmatig verandert, namelijk wanneer de communitystructuur of het belang van de codebase daarom vraagt.
+Daarbovenop komt het ecosysteem rond een specifieke codebase (bijvoorbeeld één leverancier, meerdere leveranciers, aparte reviewpartijen, etc.).
+In de ecosysteembeschrijving wordt beschreven welke rollen er bestaan en welke taken/verantwoordelijkheden bij welke rol belegd zijn.
+Dit is het niveau dat onregelmatig verandert, namelijk wanneer de communitystructuur of het belang van de codebase daarom vraagt.
 
 De definitie van een beperkt aantal gestandaardiseerde ‘staten’ voor codebases en hun governance helpt met: 
 - overzicht te houden  
