@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Richtlijnen voor inkoop
+parent: Resultaten
 nav_order: 6
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Bedrijfszekerheid als primaire doel
+parent: Resultaten
 nav_order: 3
 ---
 

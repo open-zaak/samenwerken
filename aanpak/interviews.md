@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Interview questions
-parent: Projectaanpak
-nav_order: 7
+title: Interviews
+parent: Aanpak
+nav_order: 3
 ---
 
 # Interview questions

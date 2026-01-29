@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Intellectueel eigendom en licenties
+parent: Resultaten
 nav_order: 4
 ---
 

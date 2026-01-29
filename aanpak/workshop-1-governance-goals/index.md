@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Workshop 1
-parent: Projectaanpak
-nav_order: 3
+parent: Aanpak
+nav_order: 4
 ---
 
 * [Agenda](governance-goals-workshop-agenda)

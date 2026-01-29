@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deliverable tracking
-parent: Projectaanpak
+parent: Aanpak
 nav_order: 2
 ---
 

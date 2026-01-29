@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Project plan 
-parent: Projectaanpak
+title: Project plan
+parent: Aanpak
 nav_order: 1
 ---
 
