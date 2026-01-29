@@ -1,8 +1,8 @@
 ---
 layout: default
 title: OpenZaak ecosysteem
-parent: Resultaten
-nav_order: 7
+parent: Stappen
+nav_order: 1
 ---
 
 # OpenZaak ecosysteem
