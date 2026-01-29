@@ -68,15 +68,14 @@ graph LR
 
 ## Text op te nemen in contract en governance.md
 
-@todo - turn into folders, with file per staat?
-
-### Generiek
-
 De algemene voorwaarden van de GIBIT zijn van toepassing.
 
 De algemene voorwaarden van de Common Ground-principes zijn van toepassing. Deze zijn te verkrijgen via [insert link].
 
 De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
+
+## Rollen en taken per staat
+
 
 ### Staat 1
 
