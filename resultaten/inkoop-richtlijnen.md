@@ -20,7 +20,14 @@ Bij de inkoop rond OpenZaak spelen meerdere beslissingslagen een rol, namelijk:
 1) de GIBIT  
 2) generieke Common Ground-principes  
 3) ecosysteemkeuze per codebase  
-4) afspraken met de marktpartij  
+4) afspraken met de marktpartij
+
+```mermaid
+flowchart TB
+    D[Specifiek contact per rol] -->|verwijst naar| C[Ecosysteemvariant]
+    D -->|verwijst naar| B[Common Ground kaders]
+    B -->|verwijst naar| A[GIBIT]
+```
 
 (Toelichting hieronder)
 
