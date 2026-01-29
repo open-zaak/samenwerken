@@ -26,7 +26,7 @@ Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorzienin
 graph LR
     %% Nodes
     Dev1["Marktijpartij"]
-    PO["Product owner<br/>G4 en kopgroep)"]
+    PO["Product owner<br/>G4 en kopgroep"]
 
     %% Connections
     PO -.- Dev1 
@@ -40,7 +40,7 @@ graph LR
     Dev1["Marktijpartij"]
     ReviewP2["Reviewpartij"]
     Upstream["Main branch"]
-    PO["Product owner"]
+    PO["Product owner<br/>TBC"]
 
     %% Connections
     PO -.- Upstream
