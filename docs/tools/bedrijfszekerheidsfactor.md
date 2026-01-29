@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Stewardship report
+title: Bedrijfszekerheidsfactor
 nav_order: 2
-parent: Templates
+parent: Tools
 ---
 
 # Templates voor stewardship report

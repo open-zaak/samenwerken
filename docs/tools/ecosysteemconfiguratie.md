@@ -1,11 +1,11 @@
 ---
 layout: default
-title: GOVERNANCE.md
+title: Ecosysteemconfiguratie
 nav_order: 1
-parent: Templates
+parent: Tools
 ---
 
-# GOVERNANCE.md Template
+# Ecosysteemconfiguratie
 
 Status: Draft
 
