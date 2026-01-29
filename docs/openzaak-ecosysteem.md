@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 6) Inkoop richtlijnen OpenZaak
-nav_order: 6
+title: OpenZaak ecosysteem
+nav_order: 7
 ---
 
-# Inkoop richtlijnen OpenZaak
+# OpenZaak ecosysteem
 
 Dit document bevat inkooprichtlijnen voor OpenZaak, met met de intentie op regie vanuit landelijke voorziening.
 

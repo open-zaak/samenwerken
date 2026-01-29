@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 2) Verslag bedrijfszekerheid OpenZaak
-nav_order: 2
+title: Bedrijfszekerheid als primaire doel
+nav_order: 3
 ---
 
-# Verslag: OpenZaak – Bedrijfszekerheidsdoelen
+# Bedrijfszekerheidsdoelen
 
 Dit document belicht de bedrijfszekerheidsdoelen die tijdens de interviews naar voren zijn gekomen.
 

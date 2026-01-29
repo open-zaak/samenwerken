@@ -1,11 +1,10 @@
 ---
 layout: default
-title: 4) Verslag governance, ecosysteem en rollen
-nav_order: 4
+title: Rollen en taken
+nav_order: 5
 ---
 
-# Verslag: Governance, Ecosysteem en Rollen
-
+# Rollen en taken
 
 Dit document schetst een visie voor de community, de repo-structuur en de relaties tussen marktpartijen, op basis van de interviews, workshops en bedrijfszekerheidsdoelen.
 

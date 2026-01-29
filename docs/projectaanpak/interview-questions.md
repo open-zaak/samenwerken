@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Interview questions
-parent: Project documentatie
+parent: Projectaanpak
 nav_order: 7
 ---
 

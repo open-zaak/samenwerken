@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Project OpenZaak Samenwerken
 nav_order: 0
 ---
 

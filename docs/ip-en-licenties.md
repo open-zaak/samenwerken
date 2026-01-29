@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 3) Verslag EUPL verklarende-text
-nav_order: 3
+title: Intellectueel eigendom en licenties
+nav_order: 4
 ---
 
-# Verslag EUPL verklarende text
+# Intellectueel eigendom en licenties
 
 Dit document bevat input over de EUPL-licentie, verkregen via expertinterviews.
 

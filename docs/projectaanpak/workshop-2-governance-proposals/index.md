@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Workshop 2
-parent: Project documentatie
+parent: Projectaanpak
 nav_order: 4
 ---
 
