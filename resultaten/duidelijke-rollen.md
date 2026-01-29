@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Rollen en taken
+title: Duidelijke rollen
 parent: Resultaten
-nav_order: 5
+nav_order: 3
 ---
 
-# Rollen en taken
+# Duidelijke rollen
 
 Dit document schetst een visie voor de community, de repo-structuur en de relaties tussen marktpartijen, op basis van de interviews, workshops en bedrijfszekerheidsdoelen.
 
