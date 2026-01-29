@@ -16,10 +16,6 @@ Dit document bevat inkooprichtlijnen voor OpenZaak, met met de intentie op regie
 
 Hieronder staan conceptteksten die gebruikt kunnen worden om OpenZaak onder de regie van landelijke voorziening te brengen.
 
-## Conceptbestand Governance.md
-
-@todo add text for governance.md
-
 ## Ecosysteembeschrijvingen voor OpenZaak
 
 Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorziening te bereiken
@@ -76,14 +72,25 @@ graph LR
     Upstream --> SaaS
 ```
 
-## Text op te nemen in contract
+## Text op te nemen in contract en governance.md
 
-@todo - turn into folders?
+@todo - turn into folders per staat?
 
 ### Generiek
 
+De algemene voorwaarden van de GIBIT zijn van toepassing.
+
+De algemene voorwaarden van de Common Ground-principes zijn van toepassing. Deze zijn te verkrijgen via [insert link].
+
+De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
+
 ### Staat 1
+
+
 
 ### Staat 2
 
+
+
 ### Staat 3
+
