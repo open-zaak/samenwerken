@@ -6,7 +6,7 @@ nav_order: 1
 
 # Verslag: codebase stewardship van OpenZaak
 
-Dit document reflecteert op het karakter van de OpenZaak community en de rol van codebase stewardship binnen OpenZaak.
+Dit document bevat de initiele reflecties op het karakter van de OpenZaak community en de rol van codebase stewardship binnen OpenZaak.
 Deze kunnen worden doorgetrokken naar de zaakgerichte componenten in het algemeen.
 
 ## Inhoudsopgave

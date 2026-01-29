@@ -6,7 +6,7 @@ nav_order: 3
 
 # Verslag EUPL verklarende text
 
-Dit document bevat input over de EUPL-licentie.
+Dit document bevat input over de EUPL-licentie, verkregen via expertinterviews.
 
 ## Inhoudsopgave
 * TOC

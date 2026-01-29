@@ -6,12 +6,8 @@ nav_order: 4
 
 # Verslag: Governance, Ecosysteem en Rollen
 
-De huidige OpenZaak community werkt goed voor snel en informeel werken.
-Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
 
-Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
-
-Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onderstaand document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
+Dit document schetst een visie voor de community, de repo-structuur en de relaties tussen marktpartijen, op basis van de interviews, workshops en bedrijfszekerheidsdoelen.
 
 ## Inhoudsopgave
 * TOC
@@ -19,12 +15,15 @@ Op basis van de interviews, workshops en bedrijfszekerheidsdoelen schetst onders
 
 ## Context: huidige governance- en werkafspraken
 
+De huidige OpenZaak community werkt goed voor snel en informeel werken.
+
 Er is veel informele samenwerking binnen de community, inclusief documentatie met een informeel karakter. 
 De G4 vervult een aansturende rol.
 Er is veel goodwill en de meeste betrokken partijen zijn tevreden.
 
-Tegelijkertijd wordt een regie-organisatie in het vooruitzicht gesteld.
-Er is ook de ambitie om zaken beter te borgen — niet uit wantrouwen, maar om de algehele robuustheid te vergroten.
+Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
+
+Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
 
 ## Voorstel: rollen & verantwoordelijkheden
 

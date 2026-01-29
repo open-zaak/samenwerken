@@ -6,7 +6,7 @@ nav_order: 5
 
 # Verslag inkoop richtlijnen
 
-Dit verslag introduceert inkooprichtlijnen en bouwt voort op de vier voorgaande verslagen.
+Dit document bevat input voor inkooprichtlijnen voor OpenZaak.
 
 ## Inhoudsopgave
 * TOC
