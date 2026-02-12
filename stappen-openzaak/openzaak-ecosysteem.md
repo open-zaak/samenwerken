@@ -41,7 +41,7 @@ graph LR
     Dev1["Marktijpartij"]
     ReviewP2["Reviewpartij"]
     Upstream["Main branch"]
-    PO["Product owner<br/>TBC"]
+    PO["Product owner<br/>Landelijke regie"]
 
     %% Connections
     PO -.- Upstream
@@ -59,12 +59,14 @@ graph LR
     Upstream["Main branch"]
     PO["Product owner<br/>Landelijke regie"]
     SaaS["Repo:<br/>SaaS provider"]
+    Maint["Onderhoud<br/>stable release"]
 
     %% Connections
     PO -.- Upstream
     Dev1 --> ReviewP2
     ReviewP2 --> Upstream
     Upstream --> SaaS
+    Upstream --> Maint
 ```
 
 ## Text op te nemen in contract en governance.md
