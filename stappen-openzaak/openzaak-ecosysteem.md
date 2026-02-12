@@ -49,13 +49,15 @@ graph LR
     ReviewP2 --> Upstream
 ```
 
-### Beoogde staat: volle regie vanuit landenlijke voorziening, incl SaaS- en onderhoud-partijen 
+### Beoogde staat: volle regie vanuit landenlijke voorziening met mogelijkheid (indien gewenst) voor verschillende development, review, SaaS- en onderhoud-partijen 
 
 ```mermaid
 graph LR
     %% Nodes
     Dev1["Marktijpartij"]
-    ReviewP2["Reviewpartij"]
+    ReviewP1["Reviewpartij"]
+    Dev2["Marktijpartij"]
+    Review2["Reviewpartij"]
     Upstream["Main branch"]
     PO["Product owner<br/>Landelijke regie"]
     SaaS["Repo:<br/>SaaS provider"]
@@ -63,7 +65,9 @@ graph LR
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> ReviewP2
+    Dev1 --> ReviewP1
+    ReviewP1 --> Upstream
+    Dev2 --> ReviewP2
     ReviewP2 --> Upstream
     Upstream --> Maint
     Maint --> Upstream
