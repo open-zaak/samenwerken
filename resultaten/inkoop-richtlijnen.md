@@ -2,7 +2,7 @@
 layout: default
 title: Richtlijnen voor inkoop
 parent: Resultaten
-nav_order: 6
+nav_order: 5
 ---
 
 # Richtlijnen voor inkoop

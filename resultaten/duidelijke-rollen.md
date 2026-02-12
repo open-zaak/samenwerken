@@ -7,7 +7,7 @@ nav_order: 3
 
 # Duidelijke rollen
 
-Dit document schetst een visie voor de community, de repo-structuur en de relaties tussen marktpartijen, op basis van de interviews, workshops en bedrijfszekerheidsdoelen.
+Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
 
 ## Inhoudsopgave
 * TOC
