@@ -5,7 +5,7 @@ parent: Resultaten
 nav_order: 2
 ---
 
-# De rol van Codebase Stewardship
+# Het karakter van de OpenZaak community en de rol van codebase stewardship
 
 Dit document bevat de initiele reflecties op het karakter van de OpenZaak community en de rol van codebase stewardship binnen OpenZaak, aan de hand van de interviews, workshops en bedrijfszekerheidsdoelen.
 
