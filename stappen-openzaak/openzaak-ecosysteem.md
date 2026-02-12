@@ -60,7 +60,7 @@ graph LR
     Review2["Reviewpartij"]
     Upstream["Publicatie branch"]
     PO["Product owner:<br/>Landelijke regie"]
-    SaaS["Repo:<br/>SaaS provider"]
+    SaaS["SaaS provider"]
     Maint["Onderhoud<br/>stable release"]
 
     %% Connections
