@@ -61,7 +61,7 @@ graph LR
     Upstream["Publicatie branch"]
     PO["Product owner:<br/>Landelijke regie"]
     SaaS["SaaS provider"]
-    Maint["Onderhoud<br/>stable release"]
+    Maint["Onderhoud partij (van stable releases)"]
 
     %% Connections
     PO -.- Upstream
