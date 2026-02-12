@@ -67,8 +67,8 @@ graph LR
     PO -.- Upstream
     Dev1 --> ReviewP1
     ReviewP1 --> Upstream
-    Dev2 --> ReviewP2
-    ReviewP2 --> Upstream
+    Dev2 --> Review2
+    Review2 --> Upstream
     Upstream --> Maint
     Maint --> Upstream
     Upstream --> SaaS
