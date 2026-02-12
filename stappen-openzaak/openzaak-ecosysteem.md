@@ -65,8 +65,9 @@ graph LR
     PO -.- Upstream
     Dev1 --> ReviewP2
     ReviewP2 --> Upstream
-    Upstream --> SaaS
     Upstream --> Maint
+    Maint --> Upstream
+    Upstream --> SaaS
 ```
 
 ## Text op te nemen in contract en governance.md
