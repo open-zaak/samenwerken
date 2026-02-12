@@ -33,7 +33,7 @@ graph LR
     PO -.- Dev1 
 ```
 
-### Tussen staat: een marktpartij die verantwoordelijk is, geassisteerd door een review partij
+### Tussen staat: landelijke regie verantwoordelijk voor de publicatie van stable releases, een marktpartij verantwoordelijk voor de development en onderhoud van de code, geassisteerd door een review partij
 
 ```mermaid
 graph LR
@@ -49,7 +49,7 @@ graph LR
     ReviewP2 --> Upstream
 ```
 
-### Beoogde staat: volle regie vanuit landenlijke voorziening
+### Beoogde staat: volle regie vanuit landenlijke voorziening, incl SaaS- en onderhoud-partijen 
 
 ```mermaid
 graph LR
