@@ -95,3 +95,15 @@ Zo ontstaat een modulair systeem waarin juridische stabiliteit en organisatorisc
 ## Openstaande vraag
 
 Zijn er verschillende teksten nodig voor verschillende fasen (bijv. marktconsultatie, aanbesteding, contractering, codebase documentatie), of volstaat één set teksten die in alle fasen hergebruikt kan worden? Of zelfs één document waarnaar in alle fasen verwezen kan worden?
+
+## Mogelijke text op te nemen in contract en governance.md
+
+De algemene voorwaarden van de GIBIT zijn van toepassing.
+Deze zijn te verkrijgen via [insert link].
+
+De algemene voorwaarden van de Common Ground-principes zijn van toepassing.
+Deze zijn te verkrijgen via [insert link].
+
+De Common Ground-ceosysteeemprincipes zijn van toepassing. 
+De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
+
