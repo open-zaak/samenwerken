@@ -19,11 +19,15 @@ Deliverables per onderdeel.
 
 * Review van de oorspronkelijke hypothese uit de marktconsultatie  
 
-Zie Verslag codebase stewarship OpenZaak
+```
+Zie Resultaten
+```
 
 * Review van de huidige formele governance- en werkafspraken
 
-Zie Verslag codebase stewarship OpenZaak
+```
+Zie Resultaten
+```
 
 ### Bestaande 'issues' met governance (‘beheer’) en het codereviewproces in kaart brengen
 
@@ -88,10 +92,10 @@ Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is
 * Opstellen van issues rond verbetering van governance op basis van ambities en pijnpunten
 
 ```
-Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaan zitten, zijn geen issues gemaakt maar wel een verslag document.
-```
+Aangezien dit project minder op codebase niveau, en meer op ecosysteem niveau is gaan zitten, zijn geen issues gemaakt maar wel een document.
 
-Zie Verslag bedrijfszekerheid OpenZaak
+Zie Resultaten
+```
 
 * Community uitnodigen om deze te beoordelen en aan te vullen  
 
@@ -101,21 +105,21 @@ G4 vrijdag overleg heeft sturing gegeven op prioritiseren van doelen en ambities
 ```
 
 * Gezamenlijke workshop om de belangrijkste issues rond verbetering van governance te selecteren en verfijnen
-
-Zie [Workshop 1](workshop-1-governance-goals/index)
-
+```
+Zie Workshop 1
+```
 ### Documentatie voor governance en codereview opstellen en consolideren
 
 * Verbeteringen voorstellen met betrekking tot governance en codereview  
     * Deze voorstellen aanleveren via pull requests  
 ```
-Niet in de vorm van pull requests. Zie verslagen hieronder
+Niet in de vorm van pull requests.
 ```
 * Tweede gezamenlijke workshop om voorgestelde wijzigingen te beoordelen en verfijnen 
-
-Zie [Workshop 2](workshop-2-governance-proposals/index)
-Zie Verslag Ecosysteem En Rollen
-
+```
+Zie Workshop 2
+Zie Resultaten
+```
 * Herziening en implementatie van de voorstellen
 
 ```
@@ -124,20 +128,19 @@ Geen extra documentatie
 
 Onderwerpen die hierbij aan bod komen:
 * Aansprakelijkheid, licenties, intellectueel eigendom, overdracht van auteursrechten, handelsmerken  
-
-Zie verslag-EUPL-verklarende-text
-
+```
+Zie Resultaten
+```
 * Richtlijnen voor inkoop (inclusief leveranciersselectie) 
-
-Zie Verslag inkoop richtlijnen
-Zie Verslag Ecosysteem En Rollen
-
+```
+Zie Resultaten
+```
 * Documentatie van processen  
 * Wijzigingsprocedures voor codebase stewardship  
 * Proces voor het accepteren van bijdragen  
-
-Zie Verslag codebase stewardship
-
+```
+Zie Resultaten
+```
 * Eventueel voorzitterschap/deelname bij meetings waar nodig
 
 ```
@@ -161,9 +164,9 @@ Geen extra documentatie
 * Voorstellen voor financiering codebase stewardship 
 * Voorstellen voor het beheer van de processen die voorkomen uit deze pilot
 * Voorstellen voor afstemming tussen de zaakgericht werken componenten 
-
-Zie Verslag codebase stewardship
-
+```
+Zie Resultaten
+```
 ### Afronden van hoogwaardige, herbruikbare documentatie van governance en codereview
 
 Onderdeel hiervan zijn updates op:

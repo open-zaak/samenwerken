@@ -96,5 +96,3 @@ Dit biedt een kans om een proof of concept te ontwikkelen rond *portfoliomanagem
 ## Hoe beïnvloedt dit de governance binnen OpenZaak?
 
 Dit alles betekent dat de governance binnen OpenZaak afwijkt van die van een klassiek (‘vanilla’) open-sourceproject.
-
-Zie ook: Verslag governance ecosysteem en rollen
