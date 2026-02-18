@@ -14,7 +14,7 @@ Daarbij richten we ons op het introduceren en verbeteren van processen, document
 
 ## Inhoud
 
-Hieronder vind je verschillende verslagen met de bevindingen van de pilot, in chronologische volgorde. 
+Hieronder vind je verschillende resultaten met de bevindingen van de pilot, in chronologische volgorde. 
 Onder projectdocumentatie vind je het oorspronkelijke projectplan en een overzicht van de deliverables (deliverable tracker).
 
 ## Context voor de pilot
