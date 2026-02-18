@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Ecosysteemconfiguratie
-nav_order: 1
-parent: Tools
+parent: Aanpak
+nav_order: 6
 ---
 
 # Ecosysteemconfiguratie
