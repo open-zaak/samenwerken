@@ -7,15 +7,13 @@ nav_order: 6
 
 # Stappen voor OpenZaak ecosysteem 
 
-Dit document bevat inkooprichtlijnen voor OpenZaak, met met de intentie op regie vanuit landelijke voorziening.
+Status: Draft
+
+Dit document bevat mogelijke beoogde stappen voor de OpenZaak ecosysteem, met de intentie op regie vanuit landelijke voorziening.
 
 ## Inhoudsopgave
 * TOC
 {:toc}
-
-##  Inleiding
-
-Hieronder staan conceptteksten die gebruikt kunnen worden om OpenZaak onder de regie van landelijke voorziening te brengen.
 
 ## Ecosysteembeschrijvingen voor OpenZaak
 
@@ -83,15 +81,4 @@ De algemene voorwaarden van de Common Ground-principes zijn van toepassing. Deze
 De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
 
 ## Rollen en taken per staat
-
-
-### Staat 1
-
-
-
-### Staat 2
-
-
-
-### Staat 3
 
