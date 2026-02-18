@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Duidelijke rollen
+title: Duidelijke rollen voor meerdere marktpartijen
 parent: Resultaten
 nav_order: 3
 ---
 
-# Duidelijke rollen
+# Duidelijke rollen voor meerdere marktpartijen
 
 Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
 
