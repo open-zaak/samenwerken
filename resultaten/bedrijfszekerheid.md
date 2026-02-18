@@ -5,7 +5,7 @@ parent: Resultaten
 nav_order: 1
 ---
 
-# Bedrijfszekerheidsdoelen
+# Bedrijfszekerheid als primaire doel voor OpenZaak
 
 Dit document belicht de bedrijfszekerheidsdoelen die tijdens de interviews naar voren zijn gekomen.
 
