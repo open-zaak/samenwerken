@@ -71,7 +71,3 @@ graph LR
     Maint --> Upstream
     Upstream --> SaaS
 ```
-
-
-## Rollen en taken per staat
-
