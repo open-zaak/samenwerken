@@ -353,21 +353,3 @@ graph LR
 1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
 2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
 3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
-
-```
-
-## Rollen, contracten en verantwoordelijkhedem
-
-> ! table to be updated once the above is finalised
-
-| Rollen                     | Verantwoordelijkheden                                                                                  | Contract type                          |
-|-----------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Ecosysteem/codebase steward | - Collectief product ownerschap<br>- Portfolio management op alle componenten (en samenhang daartussen)<br>- Product release management met duidelijke roadmap, documentatie en release management | Intern vanuit landelijke regie, of gedelegeerd |
-| Beheer                      | - Maintenance en bug fixes                                                                               | Maintenance contract                     |
-| Uitgeven                    | - Upstream repository, (stable) releases van code, documentatie<br>- Publicatie en archief<br>- Change log, dependency graph, central issue en bug tracker<br>- Communicatie van release dates, breaking changes, critical issue | Intern vanuit landelijke regie, of gedelegeerd |
-| Reviewen                    | - Quality assurance<br>- Audit (security, tests, documents, Q&A)<br>- Works with feature development party       | Review contract                          |
-| Development                 | - New features<br>- Works with review party                                                                | Feature development contract             |
-| Implementeren               | - Local implementations<br>- Repots bugs, issues, needs<br>- Optionally with local changes                       | Implementatie contract                   |
-| Leveren                     | - SaaS<br>- Repots bugs, issues, needs<br>- Optionally with local changes                                       | SaaS contract                            |
-
-```
