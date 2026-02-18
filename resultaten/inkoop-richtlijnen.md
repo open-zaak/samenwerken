@@ -17,19 +17,14 @@ Dit document bevat input voor inkooprichtlijnen voor OpenZaak.
 
 Bij de inkoop rond OpenZaak spelen meerdere beslissingslagen een rol.
 
-1) de GIBIT  
-2) generieke Common Ground-principes  
-3) ecosysteemkeuze per codebase  
-4) afspraken met de marktpartij
-
-Een logische werkwijze lijkt om te verwijzen naar de GIBIT, daarnaast een Common Ground-document te hebben met principes en generieke ecosysteembeschrijvingen, en vervolgens een beknopt contract met de leverancier dat naar deze voorgaande lagen verwijst.
-
 ```mermaid
 flowchart TB
-    A[GIBIT] -->|aangescherpt door| B[Common Ground kaders]
-    B -->|aangescherpt door| C[Ecosysteemvariant]
-    C -->|aangescherpt door| D[Specifiek contract voor rol]  
+    A[GIBIT] -->|aangescherpt door| B[Common Ground-principes]
+    B -->|aangescherpt door| C[Common Ground-Ecosysteemvarianten]
+    C -->|aangescherpt door| D[Contract afspraken met marktpartij]  
 ```
+
+Een logische werkwijze lijkt om te verwijzen naar de GIBIT, daarnaast een Common Ground-document te hebben met principes en ecosysteemvarianten, en vervolgens een beknopt contract met de leverancier dat naar deze voorgaande lagen verwijst.
 
 ## De GIBIT 
 
@@ -50,9 +45,10 @@ Deze aanvullende documentatie kan onder meer bevatten:
   
 Dit zijn afspraken die richtinggevend zijn, maar niet vaak zouden moeten veranderen. Te verwijzen als organiserende principes in een centraal beheerd document.
 
-## Ecosysteembeschrijvingen
+## Beschrijving van Common Ground-Ecosysteemvarianten
 
 Daarbovenop komt het ecosysteem rond een specifieke codebase (bijvoorbeeld één leverancier, meerdere leveranciers, aparte reviewpartijen, etc.).
+
 In de ecosysteembeschrijving wordt beschreven welke rollen er bestaan en welke taken/verantwoordelijkheden bij welke rol belegd zijn.
 Dit is het niveau dat onregelmatig verandert, namelijk wanneer de communitystructuur of het belang van de codebase daarom vraagt.
 
@@ -71,7 +67,7 @@ Deze staten kunnen centraal worden beschreven, vastgesteld en beheerd door de co
 >In het contract staat dan bijvoorbeeld:
 > “De leverancier vervult deze rol, die zich momenteel in staat A bevindt en kan doorgroeien naar staat B.”
 
-## Afspraken met de marktpartij  
+## Contract afspraken met marktpartij
 
 Het contract met een individuele leverancier blijft vervolgens:
 
