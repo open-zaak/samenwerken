@@ -15,23 +15,21 @@ Dit document bevat input voor inkooprichtlijnen voor OpenZaak.
 
 ## Inleiding
 
-Bij de inkoop rond OpenZaak spelen meerdere beslissingslagen een rol, namelijk:
+Bij de inkoop rond OpenZaak spelen meerdere beslissingslagen een rol.
 
 1) de GIBIT  
 2) generieke Common Ground-principes  
 3) ecosysteemkeuze per codebase  
 4) afspraken met de marktpartij
 
+Een logische werkwijze lijkt om te verwijzen naar de GIBIT, daarnaast een Common Ground-document te hebben met principes en generieke ecosysteembeschrijvingen, en vervolgens een beknopt contract met de leverancier dat naar deze voorgaande lagen verwijst.
+
 ```mermaid
 flowchart TB
-    D[Specifiek contract voor rol] -->|verwijst naar| C[Ecosysteemvariant]
-    D -->|verwijst naar| B[Common Ground kaders]
-    B -->|verwijst naar| A[GIBIT]
+    A[GIBIT] -->|verwijst naar| B[Common Ground kaders]
+    B -->|verwijst naar| C[Ecosysteemvariant]
+    C -->|verwijst naar| D[Specifiek contract voor rol]  
 ```
-
-(Toelichting hieronder)
-
-Een logische werkwijze lijkt om te verwijzen naar de GIBIT, daarnaast een Common Ground-document te hebben met principes en generieke ecosysteembeschrijvingen, en vervolgens een beknopt contract met de leverancier dat naar deze voorgaande lagen verwijst.
 
 ## De GIBIT 
 
