@@ -9,6 +9,8 @@ nav_order: 3
 
 Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
 
+Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, indien en wanneer dit gewenst of vereist is door de G4 en.of landelijke regie.
+
 ## Inhoudsopgave
 * TOC
 {:toc}
@@ -37,14 +39,16 @@ Toekomst: Intern vanuit landelijke regie, of gedelegeerd
 
 Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
 
-- Collectief product ownerschap met duidelijke roadmap  
-- Portfolio management op alle componenten (en samenhang daartussen)  
+- Collectief product ownerschap met duidelijke roadmap, doel & scope, architectuurprincipes, standaarden, lifecycle and compatibility etc  
+- Portfolio management op alle componenten, incl samenhang en configuratie tussen versies daarvan  
 - Regie over marktpartijen en samenwerking tussen marktpartijen
-- Community managememt
+- Community managememt, incl open-source governance, bijdrageprocessen, besluitvorming, rolzuiverheid, kenniscontinuïteit en bedrijfszekerheid 
+- Ecosysteem management, incl afweging tussen stabiliteit, innovatie, onafhankelijkheid en beheerkosten
+- Financiering en opdrachtgeverschap 
 
 #### Waarom? (design choices)
 
-*  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componented.
+*  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componenten.
 
 ```mermaid
 graph LR
@@ -66,16 +70,12 @@ Toekomst: Intern vanuit landelijke regie, of gedelegeerd
 Langetermijn beschikbaar stellen van component(versies).
 Op orde en compliant houden van de opensourcecode van de component(versies).
 
-- Product release management met documentatie 
-- upstream repository, (stable) releaes van code, documentatie
-- publicatie en archief 
-- change log, dependency graph, central issue en bug tracker 
-- communicatie van release dates, breaking changes, critical issue
-- acceptatie van feature pull request
-- installatiehandleiding
-- beheershandleiding
-- gebruikshandleiding
-- regelmatige publicatie van versies
+- Upstream repository met publicatie en archief van alle (stable) releases van code
+- Central issue en bug tracker, acceptatie van feature pull request   
+- Product release management met documentatie
+  - communicatie van release dates, breaking changes, critical issues
+  - change log, dependency graph
+  - installatie-, beheers, en gebruiks-handleiding
 
 #### Waarom? (design choices)
 
@@ -101,9 +101,9 @@ Toekmost: Mogelijk tweede marktpartij met een feature development contract, indi
 
 Projectmatig ontwikkelen van een component of een feature van een component.
 
-- new features
-- works with review party
-- aanbieden aan beheerder als pull request
+- Code contributies (new features of patches) met alle bijhorende documentatie en tests 
+- Aanbieden aan beheerder als pull request
+- Werkt mogelijk samen met een review party
 
 #### Waarom?
 
@@ -129,12 +129,10 @@ Toekmost: Mogelijk tweede marktpartij met een review contract
 
 #### Rol
 
-Controleren van de gepubliceerde versies van de component.
+Samenwerken met de development partij door contributies naar de publicatie repo te reviewen. 
 Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
 
-- quality assurance
-- audit (security, tests, documents, Q&A)
-- works with feature development party 
+- Onafhankelijke review (code, security, documentatie, herbruikbaarheid, etc)
 
 #### Waarom?
 
@@ -160,7 +158,7 @@ graph LR
     ReviewP2 --> Upstream
 ```
 
-### Beheer/maintenance
+### Maintenance/onderhoud
 
 Nu: Maykin, als onderdeel van een featurecontract
 
@@ -168,13 +166,11 @@ Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpart
 
 #### Rol
 
-Onderhoud van versies
-
-- maintenance en bug fixes
+Onderhoud van een of meerdere stable release versies van de code, incl bug fixes, updates en security patches. 
 
 #### Waarom?
 
-*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen en daarmee redundantie te waarborgen.
+*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen.
 
 ```mermaid
 graph LR
@@ -198,7 +194,7 @@ graph LR
     Upstream --> Maint
 ```
 
-### Leveren
+### Leveren (SaaS)
 
 Nu: Verschillende SaaS aanbieders
 
@@ -206,11 +202,13 @@ Toekmost: SaaS aanbieder onder landelijke regie
 
 #### Rol
 
-Het leveren van een draaiende instantie van de component.
+Het leveren van stable releases uit de publicatie repo als een draaiende instantie van de component.
 
-- SaaS
-- repots bugs, issues, needs
-- optionally with local changes
+- Levert eindproducten als SaaS-dienst
+- Verantwoordelijkheid voor performance, schaalbaarheid, capaciteit van de diensten
+- Monitoring, incidentmanagement, back-ups, herstel en dagelijkse operationele beveiliging
+- Inbrengen bugs, issues, requirements terug naar de centrale issue tracker
+
 
 #### Waarom?
 
@@ -242,9 +240,8 @@ graph LR
 
 Het inrichten van de instantie van de component voor specifiek gebruik bij een gemeente, het trainen van medewerkers en het beantwoorden van vragen.
  
-- local implementations, configuratie, training, helpdesk
-- repots bugs, issues, needs
-- optionally with local changes
+- Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk
+- Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening
     
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
 
@@ -354,7 +351,7 @@ graph LR
 
 0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
 1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
-2. maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
+2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
 3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
 
 ```
