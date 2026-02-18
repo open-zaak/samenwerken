@@ -1,11 +1,11 @@
 ---
 layout: default
-title: OpenZaak ecosysteem
+title: Stappen voor OpenZaak ecosysteem 
 parent: Resultaten
 nav_order: 6
 ---
 
-# OpenZaak ecosysteem
+# Stappen voor OpenZaak ecosysteem 
 
 Dit document bevat inkooprichtlijnen voor OpenZaak, met met de intentie op regie vanuit landelijke voorziening.
 
