@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bedrijfszekerheid als primaire doel
+title: Bedrijfszekerheid als primaire doel voor OpenZaak
 parent: Resultaten
 nav_order: 1
 ---
