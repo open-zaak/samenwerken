@@ -26,9 +26,9 @@ Een logische werkwijze lijkt om te verwijzen naar de GIBIT, daarnaast een Common
 
 ```mermaid
 flowchart TB
-    A[GIBIT] -->|verwijst naar| B[Common Ground kaders]
-    B -->|verwijst naar| C[Ecosysteemvariant]
-    C -->|verwijst naar| D[Specifiek contract voor rol]  
+    A[GIBIT] -->|aangescherpt door| B[Common Ground kaders]
+    B -->|aangescherpt door| C[Ecosysteemvariant]
+    C -->|aangescherpt door| D[Specifiek contract voor rol]  
 ```
 
 ## De GIBIT 
