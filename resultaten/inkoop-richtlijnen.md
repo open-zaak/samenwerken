@@ -104,7 +104,7 @@ De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
 Common Ground-Ecosysteemvarianten (en/of beschrijving per codebase) zouden kunnen worden vastgelegd in een tooltje waarvan contract texten kunnen worden geexporteerd.
 
 Prototype: [https://www.jgroenen.nl/teksten-tool/](https://www.jgroenen.nl/teksten-tool/
-))
+)
 
 ## Openstaande vraag
 
