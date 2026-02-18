@@ -71,9 +71,9 @@ Deze staten kunnen centraal worden beschreven, vastgesteld en beheerd door de co
 
 Het contract met een individuele leverancier blijft vervolgens:
 
-- kort  
-- rolgericht  
-- verwijzend naar de geldende kaders en de huidige “staat” van de codebase  
+- Kort  
+- Rolgericht  
+- Verwijzend naar de geldende kaders en de huidige “staat” van de codebase  
 
 ## Voorgestelde documentstructuur
 
@@ -88,10 +88,6 @@ Deze aanpak leidt tot een heldere scheiding van lagen:
 
 Zo ontstaat een modulair systeem waarin juridische stabiliteit en organisatorische flexibiliteit goed samengaan.
 
-## Openstaande vraag
-
-Zijn er verschillende teksten nodig voor verschillende fasen (bijv. marktconsultatie, aanbesteding, contractering, codebase documentatie), of volstaat één set teksten die in alle fasen hergebruikt kan worden? Of zelfs één document waarnaar in alle fasen verwezen kan worden?
-
 ## Mogelijke text op te nemen in contract en governance.md
 
 De algemene voorwaarden van de GIBIT zijn van toepassing.
@@ -100,6 +96,15 @@ Deze zijn te verkrijgen via [insert link].
 De algemene voorwaarden van de Common Ground-principes zijn van toepassing.
 Deze zijn te verkrijgen via [insert link].
 
-De Common Ground-ceosysteeemprincipes zijn van toepassing. 
+De Common Ground-ecosysteeemprincipes zijn van toepassing. 
 De huidige staat van dit ecosysteem is te vinden in [repo/governance.md].
 
+## Beheer van texten
+
+Common Ground-Ecosysteemvarianten (en/of beschrijving per codebase) zouden kunnen worden vastgelegd in een tooltje waarvan contract texten kunnen worden geexporteerd.
+
+Prototype: https://www.jgroenen.nl/teksten-tool/
+
+## Openstaande vraag
+
+Zijn er verschillende teksten nodig voor verschillende fasen (bijv. marktconsultatie, aanbesteding, contractering, codebase documentatie), of volstaat één set teksten die in alle fasen hergebruikt kan worden? Of zelfs één document waarnaar in alle fasen verwezen kan worden?
