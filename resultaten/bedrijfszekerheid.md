@@ -19,7 +19,7 @@ Opensourcewerken is in deze context geen doel op zich, maar de gekozen werkvorm 
 
 Het betreft geen klassiek opensourceproject waarin wordt gestuurd op zo veel mogelijk bijdragen van zo veel mogelijk partijen met de codebase als primair coördinatiepunt.
 
-OpenZaak is een duidelijk afgebakende component, specifiek ontwikkeld voor de Nederlandse context, onder beheer van de overheid, met een beperkt aantal marktpartijen (*het ecosysteem*).
+OpenZaak is een duidelijk afgebakende component in een componenten-architectuur, specifiek ontwikkeld voor de Nederlandse context, onder beheer van de overheid, met een beperkt aantal marktpartijen (*het ecosysteem*).
 
 De nadruk ligt daardoor nu op de **borging van bedrijfszekerheid door middel van strategische regie over het ecosysteem als geheel**.
 
