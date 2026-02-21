@@ -7,7 +7,7 @@ nav_order: 3
 
 # Rollen voor meerdere marktpartijen
 
-Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit document een visie voor de community, de repo-structuur en de relaties tussen marktpartijen.
+Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit document een visie voor de community, de repository-structuur en de relaties tussen marktpartijen.
 
 Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, indien en wanneer dit gewenst of vereist is door de G4 en/of landelijke regie.
 
@@ -19,7 +19,7 @@ Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, ind
 
 De huidige OpenZaak community werkt goed voor snel en informeel werken.
 
-Er is veel informele samenwerking binnen de community, inclusief documentatie met een informeel karakter. 
+Er is veel informele samenwerking binnen de community, inclusief documentatie met een informeel karakter.
 De G4 vervult een aansturende rol.
 Er is veel goodwill en de meeste betrokken partijen zijn tevreden.
 
@@ -35,16 +35,18 @@ Nu: G4 overleg
 
 Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
 
-#### Rol
+#### Rolbeschrijving
 
-Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden, tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
+Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden: tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
 
-- Collectief product ownerschap met duidelijke roadmap, doel & scope, architectuurprincipes, standaarden, lifecycle and compatibility etc  
-- Portfolio management op alle componenten, incl samenhang en configuratie tussen versies daarvan  
-- Regie over marktpartijen en samenwerking tussen marktpartijen
-- Community managememt, incl open-source governance, bijdrageprocessen, besluitvorming, rolzuiverheid, kenniscontinuïteit en bedrijfszekerheid 
-- Ecosysteem management, incl afweging tussen stabiliteit, innovatie, onafhankelijkheid en beheerkosten
-- Financiering en opdrachtgeverschap 
+#### Taken
+
+- Collectief product ownerschap met duidelijke roadmap, doel & scope, architectuurprincipes, standaarden, lifecycle and compatibility etc.
+- Portfolio management over alle componenten heen, inclusief samenhang en configuratie tussen versies daarvan.
+- Regie over marktpartijen en samenwerking tussen marktpartijen.
+- Community management, inclusief open-source governance, bijdrageprocessen, besluitvorming, rolzuiverheid, kenniscontinuïteit en bedrijfszekerheid.
+- Ecosysteem management, inclusief afweging tussen stabiliteit, innovatie, onafhankelijkheid en beheerkosten.
+- Financiering en opdrachtgeverschap.
 
 #### Waarom? (design choices)
 
@@ -65,10 +67,12 @@ Nu: Maykin
 
 Toekomst: Intern vanuit landelijke regie, of gedelegeerd
 
-#### Rol
+#### Rolbeschrijving
 
 Langetermijn beschikbaar stellen van component(versies).
 Op orde en compliant houden van de opensourcecode van de component(versies).
+
+#### Taken
 
 - Upstream repository met publicatie en archief van alle (stable) releases van code
 - Central issue en bug tracker, acceptatie van feature pull request   
@@ -95,11 +99,13 @@ graph LR
 
 Nu: Maykin
 
-Toekmost: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
+Toekomst: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
 
-#### Rol
+#### Rolbeschrijving
 
 Projectmatig ontwikkelen van een component of een feature van een component.
+
+#### Taken
 
 - Code contributies (new features of patches) met alle bijhorende documentatie en tests 
 - Aanbieden aan beheerder als pull request
@@ -125,12 +131,14 @@ graph LR
 
 Nu: Maykin
 
-Toekmost: Mogelijk tweede marktpartij met een review contract
+Toekomst: Mogelijk tweede marktpartij met een review contract
 
-#### Rol
+#### Rolbeschrijving
 
 Samenwerken met de development partij door contributies naar de publicatie repo te reviewen. 
 Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
+
+#### Taken
 
 - Onafhankelijke review (code, security, documentatie, herbruikbaarheid, etc)
 
@@ -164,9 +172,15 @@ Nu: Maykin, als onderdeel van een featurecontract
 
 Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
 
-#### Rol
+#### Rolbeschrijving
 
-Onderhoud van een of meerdere stable release versies van de code, incl bug fixes, updates en security patches. 
+Onderhoud van een of meerdere stable release versies van de code, inclusief bug fixes, updates en security patches. 
+
+#### Taken
+
+- Monitoren van stable releases op bugs, security en performance issues.
+- Uitvoeren van bug fixes, updates en security patches.
+- Communiceren van onderhoudsactiviteiten naar relevante stakeholders.
 
 #### Waarom?
 
@@ -198,17 +212,18 @@ graph LR
 
 Nu: Verschillende SaaS aanbieders
 
-Toekmost: SaaS aanbieder onder landelijke regie
+Toekomst: centrale SaaS aanbieder onder landelijke regie
 
-#### Rol
+#### Rolbeschrijving
 
-Het leveren van stable releases uit de publicatie repo als een draaiende instantie van de component.
+Het leveren van stable versie(s) uit de publicatie repositorie als een draaiende instantie van de component.
 
-- Levert eindproducten als SaaS-dienst
-- Verantwoordelijkheid voor performance, schaalbaarheid, capaciteit van de diensten
-- Monitoring, incidentmanagement, back-ups, herstel en dagelijkse operationele beveiliging
-- Inbrengen bugs, issues, requirements terug naar de centrale issue tracker
+#### Taken
 
+- Levert eindproducten als SaaS-dienst.
+- Verantwoordelijkheid voor performance, schaalbaarheid, capaciteit van de diensten.
+- Monitoring, incidentmanagement, back-ups, herstel en dagelijkse operationele beveiliging.
+- Inbrengen bugs, issues, requirements terug naar de centrale issue tracker.
 
 #### Waarom?
 
@@ -236,12 +251,14 @@ graph LR
 
 ### Implementeren
 
-#### Rol
+#### Rolbeschrijving
 
 Het inrichten van de instantie van de component voor specifiek gebruik bij een gemeente, het trainen van medewerkers en het beantwoorden van vragen.
+
+#### Taken
  
-- Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk
-- Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening
+- Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk.
+- Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening.
     
 ## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
 
