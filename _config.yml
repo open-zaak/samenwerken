@@ -8,6 +8,8 @@ markdown: kramdown
 # theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs
 
+lang: nl
+
 # Kramdown settings
 kramdown:
   toc_levels: 2..3
