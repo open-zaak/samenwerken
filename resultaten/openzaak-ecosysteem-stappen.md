@@ -46,16 +46,27 @@ Met bij elke stap een kosten/baten analyse en evaluatie
 
 ```mermaid
 graph LR
+    subgraph OpenZaak
     %% Nodes
-    Dev1["Maykin Media:<br/>'Development repository'"]
-    Upstream["Upstream:<br/>'Uitgeven' repository"]
-    PO["Landelijke regie:<br/>Regie partij"]
+        Dev["Maykin Media ontwikkelt feature in eigen repo"]
+        Up["Landelijke regie beheert versie branches in upstream repo"]
+        Maint["Maykin Media onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Landelijke regie stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
 
     %% Connections
-    PO -.- Upstream
-    Dev1 --> Upstream
+    Regie --> OpenZaak
+    OpenZaak --> Impl
 ```
-
 ### (verplaatst) Stappenplan voor de introductie van een tweede marktpartij
 
 0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
