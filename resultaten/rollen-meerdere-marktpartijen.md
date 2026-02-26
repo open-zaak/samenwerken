@@ -368,10 +368,3 @@ graph LR
     Upstream --> MaintP2
     Upstream --> SaaS
 ```
-
-### Stappenplan voor de introductie van een tweede marktpartij
-
-0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
-1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
-2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
-3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
