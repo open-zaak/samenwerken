@@ -472,7 +472,7 @@ graph LR
     subgraph Component1
     %% Nodes
         Dev1["Ontwikkelpartij A ontwikkelt feature in eigen repo"]
-        Rev1["Ontwikkelpartij C reviewt feature branch"]
+        Rev1["Ontwikkelpartij C reviewt feature branch in upstream repo"]
         Maint1["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -482,7 +482,7 @@ graph LR
     subgraph Component2
     %% Nodes
         Dev2["Ontwikkelpartij B ontwikkelt feature in eigen repo"]
-        Rev2["Ontwikkelpartij A reviewt feature branch"]
+        Rev2["Ontwikkelpartij A reviewt feature branch in upstream repo"]
         Maint2["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -492,7 +492,7 @@ graph LR
     subgraph Component3
     %% Nodes
         Dev3["Ontwikkelpartij C ontwikkelt feature in eigen repo"]
-        Rev3["Ontwikkelpartij B reviewt feature branch"]
+        Rev3["Ontwikkelpartij B reviewt feature branch in upstream repo"]
         Maint3["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -508,16 +508,16 @@ graph LR
     %% Nodes
     Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
     Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
-    Up["Uitgever beheert versie branches in upstream repo"]
-    SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+    Up["Uitgever beheert versie en stable release branches in upstream repo"]
+    SaaS["SaaS aanbieder levert draaiende instantie van stable release branches vanuit eigen repo"]
 
     %% Connections
     Regie --> Component1
     Regie --> Component2
     Regie --> Component3
-    Rev1 --"merge into upstream"--> Up
-    Rev2 --"merge into upstream"--> Up
-    Rev3 --"merge into upstream"--> Up
+    Rev1 --"merge into versie branch"--> Up
+    Rev2 --"merge into versie branch"--> Up
+    Rev3 --"merge into versie branch"--> Up
     Maint1 --> Up
     Maint2 --> Up
     Maint3 --> Up
