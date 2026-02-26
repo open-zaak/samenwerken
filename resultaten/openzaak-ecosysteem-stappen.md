@@ -9,67 +9,51 @@ nav_order: 6
 
 Status: Draft
 
-Dit document bevat mogelijke beoogde stappen voor de OpenZaak ecosysteem, met de intentie op regie vanuit landelijke voorziening.
+Dit document bevat mogelijke beoogde stappen die de huidige community leden kunnen maken om regie vanuit landelijke voorziening voor te bereiden.
 
 ## Inhoudsopgave
 * TOC
 {:toc}
 
-## Ecosysteembeschrijvingen voor OpenZaak
+## Huidige staat
 
-Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorziening te bereiken
-
-### Huidige staat: een marktpartij die verantwoordelijk is
+Een marktpartij die verantwoordelijk is, aangestuurd door de G4
 
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Marktijpartij"]
+    Dev1["Maykin Media"]
     PO["Product owner:<br/>G4 en kopgroep"]
 
     %% Connections
     PO -.- Dev1 
 ```
 
-### Tussen staat: landelijke regie verantwoordelijk voor de publicatie van stable releases, een marktpartij verantwoordelijk voor de development en onderhoud van de code, geassisteerd door een review partij
+## Iteratief te maken stappen
+
+1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie
+
+2) Onderhoud contract vanuit landelijke regie om structureel, noodzakelijk werk te borgen 
+
+3) Definitie van verantwoordelijkheden landelijke regie en Maykin Media incl
+   1) Website
+   2) Niet feature-gerelateerde documentatie
+   3) 
+
+4) Nodige aanpassing aan governance file en contracten
+
+Met bij elke stap een kosten/baten analyse en evaluatie
 
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Marktijpartij"]
-    ReviewP2["Reviewpartij"]
-    Upstream["Publicatie branch"]
-    PO["Product owner:<br/>Landelijke regie"]
+    Dev1["Maykin Media:<br/>'Development repository'"]
+    Upstream["Upstream:<br/>'Uitgeven' repository"]
+    PO["Landelijke regie:<br/>Regie partij"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> ReviewP2
-    ReviewP2 --> Upstream
-```
-
-### Beoogde staat: volle regie vanuit landenlijke voorziening met mogelijkheid (indien gewenst) voor verschillende development, review, SaaS- en onderhoud-partijen 
-
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Marktijpartij"]
-    ReviewP1["Reviewpartij"]
-    Dev2["Marktijpartij"]
-    Review2["Reviewpartij"]
-    Upstream["Publicatie branch"]
-    PO["Product owner:<br/>Landelijke regie"]
-    SaaS["SaaS provider"]
-    Maint["Onderhoud partij (van stable releases)"]
-
-    %% Connections
-    PO -.- Upstream
-    Dev1 --> ReviewP1
-    ReviewP1 --> Upstream
-    Dev2 --> Review2
-    Review2 --> Upstream
-    Upstream --> Maint
-    Maint --> Upstream
-    Upstream --> SaaS
+    Dev1 --> Upstream
 ```
 
 ### (verplaatst) Stappenplan voor de introductie van een tweede marktpartij
@@ -78,3 +62,4 @@ graph LR
 1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
 2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
 3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
+
