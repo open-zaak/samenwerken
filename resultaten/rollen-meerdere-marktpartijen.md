@@ -20,6 +20,7 @@ Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, ind
 De huidige OpenZaak community werkt goed voor snel en informeel werken.
 
 Er is veel informele samenwerking binnen de community, inclusief documentatie met een informeel karakter.
+Rollen en verantwoordelijkheden zijn niet altijd duidelijk belegd en meerdere rollen worden door dezelfde partij vervuld, waardoor het niet altijd duidelijk is welke activiteiten en beslissingen onder welke rol vallen.
 De G4 vervult een aansturende rol.
 Er is veel goodwill en de meeste betrokken partijen zijn tevreden.
 
@@ -28,6 +29,10 @@ Naarmate OpenZaak groeit en breder wordt ingezet, kan de community veranderen.
 Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk niveau onder centrale regie wordt geëxploiteerd, kunnen stappen worden gezet om de bedrijfszekerheid van de community te versterken.
 
 ## Voorstel: rollen & verantwoordelijkheden
+
+Uit de gesprekken komen een aantal rollen naar voren die we van elkaar kunnen scheiden, om deze in een later stadium aan verschillende marktpartijen te kunnen toewijzen, indien gewenst of vereist, te weten: Ecosysteem/codebase steward, Uitgeven, Development, Reviewen, Maintenance/onderhoud, Leveren (SaaS), Implementeren.
+
+Hieronder lichten we per rol toe wat de rol inhoudt, welke taken daarbij horen, en waarom we deze rol gescheiden hebben van andere rollen.
 
 ### Ecosysteem/codebase steward
 
