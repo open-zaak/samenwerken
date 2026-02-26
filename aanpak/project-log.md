@@ -14,4 +14,8 @@ nav_order: 6
 * een workshop gericht op governance-doelstellingen, met focus op:  
   * het afstemmen van het huidige beeld van het OpenZaak-ecosysteem,  
   * het in kaart brengen van sterktes, zwaktes, kansen en bedreigingen, en  
-  * het opbouwen van een gedeeld begrip van de kern-dynamieken binnen de governance van het ecosysteem  
+  * het opbouwen van een gedeeld begrip van de kern-dynamieken binnen de governance van het ecosysteem
+* een workshop gericht op feedback op de voorstelvisie ecosysteem, met focus op:
+  * praktische werkbaarheid en developer perspectief,
+  * budgetten, planning en contracten
+  * toepasbaarheid op andere component-ecosystemen
