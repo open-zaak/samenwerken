@@ -472,7 +472,7 @@ graph LR
     subgraph Component1
     %% Nodes
         Dev1["Ontwikkelpartij A ontwikkelt feature in eigen repo"]
-        Rev1["Ontwikkelpartij C reviewt feature branch in upstream repo"]
+        Rev1["Ontwikkelpartij B reviewt feature branch in upstream repo"]
         Maint1["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -482,7 +482,7 @@ graph LR
     subgraph Component2
     %% Nodes
         Dev2["Ontwikkelpartij B ontwikkelt feature in eigen repo"]
-        Rev2["Ontwikkelpartij A reviewt feature branch in upstream repo"]
+        Rev2["Ontwikkelpartij C reviewt feature branch in upstream repo"]
         Maint2["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -492,7 +492,7 @@ graph LR
     subgraph Component3
     %% Nodes
         Dev3["Ontwikkelpartij C ontwikkelt feature in eigen repo"]
-        Rev3["Ontwikkelpartij B reviewt feature branch in upstream repo"]
+        Rev3["Ontwikkelpartij A reviewt feature branch in upstream repo"]
         Maint3["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -526,12 +526,12 @@ graph LR
 
     %% Styling
     classDef softBlue fill:#e3f2fd,stroke:#90caf9,color:#0d47a1;
-    class Dev1,Rev2 softBlue;
+    class Dev1,Rev3 softBlue;
 
     classDef softGreen fill:#e8f5e9,stroke:#a5d6a7,color:#1b5e20;
-    class Dev2,Rev3 softGreen;
+    class Dev2,Rev1 softGreen;
 
     classDef softRed fill:#fdecea,stroke:#f5b7b1,color:#7f1d1d;
-    class Dev3,Rev1 softRed;
+    class Dev3,Rev2 softRed;
 
 ```
