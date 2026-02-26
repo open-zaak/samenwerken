@@ -31,7 +31,7 @@ graph LR
 
 ## Beoogde staat
 
-Een marktpartij die verantwoordelijk is, aangestuurd door de landeljike regie, met een landelijke-gestuurde SaaS aanbieder, en locale omplementatiepartij 
+Een marktpartij die verantwoordelijk is, aangestuurd door de landeljike regie, met een landelijke-gestuurde SaaS aanbieder, en locale implementatiepartijen. 
 
 ```mermaid
 graph LR
