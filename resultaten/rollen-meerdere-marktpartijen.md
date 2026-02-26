@@ -53,7 +53,7 @@ Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van d
 - Ecosysteem management, inclusief afweging tussen stabiliteit, innovatie, onafhankelijkheid en beheerkosten.
 - Financiering en opdrachtgeverschap.
 
-#### Waarom? (design choices)
+#### Overwegingen
 
 *  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componenten.
 
@@ -86,7 +86,7 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
   - change log, dependency graph
   - installatie-, beheers, en gebruiks-handleiding
 
-#### Waarom? (design choices)
+#### Overwegingen
 
 *  Een centrale repository, in eigendom en beheer van de landelijke regie, met alle (stabiele) versies van alle componenten, maakt beter toezicht en betere regie mogelijk.
 
@@ -116,7 +116,7 @@ Projectmatig ontwikkelen van een component of een feature van een component.
 - Aanbieden aan beheerder als pull request
 - Werkt mogelijk samen met een review party
 
-#### Waarom?
+#### Overwegingen
 
 *  Levering aan de centrale repository, onder toezicht van de steward, maakt een duidelijke definitie van “done” en het beheer van features/versies mogelijk.
 
@@ -147,7 +147,7 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 
 - Onafhankelijke review (code, security, documentatie, herbruikbaarheid, etc)
 
-#### Waarom?
+#### Overwegingen
 
 *  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
 
@@ -187,7 +187,7 @@ Onderhoud van een of meerdere stable release versies van de code, inclusief bug 
 - Uitvoeren van bug fixes, updates en security patches.
 - Communiceren van onderhoudsactiviteiten naar relevante stakeholders.
 
-#### Waarom?
+#### Overwegingen
 
 *  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen.
 
@@ -230,7 +230,7 @@ Het leveren van stable versie(s) uit de publicatie repositorie als een draaiende
 - Monitoring, incidentmanagement, back-ups, herstel en dagelijkse operationele beveiliging.
 - Inbrengen bugs, issues, requirements terug naar de centrale issue tracker.
 
-#### Waarom?
+#### Overwegingen
 
 * Een aparte SaaS-aanbieder om de kwaliteit van de codebase, de uitvoerbaarheid door andere partijen, en daarmee de veerkracht van het ecosysteem te waarborgen.
 
