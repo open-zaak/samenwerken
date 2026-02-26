@@ -9,7 +9,9 @@ nav_order: 6
 
 Status: Draft
 
-Dit document bevat mogelijke beoogde stappen voor de OpenZaak ecosysteem, met de intentie op regie vanuit landelijke voorziening.
+Dit document bevat mogelijke beoogde stappen die de huidige community leden kunnen maken om regie vanuit landelijke voorziening voor te bereiden.
+
+
 
 ## Inhoudsopgave
 * TOC
