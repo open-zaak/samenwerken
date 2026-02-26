@@ -31,27 +31,26 @@ graph LR
 
 ## Te maken stappen
 
-landelijke regie verantwoordelijk voor de publicatie van stable releases
-een marktpartij verantwoordelijk voor de development en onderhoud van de code
-geassisteerd door een review partij
+1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie
+
+2) Onderhoud contract vanuit landelijke regie om structureel, noodzakelijk werk te borgen 
+
+3) Definitie van verantwoordelijkheden landelijke regie en Maykin Media incl
+   1) Website
+   2) Documentatie
+   3) 
+
+4) Nodige aanpassing aan governance file en contracten
 
 ```mermaid
 graph LR
     %% Nodes
     Dev1["Marktijpartij"]
-    ReviewP2["Reviewpartij"]
     Upstream["Publicatie branch"]
     PO["Product owner:<br/>Landelijke regie"]
 
     %% Connections
     PO -.- Upstream
-    Dev1 --> ReviewP2
-    ReviewP2 --> Upstream
+    Dev1 --> Upstream
 ```
 
-### Stappenplan voor de introductie van een tweede marktpartij
-
-0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
-1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
-2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
-3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
