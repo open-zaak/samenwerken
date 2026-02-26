@@ -22,7 +22,7 @@ Een marktpartij die verantwoordelijk is, aangestuurd door de G4
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Marktijpartij"]
+    Dev1["Maykin Media"]
     PO["Product owner:<br/>G4 en kopgroep"]
 
     %% Connections
@@ -47,9 +47,9 @@ Met bij elke stap een kosten/baten analyse en evaluatie
 ```mermaid
 graph LR
     %% Nodes
-    Dev1["Marktijpartij"]
-    Upstream["Publicatie branch"]
-    PO["Product owner:<br/>Landelijke regie"]
+    Dev1["Maykin Media:<br/>'Development repository'"]
+    Upstream["Upstream:<br/>'Uitgeven' repository"]
+    PO["Landelijke regie:<br/>Regie partij"]
 
     %% Connections
     PO -.- Upstream
