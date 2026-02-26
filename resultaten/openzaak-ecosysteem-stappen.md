@@ -31,19 +31,6 @@ graph LR
 
 ## Iteratief te maken stappen
 
-1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie
-
-2) Onderhoud contract vanuit landelijke regie om structureel, noodzakelijk werk te borgen 
-
-3) Definitie van verantwoordelijkheden landelijke regie en Maykin Media incl
-   1) Website
-   2) Niet feature-gerelateerde documentatie
-   3) 
-
-4) Nodige aanpassing aan governance file en contracten
-
-Met bij elke stap een kosten/baten analyse en evaluatie
-
 ```mermaid
 graph LR
     subgraph OpenZaak
@@ -67,6 +54,20 @@ graph LR
     Regie --> OpenZaak
     OpenZaak --> Impl
 ```
+
+1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie
+
+2) Onderhoud contract vanuit landelijke regie om structureel, noodzakelijk werk te borgen 
+
+3) Definitie van verantwoordelijkheden landelijke regie en Maykin Media incl
+   1) Website
+   2) Niet feature-gerelateerde documentatie
+   3) 
+
+4) Nodige aanpassing aan governance file en contracten
+
+Met bij elke stap een kosten/baten analyse en evaluatie
+
 ### (verplaatst) Stappenplan voor de introductie van een tweede marktpartij
 
 0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
