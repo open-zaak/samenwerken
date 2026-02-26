@@ -49,31 +49,6 @@ graph LR
     ReviewP2 --> Upstream
 ```
 
-### Beoogde staat: volle regie vanuit landenlijke voorziening met mogelijkheid (indien gewenst) voor verschillende development, review, SaaS- en onderhoud-partijen 
-
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Marktijpartij"]
-    ReviewP1["Reviewpartij"]
-    Dev2["Marktijpartij"]
-    Review2["Reviewpartij"]
-    Upstream["Publicatie branch"]
-    PO["Product owner:<br/>Landelijke regie"]
-    SaaS["SaaS provider"]
-    Maint["Onderhoud partij (van stable releases)"]
-
-    %% Connections
-    PO -.- Upstream
-    Dev1 --> ReviewP1
-    ReviewP1 --> Upstream
-    Dev2 --> Review2
-    Review2 --> Upstream
-    Upstream --> Maint
-    Maint --> Upstream
-    Upstream --> SaaS
-```
-
 ### Stappenplan voor de introductie van een tweede marktpartij
 
 0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
