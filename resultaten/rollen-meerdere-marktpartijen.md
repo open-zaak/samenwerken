@@ -283,7 +283,7 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 
 #### Overwegingen
 
-*  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
+*  De introductie van een tweede reviewpartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
 *  Dit zal extra kosten en vertraging in de workflow introduceren, in verhouding tot de ambitie, diepgang en kwaliteit van de review. Dit moet een bewuste keuze zijn.
 
 ---
@@ -337,7 +337,7 @@ Onderhoud van een of meerdere stable release versies van de code, inclusief bug 
 
 #### Overwegingen
 
-*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen. Dit ambitieniveau is op dit moment nog niet aan de orde.
+*  Indien gewenst, zou de tweede onderhoudspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen. Dit ambitieniveau is op dit moment nog niet aan de orde.
 
 ---
 
