@@ -11,7 +11,7 @@ Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit d
 
 Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, indien en wanneer dit gewenst of vereist is door de G4 en/of landelijke regie.
 
-Daarbij is het belangrijk om op te merken dat OpenZaak niet op zichzelf staat, maar onderdeel is van het Common Ground landschap van componenten. De regiepartij heeft een belangrijke rol in het bewaken van de planning van en samenhang tussen deze componenten.
+Daarbij is het belangrijk om op te merken dat OpenZaak niet op zichzelf staat, maar onderdeel is van het Common Ground landschap van componenten én partijen. De regiepartij heeft een belangrijke rol in het bewaken van de planning van en samenhang tussen deze componenten en het over en weer inzetten van partijen die aan meerdere componenten bijdragen.
 
 ```mermaid
 graph LR
