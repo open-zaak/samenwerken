@@ -472,7 +472,7 @@ graph LR
     subgraph Component1
     %% Nodes
         Dev1["Ontwikkelpartij A ontwikkelt feature in eigen repo"]
-        Rev1["Ontwikkelpartij C reviewt feature branch in upstream repo"]
+        Rev1["Ontwikkelpartij C reviewt feature branch"]
         Maint1["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -482,7 +482,7 @@ graph LR
     subgraph Component2
     %% Nodes
         Dev2["Ontwikkelpartij B ontwikkelt feature in eigen repo"]
-        Rev2["Ontwikkelpartij A reviewt feature branch in upstream repo"]
+        Rev2["Ontwikkelpartij A reviewt feature branch"]
         Maint2["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -492,7 +492,7 @@ graph LR
     subgraph Component3
     %% Nodes
         Dev3["Ontwikkelpartij C ontwikkelt feature in eigen repo"]
-        Rev3["Ontwikkelpartij B reviewt feature branch in upstream repo"]
+        Rev3["Ontwikkelpartij B reviewt feature branch"]
         Maint3["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
 
         %% Connections
@@ -515,12 +515,12 @@ graph LR
     Regie --> Component1
     Regie --> Component2
     Regie --> Component3
-    Rev1 --"push naar upstream"--> Up
-    Rev2 --"push naar upstream"--> Up
-    Rev3 --"push naar upstream"--> Up
-    Maint1 --"onderhoudt stable release branches in upstream repo"--> Up
-    Maint2 --"onderhoudt stable release branches in upstream repo"--> Up
-    Maint3 --"onderhoudt stable release branches in upstream repo"--> Up
+    Rev1 --"merge into upstream"--> Up
+    Rev2 --"merge into upstream"--> Up
+    Rev3 --"merge into upstream"--> Up
+    Maint1 --> Up
+    Maint2 --> Up
+    Maint3 --> Up
     Up --> SaaS
     Up --> Impl
 
