@@ -11,17 +11,13 @@ Status: Draft
 
 Dit document bevat mogelijke beoogde stappen die de huidige community leden kunnen maken om regie vanuit landelijke voorziening voor te bereiden.
 
-
-
 ## Inhoudsopgave
 * TOC
 {:toc}
 
-## Ecosysteembeschrijvingen voor OpenZaak
+## Huidige staat
 
-Drie stappen voor het ecosysteem om volledige regie bij de landelijke voorziening te bereiken
-
-### Huidige staat: een marktpartij die verantwoordelijk is
+Een marktpartij die verantwoordelijk is, aangestuurd door de G4
 
 ```mermaid
 graph LR
@@ -33,7 +29,11 @@ graph LR
     PO -.- Dev1 
 ```
 
-### Tussen staat: landelijke regie verantwoordelijk voor de publicatie van stable releases, een marktpartij verantwoordelijk voor de development en onderhoud van de code, geassisteerd door een review partij
+## Te maken stappen
+
+landelijke regie verantwoordelijk voor de publicatie van stable releases
+een marktpartij verantwoordelijk voor de development en onderhoud van de code
+geassisteerd door een review partij
 
 ```mermaid
 graph LR
