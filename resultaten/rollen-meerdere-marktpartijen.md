@@ -30,15 +30,80 @@ Gezien de ambitie om van OpenZaak een kerncomponent te maken die op landelijk ni
 
 ## Voorstel: rollen & verantwoordelijkheden
 
-Uit de gesprekken komen een aantal rollen naar voren die we van elkaar kunnen scheiden, om deze in een later stadium aan verschillende marktpartijen te kunnen toewijzen, indien gewenst of vereist, te weten: Ecosysteem/codebase steward, Uitgeven, Development, Reviewen, Maintenance/onderhoud, Leveren (SaaS), Implementeren.
+Uit de gesprekken komen een aantal rollen naar voren die we van elkaar kunnen scheiden, om deze in een later stadium aan verschillende marktpartijen te kunnen toewijzen, indien gewenst of vereist, te weten:
+- Regiepartij (voorheen Ecosysteem/codebase steward),
+- Ontwikkelpartij (voorheen Development),
+- Reviewpartij (voorheen Reviewen),
+- Uitgever,
+- Onderhoudspartij (voorheen Maintenance/onderhoud),
+- SaaS aanbieder (voorheen Leveren (SaaS)),
+- Implementatiepartij (voorheen Implementeren).
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+```
 
 Hieronder lichten we per rol toe wat de rol inhoudt, welke taken daarbij horen, en waarom we deze rol gescheiden hebben van andere rollen.
 
-### Ecosysteem/codebase steward
+---
+
+### Regiepartij
 
 Nu: G4 overleg
 
-Toekomst: Intern vanuit landelijke regie, of gedelegeerd 
+Toekomst: Intern vanuit landelijke regie, of gedelegeerd
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Rev,Up,Maint,SaaS,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -57,20 +122,44 @@ Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van d
 
 *  Dit is een landschap met meerdere componenten, dus er moet vanuit landelijke regie toezicht zijn op de onderlinge afhankelijkheden tussen de verschillende componenten.
 
-```mermaid
-graph LR
-    %% Nodes
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+---
 
-    %% Connections
-    PO
-```
-
-### Uitgeven
+### Uitgever
 
 Nu: Maykin
 
 Toekomst: Intern vanuit landelijke regie, of gedelegeerd
+
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Regie,Rev,Maint,SaaS,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -90,21 +179,43 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
 
 *  Een centrale repository, in eigendom en beheer van de landelijke regie, met alle (stabiele) versies van alle componenten, maakt beter toezicht en betere regie mogelijk.
 
-```mermaid
-graph LR
-    %% Nodes
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+---
 
-    %% Connections
-    PO -.- Upstream
-```
-
-### Development
+### Ontwikkelpartij
 
 Nu: Maykin
 
 Toekomst: Mogelijk tweede marktpartij met een feature development contract, indien nodig/gewenst
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Regie,Rev,Up,Maint,SaaS,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -120,23 +231,44 @@ Projectmatig ontwikkelen van een component of een feature van een component.
 
 *  Levering aan de centrale repository, onder toezicht van de steward, maakt een duidelijke definitie van “done” en het beheer van features/versies mogelijk.
 
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev branch"]
-    Upstream["Upstream repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+---
 
-    %% Connections
-    PO -.- Upstream
-    Dev1 --> Upstream
-```
-
-### Reviewen
+### Reviewpartij
 
 Nu: Maykin
 
 Toekomst: Mogelijk tweede marktpartij met een review contract
+
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Regie,Up,Maint,SaaS,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -151,31 +283,44 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 
 *  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
 
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev"]
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
+---
 
-    %% Connections
-    
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
-
-    %% Workflow 1
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
-    ReviewP2 --> Upstream
-```
-
-### Maintenance/onderhoud
+### Onderhoudspartij
 
 Nu: Maykin, als onderdeel van een featurecontract
 
 Toekomst: Maykin met een specifiek onderhoudscontract, mogelijk tweede marktpartij met een specifiek onderhoudscontract
+
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Regie,Rev,Up,SaaS,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -191,33 +336,44 @@ Onderhoud van een of meerdere stable release versies van de code, inclusief bug 
 
 *  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen.
 
-```mermaid
-graph LR
-    %% Nodes
-    Dev1["Repo:<br/>Dev"]
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-    Maint["Onderhoud<br/>stable release"]
+---
 
-    %% Connections
-    
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
-
-    %% Workflow 1
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
-    ReviewP2 --> Upstream
-    Upstream --> Maint
-```
-
-### Leveren (SaaS)
+### SaaS aanbieder
 
 Nu: Verschillende SaaS aanbieders
 
 Toekomst: centrale SaaS aanbieder onder landelijke regie
+
+
+```mermaid
+graph LR
+    subgraph OpenZaak
+    %% Nodes
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+
+    %% Connections
+    Regie --> OpenZaak
+    OpenZaak --> Impl
+
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Regie,Rev,Up,Maint,Impl,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -234,27 +390,39 @@ Het leveren van stable versie(s) uit de publicatie repositorie als een draaiende
 
 * Een aparte SaaS-aanbieder om de kwaliteit van de codebase, de uitvoerbaarheid door andere partijen, en daarmee de veerkracht van het ecosysteem te waarborgen.
 
+---
+
+### Implementatiepartij
+
 ```mermaid
 graph LR
+    subgraph OpenZaak
     %% Nodes
-    Dev1["Repo:<br/>Dev"]
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-    Maint["Onderhoud<br/>stable release"]
-    SaaS["Repo:<br/>SaaS provider"]
+        Dev["Ontwikkelpartij ontwikkelt feature in eigen repo"]
+        Rev["Review partij reviewt feature branch in upstream repo"]
+        Up["Uitgever beheert versie branches in upstream repo"]
+        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+        %% Connections
+        Dev --"push naar feature branch"--> Rev
+        Rev --> Up
+        Maint --> Up
+        Up --> SaaS
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
 
     %% Connections
-    PO -.- Upstream
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
-    ReviewP2 --> Upstream
-    Upstream --> Maint
-    Upstream --> SaaS
-```
+    Regie --> OpenZaak
+    OpenZaak --> Impl
 
-### Implementeren
+    %% Styling
+    classDef grey fill:#eeeeee,stroke:#bbbbbb,color:#777777;
+    class Dev,Regie,Rev,Up,Maint,SaaS,OpenZaak grey;
+```
 
 #### Rolbeschrijving
 
@@ -264,114 +432,3 @@ Het inrichten van de instantie van de component voor specifiek gebruik bij een g
  
 - Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk.
 - Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening.
-    
-## Voorbeeld scenario: marktpartijen met elk 1 development en 1 review verantwoordelijkheid
-
-Doel: meerdere ontwikkelpartijen laten bijdragen aan een landelijke regie-repository, waarbij elke partij verantwoordelijk is voor de ontwikkeling van één component en de review van één component.
-
-```mermaid
-graph LR
-    %% Nodes
-    
-    %% Left Side: Components
-    Dev1["Component 1:<br/>Dev repo"]
-    Dev2["Component 2:<br/>Dev repo"]
-    Dev3["Component 3:<br/>Dev repo"]
-
-    %% Reviews
-    1FeatP1["Partij 1<br/>Feature<br/>branch"]
-    1ReviewP2["Partij 2<br/>Review"]
-
-    2FeatP2["Partij 2<br/>Feature<br/>branch"]
-    2ReviewP3["Partij 3<br/>Review"]
-
-    3FeatP3["Partij 3<br/>Feature<br/>branch"]
-    3ReviewP1["Partij 1<br/>Review"]
-
-    %% Center: Upstream & Management
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-
-    %% Right Side: SaaS
-    SaaS["Repo:<br/>SaaS<br/>provider"]
-
-    %% Connections
-    
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
-
-    %% Component 1
-    Dev1 --> 1FeatP1
-    1FeatP1 --> 1ReviewP2
-    1ReviewP2 --> Upstream
-
-    %% Component 2
-    Dev2 --> 2FeatP2
-    2FeatP2 --> 2ReviewP3
-    2ReviewP3 --> Upstream
-
-    %% Component 3
-    Dev3 --> 3FeatP3
-    3FeatP3 --> 3ReviewP1
-    3ReviewP1 --> Upstream
-
-    %% Downstream / Release
-    Upstream --> SaaS
-```
-
-## Voorbeeld scenario: dual vendorship
-
-Doel: twee ontwikkelpartijen laten samenwerken om elkaars werk te ontwikkelen en te reviewen.
-
-```mermaid
-graph LR
-    %% Nodes
-    
-    %% Left Side: Inputs
-    Dev1["Repo:<br/>Dev"]
-    Dev2["Repo:<br/>Dev"]
-    
-    %% Top Stream (P1 works, P2 reviews)
-    FeatP1["Partij 1<br/>Feature<br/>branch"]
-    ReviewP2["Partij 2<br/>Review"]
-    
-    %% Bottom Stream (P2 works, P1 reviews)
-    FeatP2["Partij 2<br/>Feature<br/>branch"]
-    ReviewP1["Partij 1<br/>Review"]
-
-    %% Center: Upstream & Management
-    Upstream["Upstream<br/>repo: (VNG?)<br/>release branch &<br/>'release next'"]
-    PO["Product<br/>owner (versie<br/>beheer: planning<br/>en acceptatie)"]
-
-    %% Right Side: Outputs / Maintenance
-    MaintP1["Partij 1<br/>Onderhoud<br/>even major<br/>release"]
-    MaintP2["Partij 2<br/>Onderhoud<br/>oneven major<br/>release"]
-    SaaS["Repo:<br/>SaaS<br/>provider"]
-
-    %% Connections
-    
-    %% PO Logic (dotted line for oversight)
-    PO -.- Upstream
-
-    %% Workflow 1
-    Dev1 --> FeatP1
-    FeatP1 --> ReviewP2
-    ReviewP2 --> Upstream
-    
-    %% Workflow 2
-    Dev2 --> FeatP2
-    FeatP2 --> ReviewP1
-    ReviewP1 --> Upstream
-
-    %% Downstream / Release
-    Upstream --> MaintP1
-    Upstream --> MaintP2
-    Upstream --> SaaS
-```
-
-### Stappenplan voor de introductie van een tweede marktpartij
-
-0. Contract voor "close easy issue": de codebase en documentatie leren kennen  
-1. Reviewcontract: een diepgaander begrip van de codebase krijgen en gecoacht worden door de hoofdontwikkelende partij  
-2. Maintenance contract: verantwoordelijkheid nemen voor de codebase door een stabiele release te onderhouden  
-3. Feature-ontwikkelcontract: deelnemen aan de ontwikkeling van de codebase
