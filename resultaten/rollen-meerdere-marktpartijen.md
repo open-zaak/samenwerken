@@ -435,3 +435,74 @@ Het inrichten van de instantie van de component voor specifiek gebruik bij een g
  
 - Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk.
 - Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening.
+
+## Voorstelvisie ecosysteem van componenten
+
+```mermaid
+graph LR
+    subgraph Component1
+    %% Nodes
+        Dev1["Ontwikkelpartij A ontwikkelt feature in eigen repo"]
+        Rev1["Ontwikkelpartij C reviewt feature branch in upstream repo"]
+        Maint1["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+
+        %% Connections
+        Dev1 --"push naar feature branch"--> Rev1
+    end
+
+    subgraph Component2
+    %% Nodes
+        Dev2["Ontwikkelpartij B ontwikkelt feature in eigen repo"]
+        Rev2["Ontwikkelpartij A reviewt feature branch in upstream repo"]
+        Maint2["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+
+        %% Connections
+        Dev2 --"push naar feature branch"--> Rev2
+    end
+
+    subgraph Component3
+    %% Nodes
+        Dev3["Ontwikkelpartij C ontwikkelt feature in eigen repo"]
+        Rev3["Ontwikkelpartij B reviewt feature branch in upstream repo"]
+        Maint3["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
+
+        %% Connections
+        Dev3 --"push naar feature branch"--> Rev3
+    end
+
+    subgraph Landelijke-regie
+    %% Nodes
+    Up["Uitgever beheert versie branches in upstream repo"]
+
+    end
+
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
+    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
+    Up["Uitgever beheert versie branches in upstream repo"]
+    SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
+
+    %% Connections
+    Regie --> Component1
+    Regie --> Component2
+    Regie --> Component3
+    Rev1 --"push naar upstream"--> Up
+    Rev2 --"push naar upstream"--> Up
+    Rev3 --"push naar upstream"--> Up
+    Maint1 --"onderhoudt stable release branches in upstream repo"--> Up
+    Maint2 --"onderhoudt stable release branches in upstream repo"--> Up
+    Maint3 --"onderhoudt stable release branches in upstream repo"--> Up
+    Up --> SaaS
+    Up --> Impl
+
+    %% Styling
+    classDef softBlue fill:#e3f2fd,stroke:#90caf9,color:#0d47a1;
+    class Dev1,Rev2 softBlue;
+
+    classDef softGreen fill:#e8f5e9,stroke:#a5d6a7,color:#1b5e20;
+    class Dev2,Rev3 softGreen;
+
+    classDef softRed fill:#fdecea,stroke:#f5b7b1,color:#7f1d1d;
+    class Dev3,Rev1 softRed;
+
+```
