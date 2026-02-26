@@ -89,6 +89,7 @@ Op orde en compliant houden van de opensourcecode van de component(versies).
 #### Overwegingen
 
 *  Een centrale repository, in eigendom en beheer van de landelijke regie, met alle (stabiele) versies van alle componenten, maakt beter toezicht en betere regie mogelijk.
+*  Dit vereist dat de landelijke regie hiervoor verantwoordelijkheid neemt en over de relevante expertise beschikt of deze inhuurt.
 
 ```mermaid
 graph LR
@@ -119,6 +120,7 @@ Projectmatig ontwikkelen van een component of een feature van een component.
 #### Overwegingen
 
 *  Levering aan de centrale repository, onder toezicht van de steward, maakt een duidelijke definitie van “done” en het beheer van features/versies mogelijk.
+*  Dit kan enige complexiteit in het ontwikkelproces introduceren, waardoor enkele iteraties in de workflow nodig zijn.
 
 ```mermaid
 graph LR
@@ -150,6 +152,7 @@ Dit in het kader van vier ogen principe én warme kennis bij meer dan één part
 #### Overwegingen
 
 *  De introductie van een tweede beoordelingspartij zorgt voor meer veerkracht in het ecosysteem, waarbij een tweede partij over warme kennis van de codebase beschikt.
+*  Dit zal extra kosten en vertraging in de workflow introduceren, in verhouding tot de ambitie, diepgang en kwaliteit van de review. Dit moet een bewuste keuze zijn.
 
 ```mermaid
 graph LR
@@ -189,7 +192,7 @@ Onderhoud van een of meerdere stable release versies van de code, inclusief bug 
 
 #### Overwegingen
 
-*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen.
+*  Indien gewenst, zou de tweede beoordelingspartij op termijn ook het beheer van de codebase kunnen doen (bijvoorbeeld bij elke andere stabiele release) om zo nog meer kennis van de codebase op te bouwen. Dit ambitieniveau is op dit moment nog niet aan de orde.
 
 ```mermaid
 graph LR
