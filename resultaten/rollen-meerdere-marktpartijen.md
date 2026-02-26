@@ -11,6 +11,35 @@ Op basis van de interviews, workshops en bedrijfszekerheidsdoelen, schetst dit d
 
 Het doel is om voor te bereiden dat meerdere marktpartijen kunnen bijdragen, indien en wanneer dit gewenst of vereist is door de G4 en/of landelijke regie.
 
+Daarbij is het belangrijk om op te merken dat OpenZaak niet op zichzelf staat, maar onderdeel is van het Common Ground landschap van componenten én partijen. De regiepartij heeft een belangrijke rol in het bewaken van de planning van en samenhang tussen deze componenten en het over en weer inzetten van partijen die aan meerdere componenten bijdragen.
+
+```mermaid
+graph LR
+    %% Nodes
+    Regie["Regiepartij stuurt ontwikkeling en release management in samenhang"]
+    Impl["Implementatiepartij implementeert oplossing bij gemeente"]
+    subgraph CommonGround["Common Ground"]
+        %% Nodes
+        Comp1["Component 1 codebase en ecosysteem"]
+        Comp2["Component 2 codebase en ecosysteem"]
+        Comp3["Component 3 codebase en ecosysteem"]
+        More["..."]
+
+        classDef ellipsis fill:#ffffff,stroke-dasharray: 5 5,color:#666;
+        class More ellipsis
+    end
+
+    %% Connections
+    Regie --> Comp1
+    Regie --> Comp2
+    Regie --> Comp3
+    Regie --> More
+    Comp1 --> Impl
+    Comp2 --> Impl
+    Comp3 --> Impl
+    More --> Impl
+```
+
 ## Inhoudsopgave
 * TOC
 {:toc}
