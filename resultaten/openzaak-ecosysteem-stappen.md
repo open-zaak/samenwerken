@@ -29,7 +29,9 @@ graph LR
     PO -.- Dev1 
 ```
 
-## Huidige staat
+## Beoogde staat
+
+Een marktpartij die verantwoordelijk is, aangestuurd door de landeljike regie, met een landelijke-gestuurde SaaS aanbieder, en locale omplementatiepartij 
 
 ```mermaid
 graph LR
