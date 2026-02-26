@@ -88,7 +88,3 @@ Dit biedt een kans om een proof of concept te ontwikkelen rond *portfoliomanagem
 * het beschikbaar maken van de laatste stabiele releases van alle componenten (bijvoorbeeld als downstream clones of als upstream repositories);
 * het expliciet modelleren van afhankelijkheden tussen versies;
 * het verkennen van effectieve vormen van communicatie richting hergebruikers.
-
-## Hoe beïnvloedt dit de governance binnen OpenZaak?
-
-Dit alles betekent dat de governance binnen OpenZaak afwijkt van die van een klassiek (‘vanilla’) open-sourceproject.
