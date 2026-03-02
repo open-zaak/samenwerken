@@ -467,6 +467,8 @@ Het inrichten van de instantie van de component voor specifiek gebruik bij een g
 
 ## Voorstelvisie ecosysteem van componenten
 
+De wens is om een ecosysteem te hebben waarin componenten in samenhang worden gepland en ontwikkeld, en waarin een groep leveranciers in verschillende ecosystemen in verschillende rollen bijdragen, zodat ze een zekere mate van overlap hebben in kennis van en betrokkenheid bij de verschillende componenten; op die manier kunnen we de veerkracht van het ecosysteem vergroten, en kunnen we ook de regie over en samenhang van het ecosysteem versterken.
+
 ```mermaid
 graph LR
     subgraph Component1
