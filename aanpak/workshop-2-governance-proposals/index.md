@@ -6,3 +6,4 @@ nav_order: 5
 ---
 
 * [Agenda](governance-proposals-agenda)
+* [Aantekeningen](governance-proposals-aantekeningen)
