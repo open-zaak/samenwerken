@@ -57,33 +57,6 @@ graph LR
     OpenZaak --> Impl
 ```
 
-
-```mermaid
-graph LR
-    subgraph OpenZaak
-    %% Nodes
-        Dev["Maykin Media ontwikkelt feature in eigen repo"]
-        Rev["Review partij reviewt feature branch in upstream repo"]
-        Up["Landelijke regie beheert versie branches in upstream repo"]
-        Maint["Onderhoudspartij onderhoudt stable release branches in upstream repo"]
-        SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
-
-        %% Connections
-        Dev --"push naar feature branch"--> Rev
-        Rev --> Up
-        Maint --> Up
-        Up --> SaaS
-    end
-
-    %% Nodes
-    Regie["Regiepartij stuurt ontwikkeling en release management, faciliteert samenwerking tussen marktpartijen, en houdt toezicht op de kwaliteit van de codebase en het ecosysteem"]
-    Impl["Implementatiepartij implementeert OpenZaak bij gemeente"]
-
-    %% Connections
-    Regie --> OpenZaak
-    OpenZaak --> Impl
-```
-
 ## Iteratief te maken stappen
 
 1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie     
