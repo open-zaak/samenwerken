@@ -13,6 +13,9 @@ Het ecosysteem functioneert, maar de kennis en expertise ligt op één plek en h
 ## Vendor lock-in
 Het voorkomen van vendor lock-in is een gezamenlijke verantwoordelijkheid van leveranciers en opdrachtgevers. In een innovatie-ecosysteem is het onvermijdelijk dat er een zekere mate van lock-in ontstaat, omdat iedere leverancier met een eigen innovatieve component een nieuwe, en dus unieke waardepropositie biedt. Dat is iets anders dan het doelbewust creëren van vendor lock-in. Het is van belang dit te zien als een soort gezamenlijke "debt" die beheerd moet worden.
 
+## Continuïteit (van financiering) als bedrijfszekerheid
+De meest waardevolle mensen op een project creëren een busfactor en de facto overstapkosten. Hier moet zorgvuldig mee worden omgegaan. Tegelijkertijd is er een prikkel om continue financiering te waarborgen. Als de financiering wegvalt en sleutelfiguren naar andere projecten vertrekken, kunnen de kosten & vertragingen voor het inwerken van nieuwe bijdragers aanzienlijk zijn.
+
 ## Dan versus Nu
 Er wordt regelmatig geredeneerd vanuit een toekomstige situatie die nog niet is uitgekristalliseerd. Doordat korte, middellange en lange termijn niet scherp worden onderscheiden, blijft vaak onduidelijk wie wanneer initiatief moet nemen. Het is goed om daar duidelijker onderscheid in te maken, bijvoorbeeld door middel van scenario's en/of roadmaps die de verschillende fasen van ontwikkeling en samenwerking in kaart brengen en een naam geven.
 
