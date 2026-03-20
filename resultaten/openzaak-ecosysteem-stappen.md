@@ -37,9 +37,9 @@ Een marktpartij die verantwoordelijk is, aangestuurd door de landeljike regie, m
 graph LR
     subgraph OpenZaak
     %% Nodes
-        Dev["Maykin Media ontwikkelt feature in eigen repo"]
-        Up["Landelijke regie beheert versie branches in upstream repo"]
-        Maint["Maykin Media onderhoudt stable release branches in upstream repo"]
+        Dev["Marktpartij ontwikkelt feature in eigen repo"]
+        Up["Landelijke regie beheert versie branches in uitgever repo"]
+        Maint["Marktpartij onderhoudt stable release branches in upstream repo"]
         SaaS["SaaS aanbieder levert draaiende instantie (vanuit eigen repo)"]
 
         %% Connections
@@ -57,9 +57,38 @@ graph LR
     OpenZaak --> Impl
 ```
 
-## Iteratief te maken stappen
+## Te maken stappen
 
-1) Creatie Github organisatie onder beheer van landelijke regie, overdracht van de OpenZaak repository naar deze organisatie     
-2) Onderhoud contract vanuit landelijke regie om structureel, noodzakelijk werk te borgen  
-3) Definitie van verantwoordelijkheden landelijke regie en Maykin Media incl website en niet feature-gerelateerde documentatie  
-4) Aanpassingen aan governance file en contracten  
+Proof of concept pilot vanuit landelijke regie om `uitgever`, `onderhoud` en `regie` rollen te testen en verder uit te werken.
+
+1) Uitwerken van voorstel voor `uitgever`, `onderhoud` en `regie` rollen incl test scenarios (huidge pilot?)
+
+2) Contract vanuit landelijke regie om `uitgever` en `onderhoud` in te brengen in huidige werkwijze
+   * apparte mensen en uren registratie om processfrictie en cost in kaart te brengen
+   * iteratief verbeteren op voorstel (bvb taken verschuiven)
+   * bijhouden van test scenarios die voorkomen in praktijk
+   * bijhouden van welke verantwoordelijkheden bij `regie` horen 
+
+3) Downstream VNG repo op zetten om process & kosten in kaart te brengen (bvb infra) en `regie` rol verder uit te werken
+
+4) Uitgewerkt model delen met community voor feedback, en dan verwerken tot inkoopcontracten en aanbesteding
+
+## Test scenarios 
+
+Prioriteit:
+1) Ontiwkkelen van een nieuwe feature*
+2) Security report via de github repo*
+
+Later uit te werken:
+3) Feature release (major and minor) 
+4) Nieuwe versie van de VNG standaard
+5) Dependabot issue gemaakt van common vulnerability exploit (automatic)
+6) Wens vanuit andere overheidsorgaan (bvb Logius)
+7) Wens vanuit andere gemeente voor locaal versnellen
+9) Wens vanuit de regie organisatie
+10) Bug/issue reported op de github
+11) Patch release met bug fixes
+12) Security release 
+13) Pull request van buitenaf
+14) Issue vanuit test suite voor dependencies tussen componenten
+
