@@ -138,8 +138,6 @@ graph LR
 
 Het ophalen van problemen en wensen met betrekking tot de doorontwikkeling van de component en het coördineren van de doorontwikkeling op basis van de afgesproken governance, om de verschillende belangen in balans te houden: tussen aanbieders en afnemers, en tussen bijv. grote en kleine gemeenten, etc.
 
-#### Taken
-
 - Collectief product ownerschap met duidelijke roadmap, doel & scope, architectuurprincipes, standaarden, lifecycle and compatibility etc.
 - Portfolio management over alle componenten heen, inclusief samenhang en configuratie tussen versies daarvan.
 - Regie over marktpartijen en samenwerking tussen marktpartijen.
@@ -195,8 +193,6 @@ graph LR
 Langetermijn beschikbaar stellen van component(versies).
 Op orde en compliant houden van de opensourcecode van de component(versies).
 
-#### Taken
-
 - Upstream repository met publicatie en archief van alle (stable) releases van code
 - Central issue en bug tracker, acceptatie van feature pull request   
 - Product release management met documentatie
@@ -251,8 +247,6 @@ graph LR
 
 Projectmatig ontwikkelen van een component of een feature van een component.
 
-#### Taken
-
 - Code contributies (new features of patches) met alle bijhorende documentatie en tests 
 - Aanbieden aan beheerder als pull request
 - Werkt mogelijk samen met een review party
@@ -306,8 +300,6 @@ graph LR
 Samenwerken met de development partij door contributies naar de publicatie repo te reviewen. 
 Dit in het kader van vier ogen principe én warme kennis bij meer dan één partij.
 
-#### Taken
-
 - Onafhankelijke review (code, security, documentatie, herbruikbaarheid, etc)
 
 #### Overwegingen
@@ -357,8 +349,6 @@ graph LR
 #### Rolbeschrijving
 
 Onderhoud van een of meerdere stable release versies van de code, inclusief bug fixes, updates en security patches. 
-
-#### Taken
 
 - Monitoren van stable releases op bugs, security en performance issues.
 - Uitvoeren van bug fixes, updates en security patches.
@@ -411,8 +401,6 @@ graph LR
 
 Het leveren van stable versie(s) uit de publicatie repositorie als een draaiende instantie van de component.
 
-#### Taken
-
 - Levert eindproducten als SaaS-dienst.
 - Verantwoordelijkheid voor performance, schaalbaarheid, capaciteit van de diensten.
 - Monitoring, incidentmanagement, back-ups, herstel en dagelijkse operationele beveiliging.
@@ -460,8 +448,6 @@ graph LR
 
 Het inrichten van de instantie van de component voor specifiek gebruik bij een gemeente, het trainen van medewerkers en het beantwoorden van vragen.
 
-#### Taken
- 
 - Aanpassen van werkprocessen, configuraties en werkwijzen zodat de SaaS-diensten aansluiten op de dagelijkse praktijk.
 - Brengen ervaringen, knelpunten en behoeften van gebruikers terug naar het ecosysteem ter verbetering van productdefinitie, adoptie en dienstverlening.
 
