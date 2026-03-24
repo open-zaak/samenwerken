@@ -101,8 +101,9 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
-* Communiceren van release dates, breaking changes en critical issues naar relevante stakeholders  
-* Het archiveren van alle stabiele releases van de broncode en images, zodat eerdere versies beschikbaar blijven  
+* Communiceren van release dates, versiebeheer, breaking changes en critical issues naar relevante stakeholders (rg hosting- en implementatiepartijen)  
+* Het archiveren van alle stabiele releases van de broncode en images, zodat eerdere versies beschikbaar blijven
+* Zorgen voor uniforme inrichting van repositories, toegangsrechten en bijdrageprocessen in de centrale codevoorziening  
 
 #### Onderhoud
 
@@ -124,7 +125,9 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
+* De codebase (of nieuwe stable releases daarvan) beoordelen op beheerbaarheid, onderhoudbaarheid en overdraagbaarheid voordat structureel onderhoud wordt aanvaard,
 * Monitoren van afgesproken aantal stable releases op bugs, security en performance issues
+* Documentatie bijhouden over lifecycle-keuzes, migraties en end-of-life trajecten,  
 * Documenteren van van onderhoudsactiviteiten voor relevante stakeholders
 
 #### Regie
@@ -138,17 +141,20 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
-* beschikbaar stellen van financiering en opdrachtgeverschap voor de uitgever- en onderhoudsrol,  
-* bewaken van de roadmap, scope en architectuurprincipes van het product,  
-* coördineren van de samenhang tussen componenten binnen het Common Ground landschap,  
-* faciliteren van samenwerking tussen marktpartijen die bijdragen aan het ecosysteem,  
-* toezicht houden op de kwaliteit van de codebase en het ecosysteem,  
-* borgen van kenniscontinuïteit en bedrijfszekerheid binnen de community,  
-* beheren van de centrale upstream repository onder landelijke regie,  
-* beschikbaar stellen en onderhouden van de benodigde infrastructuur voor de centrale repository,  
-* beheren van toegangsrechten en permissies op de centrale repository,  
-* zorgen voor de continuïteit en beschikbaarheid van de centrale repository en bijbehorende infrastructuur,  
-* minimaal eenmaal per jaar een bijeenkomst organiseren voor alle partners die meedoen aan het product,
+* Beschikbaar stellen van financiering en opdrachtgeverschap voor de uitgever- en onderhoudsrol,  
+* Bewaken van de roadmap, scope en architectuurprincipes van het product,  
+* Coördineren van de samenhang tussen componenten binnen het Common Ground landschap,  
+* Faciliteren van samenwerking tussen marktpartijen die bijdragen aan het ecosysteem,  
+* Toezicht houden op de kwaliteit van de codebase en het ecosysteem,  
+* Borgen van kenniscontinuïteit en bedrijfszekerheid binnen de community,  
+* Beheren van de centrale upstream repository onder landelijke regie,  
+* Beschikbaar stellen en onderhouden van de benodigde infrastructuur voor de centrale repository,  
+* Beheren van toegangsrechten en permissies op de centrale repository,  
+* Zorgen voor de continuïteit en beschikbaarheid van de centrale repository en bijbehorende infrastructuur,  
+* Minimaal eenmaal per jaar een bijeenkomst organiseren voor alle partners die meedoen aan het product,  
+* Onafhankelijke toetsing organiseren op kwaliteit, werking, governance en publieke waarden op zowel component- als ecosysteemniveau, en zorgen dat bevindingen worden opgevolgd,  
+* Security-eisen, privacy-kaders en wettelijke compliance definiëren en handhaven, en borgen dat deze consistent worden toegepast door alle partijen,  
+* Beleid vaststellen voor versieondersteuning, backwards compatibiliteit en end-of-life, inclusief afweging tussen stabiliteit, innovatie en beheerkosten,tibiliteit en end-of-life, inclusief afweging tussen stabiliteit, innovatie en beheerkosten,  
 
 ### Test scenarios
 
@@ -170,7 +176,6 @@ Later uit te werken:
 11) Issue vanuit test suite voor dependencies tussen componenten
 
 #### Ontiwkkelen van een nieuwe feature
-
 
 | Stap | Regie | Uitgever | Onderhoud |
 |------|-------|----------|-----------|
