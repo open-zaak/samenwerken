@@ -59,9 +59,9 @@ graph LR
 
 ## Te maken stappen
 
-1) Proof of concept pilot om `uitgever` en `onderhoud` rollen uit te werken
-2) Opzetten van VNG repo (downstream) om process & kosten in kaart te brengen (bvb infra) en `regie` rol verder uit te werken
-3) Uitgewerkt model delen met community voor feedback, en dan verwerken tot inkoopcontracten en een aanbesteding
+1) Proof of concept pilot om `uitgever` en `onderhoud` rollen uit te werken  
+2) Opzetten van VNG repo (downstream) om process & kosten in kaart te brengen (bvb infra) en `regie` rol verder uit te werken  
+3) Uitgewerkt model delen met community voor feedback, en dan verwerken tot inkoopcontracten en een aanbesteding  
 
 ## Proof of concept pilot `uitgever` en `onderhoud` rollen
 
@@ -79,24 +79,22 @@ Contract vanuit landelijke regie om binnen de huidge werkwijze de `uitgever` en 
 
 Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
 
-2) zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op
-   Github en DockerHub),
-4) een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen
-   accepteert,
-10) relevante documentatie bijhouden en openbaar beschikbaar maken,
-11) community contributies aan de open source codebase verwelkomen,
-12) community contributies ("pull requests") monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,
-13) community contributie richtlijnen opstellen en onderhouden,
-14) zorg dragen dat alle bijdragen voldoen aan de licentievoorwaarden van de Europese Unie Publieke Licentie (EUPL) versie 1.2 of hoger,
-15) een versie controlemechanisme voor productcode onderhouden,
-16) versiebeheer toepassen (Productversies en ondersteuning),
-17) openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,
-18) openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,
-19) een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,
-20) nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,
-22) actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,
-23) het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,
-25) inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,
+2) zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),  
+4) een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,  
+10) relevante documentatie bijhouden en openbaar beschikbaar maken,  
+11) community contributies aan de open source codebase verwelkomen,  
+12) community contributies ("pull requests") monitoren op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit,  
+13) community contributie richtlijnen opstellen en onderhouden,  
+14) zorg dragen dat alle bijdragen voldoen aan de licentievoorwaarden van de Europese Unie Publieke Licentie (EUPL) versie 1.2 of hoger,  
+15) een versie controlemechanisme voor productcode onderhouden,  
+16) versiebeheer toepassen (Productversies en ondersteuning),  
+17) openbaar beschikbare release-notes bijhouden om o.a. gebruikers te helpen bij het upgraden,  
+18) openbare mailinglijst bijhouden waarop gebruikers geïnformeerd worden over releases en relevant nieuws rondom het product,  
+19) een compatibiliteitsmatrix bijhouden om devops- en implementatie-ontwikkelaars te ondersteunen bij hun werk,  
+20) nieuwe gebruikers op weg helpen door gemakkelijk toegankelijke, eenvoudig te gebruiken voorbeelden beschikbaar hebben,  
+22) actief meewerken om het product compliant te maken en houden met de relevante en toepasselijke standaarden,  
+23) het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,  
+25) inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,  
 26) indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
 
 Bijkomende:
@@ -107,17 +105,17 @@ Bijkomende:
 
 Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
 
-1) invulling geven aan het team dat de werkzaamheden uitvoert,
-3) minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingenoplossen,
-5) een responsible disclosure programma onderhouden, inclusief een e-mailadres voorbeveiligingsproblemen,
-6) CVE's publiceren voor gevalideerde beveiligingsproblemen,
-7) gerapporteerde bugs valideren en beoordelen op prioriteit,
-8) gevalideerde en geprioriteerde bugs oplossen in patch-releases,
-9) koppelingen compatible houden met patches en minor versiewijzigingen in hetbetreffende koppelvlak (major versiewijzigingen vallen expliciet onderdoorontwikkeling),
-19) streven naar backwards compatibiliteit in kleine releases en daarmeeinstallatie/implementatie-upgrades vereenvoudigen,
-21) geschikte Helm charts publiceren voor het product,
-22) een CI pipeline onderhouden inclusief geautomatiseerde testen met eentestcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,
-24) gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken')bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,
+1) invulling geven aan het team dat de werkzaamheden uitvoert,  
+3) minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingen oplossen,  
+5) een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,  
+6) CVE's publiceren voor gevalideerde beveiligingsproblemen,  
+7) gerapporteerde bugs valideren en beoordelen op prioriteit,  
+8) gevalideerde en geprioriteerde bugs oplossen in patch-releases,  
+9) koppelingen compatible houden met patches en minor versiewijzigingen in het betreffende koppelvlak (major versiewijzigingen vallen expliciet onder doorontwikkeling),  
+19) streven naar backwards compatibiliteit in kleine releases en daarmee installatie/implementatie-upgrades vereenvoudigen,  
+21) geschikte Helm charts publiceren voor het product,  
+22) een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,  
+24) gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,  
 25) zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
 
 Bijkomende:
@@ -136,23 +134,22 @@ Bijkomende:
 
 ### Test scenarios
 
-Prioriteit:
-1) Ontiwkkelen van een nieuwe feature*
-2) Security report via de github repo*
+Prioriteit:  
+1) Ontiwkkelen van een nieuwe feature*  
+2) Security report via de github repo*  
 
-Later uit te werken:
-3) Feature release (major and minor) 
-4) Nieuwe versie van de VNG standaard
-5) Dependabot issue gemaakt van common vulnerability exploit (automatic)
-6) Wens vanuit andere overheidsorgaan (bvb Logius)
-7) Wens vanuit andere gemeente voor locaal versnellen
-9) Wens vanuit de regie organisatie
-10) Bug/issue reported op de github
-11) Patch release met bug fixes
-12) Security release 
-13) Pull request van buitenaf
-14) Issue vanuit test suite voor dependencies tussen componenten
-
+Later uit te werken:  
+1) Feature release (major and minor)  
+2) Nieuwe versie van de VNG standaard  
+3) Dependabot issue gemaakt van common vulnerability exploit (automatic)  
+4) Wens vanuit andere overheidsorgaan (bvb Logius)  
+5) Wens vanuit andere gemeente voor locaal versnellen  
+6) Wens vanuit de regie organisatie  
+7)  Bug/issue reported op de github  
+8)  Patch release met bug fixes  
+9)  Security release  
+10) Pull request van buitenaf  
+11) Issue vanuit test suite voor dependencies tussen componenten
 #### Ontiwkkelen van een nieuwe feature
 
 
