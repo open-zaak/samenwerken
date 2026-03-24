@@ -65,7 +65,7 @@ graph LR
 
 ## Proof of concept pilot `uitgever` en `onderhoud` rollen
 
-### Proof of concept pilot 
+### Doel proof of concept pilot 
 
 Contract vanuit landelijke regie om binnen de huidge werkwijze de `uitgever` en `onderhoud` rollen in te brengen, incl:
    * apparte mensen en uren registratie om processfrictie en kosten in kaart te brengen
@@ -101,14 +101,14 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
-*
+* Communiceren van release dates, breaking changes en critical issues naar relevante stakeholders  
+* Het archiveren van alle stabiele releases van de broncode en images, zodat eerdere versies beschikbaar blijven  
 
 #### Onderhoud
 
 Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 ```
-1) invulling geven aan het team dat de werkzaamheden uitvoert,  
 3) minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingen oplossen,  
 5) een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,  
 6) CVE's publiceren voor gevalideerde beveiligingsproblemen,  
@@ -124,19 +124,31 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
-* 
+* Monitoren van afgesproken aantal stable releases op bugs, security en performance issues
+* Documenteren van van onderhoudsactiviteiten voor relevante stakeholders
 
 #### Regie
 
 Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 ```
+1) invulling geven aan het team dat de werkzaamheden uitvoert,  
 24) minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
 ```
 
 Bijkomende:
 
-*
+* beschikbaar stellen van financiering en opdrachtgeverschap voor de uitgever- en onderhoudsrol,  
+* bewaken van de roadmap, scope en architectuurprincipes van het product,  
+* coördineren van de samenhang tussen componenten binnen het Common Ground landschap,  
+* faciliteren van samenwerking tussen marktpartijen die bijdragen aan het ecosysteem,  
+* toezicht houden op de kwaliteit van de codebase en het ecosysteem,  
+* borgen van kenniscontinuïteit en bedrijfszekerheid binnen de community,  
+* beheren van de centrale upstream repository onder landelijke regie,  
+* beschikbaar stellen en onderhouden van de benodigde infrastructuur voor de centrale repository,  
+* beheren van toegangsrechten en permissies op de centrale repository,  
+* zorgen voor de continuïteit en beschikbaarheid van de centrale repository en bijbehorende infrastructuur,  
+* minimaal eenmaal per jaar een bijeenkomst organiseren voor alle partners die meedoen aan het product,
 
 ### Test scenarios
 
@@ -160,8 +172,31 @@ Later uit te werken:
 #### Ontiwkkelen van een nieuwe feature
 
 
+| Stap | Regie | Uitgever | Onderhoud |
+|------|-------|----------|-----------|
+| 1 | stelt financiering en opdracht beschikbaar voor de feature | — | — |
+| 2 | bewaakt scope en architectuurprincipes; keurt feature goed voor roadmap | — | — |
+| 3 | — | — | beoordeelt impact op bestaande stable releases en backwards compatibiliteit |
+| 4 | — | accepteert en reviewt pull request op kwaliteit, veiligheid, herbruikbaarheid en architecturale fit | — |
+| 5 | — | verwerkt goedgekeurde feature in een nieuwe versietak; past versiebeheer toe | — |
+| 6 | — | publiceert release-notes en communiceert release naar mailinglijst | — |
+| 7 | — | werkt documentatie en compatibiliteitsmatrix bij | — |
+| 8 | — | — | rolt CI pipeline en geautomatiseerde testen uit op nieuwe release |
+
 #### Security report via de github repo
 
+| Stap | Regie | Uitgever | Onderhoud |
+|------|-------|----------|-----------|
+| 1 | — | ontvangt melding via responsible disclosure e-mailadres of issue tracker | — |
+| 2 | wordt geïnformeerd over ernst en scope van het beveiligingsprobleem | — | voert dagelijkse beveiligingsscan uit; identificeert of bevestigt het probleem |
+| 3 | beslist over prioriteit en urgentie in overleg met uitgever en onderhoud | — | — |
+| 4 | — | — | valideert en reproduced het beveiligingsprobleem; beoordeelt prioriteit |
+| 5 | — | — | ontwikkelt en test de security patch |
+| 6 | — | — | levert patch aan als pull request aan de uitgever |
+| 7 | — | reviewt en accepteert de patch; verwerkt in een patch release | — |
+| 8 | — | publiceert CVE; communiceert security release naar mailinglijst en relevante stakeholders | — |
+| 9 | — | archiveert de gepatchte release in de centrale repository | — |
+| 10 | — | — | monitort stable releases na de patch op eventuele verdere issues |
 
 ## Opzeteten VNG repo
 
