@@ -165,12 +165,14 @@ Bijkomende:
 ### Test scenarios
 
 Prioriteit:  
-1) Ontiwkkelen van een nieuwe feature*  
-2) Security report via de github repo*  
+
+1) Ontiwkkelen van een nieuwe feature  
+2) Security report via de github repo  
 3) Patch release met bug fixes  
 4) Pull request van buitenaf  
    
 Later uit te werken:  
+
 1) Feature release (major and minor)  
 2) Nieuwe versie van de VNG standaard  
 3) Dependabot issue gemaakt van common vulnerability exploit (automatic)  
