@@ -101,9 +101,11 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
+```
 * Communiceren van release dates, versiebeheer, breaking changes en critical issues naar relevante stakeholders (rg hosting- en implementatiepartijen)  
 * Het archiveren van alle stabiele releases van de broncode en images, zodat eerdere versies beschikbaar blijven
 * Zorgen voor uniforme inrichting van repositories, toegangsrechten en bijdrageprocessen in de centrale codevoorziening  
+```
 
 #### Onderhoud
 
@@ -125,10 +127,12 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
+```
 * De codebase (of nieuwe stable releases daarvan) beoordelen op beheerbaarheid, onderhoudbaarheid en overdraagbaarheid voordat structureel onderhoud wordt aanvaard,
 * Monitoren van afgesproken aantal stable releases op bugs, security en performance issues
 * Documentatie bijhouden over lifecycle-keuzes, migraties en end-of-life trajecten,  
 * Documenteren van van onderhoudsactiviteiten voor relevante stakeholders
+```
 
 #### Regie
 
@@ -141,6 +145,7 @@ Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
 Bijkomende:
 
+```
 * Beschikbaar stellen van financiering en opdrachtgeverschap voor de uitgever- en onderhoudsrol,  
 * Bewaken van de roadmap, scope en architectuurprincipes van het product,  
 * Coördineren van de samenhang tussen componenten binnen het Common Ground landschap,  
@@ -155,6 +160,7 @@ Bijkomende:
 * Onafhankelijke toetsing organiseren op kwaliteit, werking, governance en publieke waarden op zowel component- als ecosysteemniveau, en zorgen dat bevindingen worden opgevolgd,  
 * Security-eisen, privacy-kaders en wettelijke compliance definiëren en handhaven, en borgen dat deze consistent worden toegepast door alle partijen,  
 * Beleid vaststellen voor versieondersteuning, backwards compatibiliteit en end-of-life, inclusief afweging tussen stabiliteit, innovatie en beheerkosten,tibiliteit en end-of-life, inclusief afweging tussen stabiliteit, innovatie en beheerkosten,  
+```
 
 ### Test scenarios
 
