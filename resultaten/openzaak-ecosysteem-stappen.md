@@ -70,15 +70,16 @@ graph LR
 Contract vanuit landelijke regie om binnen de huidge werkwijze de `uitgever` en `onderhoud` rollen in te brengen, incl:
    * apparte mensen en uren registratie om processfrictie en kosten in kaart te brengen
    * iteratief verbeteren op voorstel `uitgever` en `onderhoud` (bvb taken verschuiven, toevoegen verwijderen)
-   * bijhouden van inzichten wanneer test scenarios voorkomen in de praktijk
-   * bijhouden van welke bijkomende verantwoordelijkheden van `regie` verwacht worden
+   * bijhouden inzichten wanneer test scenarios voorkomen in de praktijk
+   * bijhouden welke bijkomende verantwoordelijkheden van `regie` verwacht worden
 
 ### Hypothese rollen
 
-#### `uitgever`
+#### Uitgever
 
-Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
+Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
+```
 2) zorg dragen voor de beschikbaarheid van de broncode en images (momenteel op Github en DockerHub),  
 4) een openbare issue-tracker bijhouden die mogelijke bugs en suggesties van iedereen accepteert,  
 10) relevante documentatie bijhouden en openbaar beschikbaar maken,  
@@ -96,15 +97,17 @@ Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
 23) het 'VNG groeipact' onderschrijven en bijdragen bij aan verbeteringen van VNG-standaarden,  
 25) inzetten om volledig compliant te zijn en blijven met de Standard for Public Code,  
 26) indien van toepassing, de Applicatie TPM-verklaring beschikbaar te stellen aan Broncodebeheerpartner, en deze – indien nodig, tegen kosten – op naam te laten zetten.
+```
 
 Bijkomende:
 
 *
 
-#### `onderhoud`
+#### Onderhoud
 
-Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
+Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
+```
 1) invulling geven aan het team dat de werkzaamheden uitvoert,  
 3) minimaal dagelijks image en code beveiligingsscans uitvoeren en bevindingen oplossen,  
 5) een responsible disclosure programma onderhouden, inclusief een e-mailadres voor beveiligingsproblemen,  
@@ -117,16 +120,19 @@ Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
 22) een CI pipeline onderhouden inclusief geautomatiseerde testen met een testcoverage van 80% of hoger, teneinde de kwaliteit te waarborgen,  
 24) gebruikte componenten van derden ('afhankelijkheden' of 'software bibliotheken') bijhouden, beoordelen op kwaliteit, veiligheid, volwassenheid en naleving van de open source-licenties,  
 25) zorg dragen voor compatibiliteit met de meest recente, grote, browsers,
+```
 
 Bijkomende:
 
 * 
 
-#### `regie`
+#### Regie
 
-Vanuit `Informatieblad bijdragen voor broncodebeheer 2026`:
+Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
+```
 24) minimaal eenmaal per jaar een bijeenkomst te organiseren voor alle broncodebeheerpartners die meedoen aan het broncodebeheer voor het product,
+```
 
 Bijkomende:
 
@@ -150,6 +156,7 @@ Later uit te werken:
 9)  Security release  
 10) Pull request van buitenaf  
 11) Issue vanuit test suite voor dependencies tussen componenten
+
 #### Ontiwkkelen van een nieuwe feature
 
 
