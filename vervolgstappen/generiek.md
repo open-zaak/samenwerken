@@ -1,13 +1,15 @@
 ---
 layout: default
-title: Generiek
+title: Generieke introductie
 parent: Vervolgstappen
 nav_order: 2
 ---
 
-# OpenZaak ecosysteem
+# Generieke introductie
 
-OpenZaak is als open source product en basis set component binnen Common Ground.
+## Samenwerken binnen het OpenZaak ecosysteem
+
+OpenZaak is een open source product en basis set component binnen Common Ground.
 
 Het valt onder de regie van de landelijke samenwerking tussen Gemeenten.
 
@@ -22,8 +24,6 @@ Om de samenwerking binnen Common Ground voorspelbaar en schaalbaar to maken, zij
 5) Reviewen - reviewen van de code, documentatie en tests  
 6) Implementatie - lokaal inrichten van de instantie van het component  
 7) Hosting - beschickbaar stellen draaiende instatie van het component  
-
-Voor meer info zie:
 
 Binnen OpenZaak worden momenteel de volgende rollen gehanteerd:
 
