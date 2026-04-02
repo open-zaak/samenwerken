@@ -366,7 +366,6 @@ Nu: Verschillende SaaS aanbieders
 
 Toekomst: centrale SaaS aanbieder onder landelijke regie
 
-
 ```mermaid
 graph LR
     subgraph OpenZaak
