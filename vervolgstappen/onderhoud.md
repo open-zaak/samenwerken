@@ -11,6 +11,8 @@ nav_order: 5
 
 Als onderhouder ben je verantwoordelijk voor de technische gezondheid en stabiliteit van (bepaalde releases van) de code, documentatie en tests.
 
+Je werkt transparant en in het openbaar: open CI-pipelines, publieke CVE-publicaties en een actief responsible disclosure-programma zijn niet alleen technische instrumenten, maar ook signalen van betrouwbaarheid.
+
 Je werkt samen met de uitgever om de onderhoudbaarheid van nieuwe (stable) releases te beoordelen, eer je er verantwoordelijkheid voor neemt.
 
 Je overziet:
@@ -19,6 +21,7 @@ Je overziet:
 * de CI/CD-pipeline en geautomatiseerde testsuite
 * de lifecycle van ondersteunde releases, inclusief migratie- en end-of-life trajecten
 * de communicatie van beveiligingsbevindingen via responsible disclosure en CVE-publicaties
+* de licentie-compliance van afhankelijkheden 
 
 Je bent niet verantwoordelijk voor nieuwe functionaliteit of architecturale keuzes — dat valt onder doorontwikkeling.
 

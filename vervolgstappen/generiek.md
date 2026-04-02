@@ -15,6 +15,14 @@ Het valt onder de regie van de landelijke samenwerking tussen Gemeenten.
 
 Het draagt een EUPL licencie.
 
+Samenwerken binnen dit ecosysteem betekent werken op basis van open source principes:
+* transparante processen  
+* gedeelde verantwoordelijkheid voor de codebase  
+* naleving van de EUPL-licentie  
+* actief en bereidwillig samenwerken met andere partijen  
+
+OpenZaak is publiek goed — geen commercieel product van één partij.
+
 Om de samenwerking binnen Common Ground voorspelbaar en schaalbaar to maken, zijn er 7 rollen binnen een ecosysteem.
 
 1) Regie - regie over het ecosysteem  

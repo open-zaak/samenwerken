@@ -11,7 +11,9 @@ nav_order: 3
 
 Als regie ben je eindverantwoordelijk voor de richting, kwaliteit en continuïteit van het product en het ecosysteem daaromheen.
 
-Je stelt kaders, borgt samenhang en zorgt dat alle betrokken partijen hun rol effectief kunnen vervullen.
+Dat vraagt om actief community stewardship: je maakt governance-processen transparant, zorgt dat deelname aan het ecosysteem toegankelijk is voor nieuwe partijen, en bewaakt dat publieke waarden — zoals openheid, herbruikbaarheid en leveranciersonafhankelijkheid — geborgd blijven.
+
+Je stelt kaders en zorgt dat alle betrokken partijen hun rol effectief kunnen vervullen.
 
 Je overziet:
 * de roadmap, scope en architectuurprincipes van het product
