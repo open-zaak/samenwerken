@@ -22,7 +22,7 @@ Je overziet:
 * de qualiteit van installatie-, beheers, en gebruiks-handleiding
 
 Je bent niet vantwoordelijk voor de code zelf, noch het aanmaken van documentatie.
-Je houd wel het kwaliteits-niveau van informatie op peil, en stuur andere marktpartijen aan.
+Je houd wel het kwaliteits-niveau van informatie op peil, en stuurt andere marktpartijen aan waar nodig.
 
 ## Werkafspraken (voorbeeld)
 
