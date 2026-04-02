@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Regie
-parent: Stappen voor OpenZaak ecosysteem 
-nav_order: 2
+parent: Vervolgstappen
+nav_order: 3
 ---
 
 # Regie

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Uitgeven
-parent: Stappen voor OpenZaak ecosysteem 
-nav_order: 3
+parent: Vervolgstappen
+nav_order: 4
 ---
 
 # Uitgeven

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Generiek
-parent: Stappen voor OpenZaak ecosysteem 
-nav_order: 1
+parent: Vervolgstappen
+nav_order: 2
 ---
 
 # OpenZaak ecosysteem

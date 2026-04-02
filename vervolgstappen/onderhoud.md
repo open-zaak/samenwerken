@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Onderhoud
-parent: Stappen voor OpenZaak ecosysteem 
-nav_order: 4
+parent: Vervolgstappen
+nav_order: 5
 ---
 
 # Onderhoud
