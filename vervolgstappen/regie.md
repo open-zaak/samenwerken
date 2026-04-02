@@ -25,7 +25,7 @@ Je bent niet verantwoordelijk voor de dagelijkse uitvoering van uitgeven of onde
 
 Je draagt wel eindverantwoordelijkheid voor het geheel: je bewaakt of het systeem als zodanig functioneert, stuurt bij waar nodig, en zorgt voor kenniscontinuïteit en bedrijfszekerheid binnen de community.
 
-## Werkafspraken
+## Werkafspraken (voorbeeld) 
 
 Vanuit Informatieblad bijdragen voor broncodebeheer 2026:
 
