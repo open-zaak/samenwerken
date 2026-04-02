@@ -28,7 +28,7 @@ Om de samenwerking binnen Common Ground voorspelbaar en schaalbaar to maken, zij
 1) Regie - regie over het ecosysteem  
 2) Uitgeven - beschickbaar stellen van de code, documentatie en tests   
 3) Ontwikkelen - aaanleveren van de code, documentatie en tests  
-4) Onderhouden - onderhouden van de code, documentatie en tests 
+4) Onderhouden - onderhouden van de code, documentatie en tests  
 5) Reviewen - reviewen van de code, documentatie en tests  
 6) Implementatie - lokaal inrichten van de instantie van het component  
 7) Hosting - beschickbaar stellen draaiende instatie van het component  
