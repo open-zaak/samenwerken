@@ -11,7 +11,7 @@ Aanpassingen aan `Voorbeeld Offerte aanvraag MVO Kavel Beheren Definitief`
 
 ## 2 Omschrijving van de opdracht
 
-De gemeente <Naam gemeente> heeft besloten om de open source applicatie <naam applicatie> in
+De gemeente `Naam gemeente` heeft besloten om de open source applicatie `naam applicatie` in
 gebruik te gaan nemen en wenst een marktpartij te selecteren die het broncode onderhoud gaat
 verzorgen.
 
@@ -22,11 +22,11 @@ De onderhoud partij is niet verantwoordelijk voor nieuwe functionaliteit of arch
 
 ## 2.1 De opdracht
 
-De opdracht bestaat uit
-• Onderhoud van broncode, gericht op de technische gezondheid, veiligheid en stabiliteit van (bepaalde releases van) de code, documentatie en tests.
-• Het samenwerken met andere partijen om de onderhoudbaarheid van nieuwe (stable) releases te beoordelen.
+De opdracht bestaat uit  
+* Onderhoud van broncode, gericht op de technische gezondheid, veiligheid en stabiliteit van (bepaalde releases van) de code, documentatie en tests.  
+* Het samenwerken met andere partijen om de onderhoudbaarheid van nieuwe (stable) releases te beoordelen.  
 
-De opdracht omvat het onderhoud van de broncode van <naam applicatie><verwijzing git bron>
+De opdracht omvat het onderhoud van de broncode van `naam applicatie` `verwijzing git bron`
 zodanig dat de oplossing met voldoende bedrijfszekerheid binnen het ecosysteem van een gemeente
 in gebruik kan worden genomen en de bedrijfszekere werking van de broncode gedurende de looptijd
 van de overeenkomst is gegarandeerd.
@@ -34,10 +34,10 @@ van de overeenkomst is gegarandeerd.
 ## 5.2.1 Gunningscriterium: Onderhoud
 Opdrachtgever wenst een partner te selecteren die haar volledig ontzorgt bij het broncode onderhoud.
 Beschrijf op het gebied van beheerwerkzaamheden:
-• Hoe de kwaliteit en veiligheid van de broncode wordt onderhouden?
-• Welke activiteiten worden ondernomen?
-• Hoe het beheren van afhankelijkheden en licentie-compliance van afhankelijkheden worden georganiseerd?
-• Hoe het monitoren, oplossen en communicatie van beveiligingskwetsbaarheden en bugs worden georganiseerd?
-* Hoe de lifecycle van ondersteunde releases, inclusief migratie- en end-of-life trajecten worden georganiseerd?
-* Hoe de CI/CD-pipeline en geautomatiseerde testsuite worden georganiseerd?
+* Hoe de kwaliteit en veiligheid van de broncode wordt onderhouden?  
+* Welke activiteiten worden ondernomen?  
+* Hoe het beheren van afhankelijkheden en licentie-compliance van afhankelijkheden worden georganiseerd?  
+* Hoe het monitoren, oplossen en communicatie van beveiligingskwetsbaarheden en bugs worden georganiseerd?  
+* Hoe de lifecycle van ondersteunde releases, inclusief migratie- en end-of-life trajecten worden georganiseerd?  
+* Hoe de CI/CD-pipeline en geautomatiseerde testsuite worden georganiseerd?  
 
