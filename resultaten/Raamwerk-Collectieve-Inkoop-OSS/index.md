@@ -9,7 +9,8 @@ nav_order: 1
 
 Aanpassingen aan `Raamwerk Collectieve Inkoop OSS Definitief`
 
-
+```
+DRAFT
 
 ## Samenwerken binnen het OpenZaak ecosysteem
 
@@ -45,3 +46,4 @@ Binnen OpenZaak worden momenteel de volgende rollen gehanteerd:
 4) Onderhouden  
 
 Als deel van de OpenZaak community ga je een of meerdere van deze rollen uitvoeren.
+```
