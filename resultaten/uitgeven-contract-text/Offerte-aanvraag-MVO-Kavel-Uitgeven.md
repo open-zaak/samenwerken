@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Uitgeven
+title: Voorbeeld Offerte aanvraag MVO Kavel Uitgeven
+parent: Uitgeven
 nav_order: 2
 ---
 

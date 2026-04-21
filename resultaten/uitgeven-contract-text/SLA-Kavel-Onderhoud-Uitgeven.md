@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Uitgeven
+title: Voorbeeld SLA Kavel Uitgeven
+parent: Uitgeven
 nav_order: 4
 ---
 

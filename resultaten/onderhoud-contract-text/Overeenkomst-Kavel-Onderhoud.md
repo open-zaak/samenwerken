@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Onderhoud
+title: Voorbeeld Overeenkomst Kavel Onderhoud
+parent: Onderhoud
 nav_order: 3
 ---
 

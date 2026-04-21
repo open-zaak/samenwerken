@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Onderhoud
+title: Voorbeeld Offerte aanvraag MVO Kavel Onderhoud
+parent: Onderhoud
 nav_order: 2
 ---
 

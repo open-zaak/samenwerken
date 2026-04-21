@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Onderhoud
+title: Voorbeeld SLA Kavel Onderhoud
+parent: Onderhoud
 nav_order: 4
 ---
 
