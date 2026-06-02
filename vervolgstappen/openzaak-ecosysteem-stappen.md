@@ -67,7 +67,7 @@ graph LR
 
 ### Doel proof of concept pilot 
 
-Aanpaste contract texten voor `uitgever` en `onderhoud` rollen (zie Resultaten) te toetsen en verbeteren door deze rollen in te brengen in de huidige werkwijze, incl: 
+Aanpaste contracttexten voor `uitgever` en `onderhoud` rollen (zie Resultaten) te toetsen en verbeteren door deze rollen in te brengen in de huidige werkwijze, incl: 
    * apparte mensen en uren registratie om processfrictie en kosten in kaart te brengen
    * iteratief verbeteren op voorstel `uitgever` en `onderhoud` (bvb taken verschuiven, toevoegen verwijderen)
    * bijhouden inzichten wanneer test scenarios voorkomen in de praktijk

@@ -5,7 +5,7 @@ parent: Aanpak
 nav_order: 1
 ---
 
-# Project Plan
+# Projectplan
 
 Dit is het oorspronkelijke projectplan.
 
