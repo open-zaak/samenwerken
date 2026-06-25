@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Uitgeven
-parent: Contract texten
+parent: Aanpassingen contract texten
 nav_order: 1
 ---

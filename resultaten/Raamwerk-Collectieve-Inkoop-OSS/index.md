@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Raamwerk
-parent: Contract texten
+parent: Aanpassingen contract texten
 nav_order: 1
 ---
 

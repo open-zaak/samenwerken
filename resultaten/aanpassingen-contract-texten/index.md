@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contract texten
+title: Aanpassingen contract texten
 parent: Resultaten
 nav_order: 6
 ---
