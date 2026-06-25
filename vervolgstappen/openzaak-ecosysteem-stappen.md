@@ -77,6 +77,7 @@ Aanpaste contracttexten voor `uitgever` en `onderhoud` rollen (zie Resultaten) t
 
 ### Beschrijving regie rol
 
+```
 Als regie ben je eindverantwoordelijk voor de richting, kwaliteit en continuïteit van het product en het ecosysteem daaromheen.
 
 Dat vraagt om actief community stewardship: je maakt governance-processen transparant, zorgt dat deelname aan het ecosysteem toegankelijk is voor nieuwe partijen, en bewaakt dat publieke waarden — zoals openheid, herbruikbaarheid en leveranciersonafhankelijkheid — geborgd blijven.
@@ -94,6 +95,7 @@ Je overziet:
 Je bent niet verantwoordelijk voor de dagelijkse uitvoering van uitgeven of onderhoud — die rollen beleg je bij anderen.
 
 Je draagt wel eindverantwoordelijkheid voor het geheel: je bewaakt of het systeem als zodanig functioneert, stuurt bij waar nodig, en zorgt voor kenniscontinuïteit en bedrijfszekerheid binnen de community.
+```
 
 ### Werkafspraken (voorbeeld) 
 
