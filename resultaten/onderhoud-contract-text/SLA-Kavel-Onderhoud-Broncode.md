@@ -51,34 +51,9 @@ Bijkomend:
 * Documenteren van van onderhoudsactiviteiten voor relevante stakeholders
 ```
 
-Hoofdbeheerder zal:  
-1. het product en/of onderdelen daarvan niet vervangen, beëindigen of stopzetten, behalve zoals uiteengezet in Bijlage (Ondersteuningsbeleid voor Versiebeheer van Open Source Software  ).  
-2. alles in het werk stellen, in het geval van licenties of rechten op Intellectueel Eigendom van derden, Intellectuele Eigendomsrechten, Technologie of Open-Source Software, om dergelijke Rechten van Derden na te leven.  
-3. een formeel beveiligingsprogramma te gebruiken en maatregelen te treffen en te handhaven die zijn ontworpen om bedreigingen of veiligheidsrisico's, ongeoorloofd, onopzettelijk of onwettig verlies van, toegang tot of openbaarmaking van gegevens die zijn opgeslagen in het IB-product te beschermen en te voorkomen. Een dergelijk beveiligingsprogramma voldoet aan ISO 27001 of een opvolger (indien van toepassing) dat substantieel gelijkwaardig is en gevalideerd is door onafhankelijke auditors.  
-4. onmiddellijk eventuele beveiligings-, veiligheids-, gegevensbeschermings- of gegevensprivacykwesties in het product aanpakken als zij zich bewust wordt van een dergelijk probleem en de klant hiervan gelijktijdig op de hoogte stellen.  
-5. De Opdrachtgever begrijpt en stemt ermee in:
-        a. dat het product niet zal worden gebruikt voor de bediening en/of controle van of gebruik binnen een High-Risk-systeem als de werking van een dergelijk High-Risk-systeem afhankelijk is van het product. 
-```
-?
-        b. dat zij het risico dragen van het selecteren van de juiste bedieningsmodus, beschikbaarheid en beveiligingsopties voor het product, evenals de parametrisering, configuratie en gebruik van dergelijke diensten in het product, tenzij anders overeengekomen tussen de partijen.
-```
-
 ## 3.2 Onderhouden
 Binnen de overeenkomst vallen de volgende diensten:  
 1. Correctief onderhoud: Het oplossen van gemelde problemen met een of meer van de geleverde diensten.   
 2. Preventief onderhoud: Aanpassen en/of bijwerken van de geleverde diensten in het geval er beveiligingsupdates beschikbaar zijn voor deze software en/of afhankelijke componenten.  
 
 Het onderhoud omvat de meest recente (stable) versie van de broncode en de 1-na-laatste versie van de broncode. 
-
-## 3.3 Kwaliteitscriteria
-
-```
-?
-Voor broncode onderhoud zijn kwaliteitscriteria opgesteld. Broncode beheer dient te voldoen aan deze kwaliteitscriteria. Hiervoor is een eerste opzet gemaakt. Zie bijlage “Basisset 1.0”1, kolom ‘broncode beheer’. 
-
-De eisen voor broncode onderhoud zijn sterk afhankelijk van de opgeleverde software voor een product (common ground component). De primaire verantwoordelijkheid voor het voldoen aan de non-functionals ligt grotendeels bij de initiële ontwikkelaar van software. De eisen zijn voor de volledigheid wel aangegeven in de basisset.
-
-Er vindt periodiek (tenminste één keer per kwartaal) een kwaliteitsgesprek plaats, met onder andere als onderwerpen: sluit opdracht nog aan, hoe is de voortgang van de opdracht, hoe staat het ervoor met kwaliteit van software etc.?
-```
-
-(Niet van toepassing: `Bijlage: Ondersteuningsbeleid voor Versiebeheer van Open Source Software`)

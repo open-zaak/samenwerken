@@ -10,9 +10,9 @@ nav_order: 3
 Aanpassingen aan `Voorbeeld Overeenkomst Kavel Beheren Versie Definitief`
 
 ## Artikel 2. Dienstverlening
-1. `Leverancier` verzorgt het beheer op volgende diensten en/of applicaties:  
+1. `Leverancier` verzorgt het uitgeven op volgende diensten en/of applicaties:  
    
-a. `Omschrijving dienstverlening beheer`.  
+a. `Omschrijving dienstverlening uitgeven`.  
 * Uitgeven van broncode, gericht op het (langtermijn) beschikbaar maken van de broncode en bijhorende documentatie,  
 * Het leveren van uitgever diensten  
-b. `Omschrijving applicatie waar beheer op wordt uitgevoerd`  
+b. `Omschrijving applicatie waar uitgeven op wordt uitgevoerd`  

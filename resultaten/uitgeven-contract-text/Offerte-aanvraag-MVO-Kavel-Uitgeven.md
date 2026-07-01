@@ -41,4 +41,4 @@ Beschrijf op het gebied van beheerwerkzaamheden:
 
 ## 5.2.2 Gunningscriterium : Service Level Agreement (SLA):
 Beantwoord dit gunningscriterium met uw Service Level Agreement (SLA). In de SLA dient
-aangegeven te worden op welke wijze hoofdmaintainer diensten worden geleverd.
+aangegeven te worden op welke wijze uitgever diensten worden geleverd.
